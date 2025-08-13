@@ -4,9 +4,10 @@ import { auth } from '@clerk/nextjs/server'
 
 // import { Button } from '@/components/ui/button';
 import { ArrowRight, CreditCard, Database } from 'lucide-react';
+import QueryBar from "./queryBar";
 
 
-// convert landing page to this https://github.com/nextjs/saas-starter
+// switch to this landing page to this https://www.shadcntemplates.com/theme/ixartz-saas-boilerplate/
 
 export default async function Home() {
   const { has } = await auth()
@@ -37,11 +38,14 @@ export default async function Home() {
                 </a>
               </div>
             </div>
+            TODO Place a generic cartoon graph here maybe, would line up well with shadcn template
             <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
             </div>
           </div>
         </div>
       </section>
+      {/* This needs to be centered */}
+      <QueryBar />
                       {hasSubscription ? (
                         <h1>Subscription Stats!</h1>
                       ) : (
