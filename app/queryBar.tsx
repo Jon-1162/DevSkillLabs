@@ -12,6 +12,7 @@ export default function QueryBar() {
   const [category, setCategory] = React.useState("");
 
   return (
+    <div className="flex justify-center">
     <div className="flex w-full max-w-4xl gap-2 p-4 bg-white rounded-xl shadow-md items-center">
       {/* Search input */}
       <div className="flex-1">
@@ -68,6 +69,7 @@ export default function QueryBar() {
         <Search size={16} className="mr-2" />
         Search
       </Button>
+    </div>
     </div>
   );
 }
