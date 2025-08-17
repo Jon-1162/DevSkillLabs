@@ -3,6 +3,8 @@ import { BarChartVis } from "./barChart";
 import NetworkGraph from "./nodeGraph";
 import { TreeMapChart } from "./treeMap";
 
+
+
 export default function ScanStats() {
   const barChartData = [
     { name: "JavaScript", value: 120 },
@@ -31,8 +33,8 @@ export default function ScanStats() {
   ];
 
   return (
-    <div className="w-full max-w-4xl mx-auto">
-      <BarChartVis title="Skill Demand" data={barChartData} color="#22c55e" />  
+    <div className=" mx-auto">
+      {/* <BarChartVis title="Skill Demand" data={barChartData} color="#22c55e" />   */}
       {/* <NetworkGraph /> */}
       {/* <TreeMapChart data={treeMapData}/> */}
     </div>
