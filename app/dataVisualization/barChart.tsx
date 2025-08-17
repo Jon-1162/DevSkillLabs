@@ -1,13 +1,14 @@
 "use client";
 
-import * as React from "react";
+import React from "react";
 import {
+  BarChart,
   Bar,
-  BarChart as ReBarChart,
   CartesianGrid,
   XAxis,
   YAxis,
   Tooltip,
+  Legend,
   ResponsiveContainer,
 } from "recharts";
 
@@ -24,21 +25,26 @@ type BarChartProps = {
   color?: string;
 };
 
-export function BarChart({ title = "Bar Chart", data, color = "#3b82f6" }: BarChartProps) {
+export function BarChartVis({
+  title = "Bar Chart",
+  data,
+  color = "#22c55e",
+}: BarChartProps) {
   return (
-    <Card className="w-full">
+    <Card className="w-full max-w-3xl mx-auto shadow-md border rounded-2xl">
       <CardHeader>
-        <CardTitle>{title}</CardTitle>
+        <CardTitle className="text-xl font-semibold">{title}</CardTitle>
       </CardHeader>
-      <CardContent className="h-72">
+      <CardContent className="h-[400px]">
         <ResponsiveContainer width="100%" height="100%">
-          <ReBarChart data={data} barSize={40}>
-            <CartesianGrid strokeDasharray="3 3" className="stroke-gray-200" />
-            <XAxis dataKey="name" tick={{ fontSize: 12 }} />
-            <YAxis tick={{ fontSize: 12 }} />
+          <BarChart data={data}>
+            <CartesianGrid stroke="#ccc" strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+            <YAxis />
             <Tooltip />
-            <Bar dataKey="value" fill={color} radius={[6, 6, 0, 0]} />
-          </ReBarChart>
+            <Legend />
+            <Bar dataKey="value" fill={color} />
+          </BarChart>
         </ResponsiveContainer>
       </CardContent>
     </Card>
