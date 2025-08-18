@@ -19,6 +19,16 @@ export default function ScanStats() {
     { name: "TypeScript", value: 90 },
     { name: "Go", value: 60 },
     { name: "Rust", value: 40 },
+    { name: "TypeScript", value: 90 },
+    { name: "Go", value: 60 },
+    { name: "Rust", value: 40 },
+    { name: "JavaScript", value: 120 },
+    { name: "Python", value: 150 },
+    { name: "Java", value: 100 },
+    { name: "C#", value: 80 },
+    { name: "TypeScript", value: 90 },
+    { name: "Go", value: 60 },
+    { name: "Rust", value: 40 },
   ];
 
   const treemapData = [
@@ -41,7 +51,7 @@ export default function ScanStats() {
 
   return (
     <div className=" mx-auto">
-      <BarChartVis title="Skill Demand" data={barChartData} color="#22c55e" />
+      <BarChartVis title="How many jobs want a given skill" data={barChartData} color="#22c55e" />
       {/* \/Keep this here otherwise component breaks */}
       <div className=" dont remove this"></div> 
       {/* /\Keep this here otherwise component breaks */}

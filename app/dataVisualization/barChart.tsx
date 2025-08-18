@@ -37,12 +37,19 @@ export function BarChartVis({
       </CardHeader>
       <CardContent className="h-[400px]">
         <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={data}>
+          <BarChart data={data} margin={{ top: 20, right: 30, left: 20, bottom: 25 }}>
             <CartesianGrid stroke="#ccc" strokeDasharray="3 3" />
-            <XAxis dataKey="name" />
+            <XAxis 
+              dataKey="name" 
+              angle={-45}
+              textAnchor="end"
+              height={80}
+              interval={0}
+              tick={{ fontSize: 12 }}
+            />
             <YAxis />
             <Tooltip />
-            <Legend />
+            
             <Bar dataKey="value" fill={color} />
           </BarChart>
         </ResponsiveContainer>
