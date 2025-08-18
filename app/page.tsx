@@ -11,6 +11,7 @@ import { Banner } from "./components/Banner";
 import { Stats } from "fs";
 import ScanStats from "./dataVisualization/Stats";
 import NetworkGraph from "./dataVisualization/nodeGraph";
+import TreeMapChart from "./dataVisualization/treeMap";
 
 
 // switch to this landing page to this https://www.shadcntemplates.com/theme/ixartz-saas-boilerplate/
@@ -19,6 +20,24 @@ export default async function Home() {
   const { has } = await auth()
 
   const hasSubscription = has({ plan: 'dev_skill_labs_' })
+
+  const treemapData = [
+        {
+            name: 'Category A',
+            children: [
+              { name: 'Item A1', size: 100 },
+              { name: 'Item A2', size: 150 },
+            ],
+          },
+          {
+            name: 'Category B',
+            children: [
+              { name: 'Item B1', size: 200 },
+              { name: 'Item B2', size: 50 },
+              { name: 'Item B3', size: 75 },
+            ],
+          },
+      ];
   
   return (
  <main>
@@ -31,9 +50,11 @@ export default async function Home() {
       </section>
       {/* This needs to be centered */}
       <QueryBar />
+      
       <div className="flex justify-center">
                       {hasSubscription ? (
                         <ScanStats/>
+                        // <TreeMapChart data={treemapData} /> 
                         
                       ) : (
                         <div>
