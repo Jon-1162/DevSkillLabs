@@ -8,11 +8,11 @@ export const Hero = () => {
         title={
             
           <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-            Waste less time and see clearly what you need to learn to get hired as a SWE
+            Some bullshit about SWE and AI! Coming to a website near you!
           </span>
         }
         description={
-          "The most data driven resource to understand the market demands for software engineering."
+          "The most data driven resource to understand the market demands for bullshit."
         }
         banner={undefined}
         buttons={undefined}

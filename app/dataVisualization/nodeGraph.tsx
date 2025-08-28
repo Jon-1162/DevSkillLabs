@@ -9,26 +9,14 @@ const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), {
   ssr: false,
 });
 
-const data = {
-  nodes: [
-    { id: "Math", volume: 50 },
-    { id: "Science", volume: 30 },
-    { id: "History", volume: 20 },
-    { id: "Art", volume: 10 },
-    { id: "Programming", volume: 60 },
-    { id: "Robotics", volume: 25 },
-  ],
-  links: [
-    { source: "Math", target: "Science", value: 5 },
-    { source: "Math", target: "Programming", value: 15 },
-    { source: "Science", target: "Programming", value: 10 },
-    { source: "History", target: "Art", value: 3 },
-    { source: "Programming", target: "Robotics", value: 20 },
-    { source: "Science", target: "Robotics", value: 7 },
-  ],
-};
 
-export default function NetworkGraph() {
+
+type networkGraphData = {
+  nodes: { id: string; volume: number }[]; links: { source: string; target: string; value: number }[];
+}
+
+function NetworkGraph({ nodes, links }: networkGraphData) {
+  // const { nodes, links } = data;
   const fgRef = useRef<any>(null);
 
   useEffect(() => {
@@ -47,7 +35,7 @@ export default function NetworkGraph() {
         <div className=" border-2 border-gray-400 rounded-md overflow-hidden">
           <ForceGraph2D
             ref={fgRef}
-            graphData={data}
+            graphData={{ nodes, links }}
             nodeLabel={(node: any) => `${node.id} (${node.volume})`}
             nodeAutoColorBy="id"
             nodeCanvasObject={(node: any, ctx, globalScale) => {
@@ -75,3 +63,6 @@ export default function NetworkGraph() {
     </Card>
   );
 }
+
+
+export default NetworkGraph
