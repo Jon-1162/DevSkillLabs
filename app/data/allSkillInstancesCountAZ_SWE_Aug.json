@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Category A",
+    "children": [
+      {
+        "name": "Java",
+        "size": 79,
+        "color": "#ee5253"
+      },
+      {
+        "name": "SQL",
+        "size": 61,
+        "color": "#45b7d1"
+      },
+      {
+        "name": "C#",
+        "size": 42,
+        "color": "#ff6b6b"
+      },
+      {
+        "name": "Python",
+        "size": 37,
+        "color": "#6c5ce7"
+      },
+      {
+        "name": "C++",
+        "size": 33,
+        "color": "#45b7d1"
+      },
+      {
+        "name": "Go",
+        "size": 23,
+        "color": "#45b7d1"
+      },
+      {
+        "name": "Docker",
+        "size": 21,
+        "color": "#ee5253"
+      },
+      {
+        "name": "Kubernetes",
+        "size": 18,
+        "color": "#ee5253"
+      },
+      {
+        "name": "React",
+        "size": 10,
+        "color": "#4ecdc4"
+      },
+      {
+        "name": "Angular",
+        "size": 10,
+        "color": "#ff9f43"
+      },
+      {
+        "name": "JavaScript",
+        "size": 9,
+        "color": "#ff9f43"
+      },
+      {
+        "name": "Oracle",
+        "size": 9,
+        "color": "#1dd1a1"
+      },
+      {
+        "name": "Phoenix",
+        "size": 8,
+        "color": "#6c5ce7"
+      },
+      {
+        "name": "MySQL",
+        "size": 5,
+        "color": "#4ecdc4"
+      },
+      {
+        "name": "MongoDB",
+        "size": 5,
+        "color": "#f9ca24"
+      },
+      {
+        "name": "Vue.js",
+        "size": 5,
+        "color": "#ff6b6b"
+      },
+      {
+        "name": "Ada",
+        "size": 5,
+        "color": "#54a0ff"
+      },
+      {
+        "name": "Assembly",
+        "size": 5,
+        "color": "#6c5ce7"
+      },
+      {
+        "name": "OpenStack",
+        "size": 4,
+        "color": "#5f27cd"
+      },
+      {
+        "name": ".NET",
+        "size": 4,
+        "color": "#54a0ff"
+      },
+      {
+        "name": "ASP.NET",
+        "size": 4,
+        "color": "#4ecdc4"
+      },
+      {
+        "name": "Ant",
+        "size": 2,
+        "color": "#5f27cd"
+      },
+      {
+        "name": "Hadoop",
+        "size": 1,
+        "color": "#1dd1a1"
+      },
+      {
+        "name": "TypeScript",
+        "size": 1,
+        "color": "#45b7d1"
+      }
+    ]
+  }
+]

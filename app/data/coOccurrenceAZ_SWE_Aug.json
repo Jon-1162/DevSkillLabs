@@ -1,0 +1,660 @@
+{
+  "nodes": [
+    {
+      "id": "React",
+      "volume": 10
+    },
+    {
+      "id": "Python",
+      "volume": 13
+    },
+    {
+      "id": "MySQL",
+      "volume": 5
+    },
+    {
+      "id": "MongoDB",
+      "volume": 5
+    },
+    {
+      "id": "Phoenix",
+      "volume": 8
+    },
+    {
+      "id": "OpenStack",
+      "volume": 1
+    },
+    {
+      "id": ".NET",
+      "volume": 4
+    },
+    {
+      "id": "JavaScript",
+      "volume": 5
+    },
+    {
+      "id": "Ant",
+      "volume": 2
+    },
+    {
+      "id": "Vue.js",
+      "volume": 5
+    },
+    {
+      "id": "Hadoop",
+      "volume": 1
+    },
+    {
+      "id": "C",
+      "volume": 13
+    },
+    {
+      "id": "C#",
+      "volume": 19
+    },
+    {
+      "id": "Ada",
+      "volume": 5
+    },
+    {
+      "id": "Go",
+      "volume": 13
+    },
+    {
+      "id": "Assembly",
+      "volume": 5
+    },
+    {
+      "id": "Google Cloud",
+      "volume": 1
+    },
+    {
+      "id": "Oracle",
+      "volume": 9
+    },
+    {
+      "id": "SQL",
+      "volume": 31
+    },
+    {
+      "id": "Java",
+      "volume": 26
+    },
+    {
+      "id": "TypeScript",
+      "volume": 1
+    },
+    {
+      "id": "Angular",
+      "volume": 5
+    },
+    {
+      "id": "Docker",
+      "volume": 13
+    },
+    {
+      "id": "Kubernetes",
+      "volume": 14
+    },
+    {
+      "id": "C++",
+      "volume": 15
+    },
+    {
+      "id": "ASP.NET",
+      "volume": 4
+    }
+  ],
+  "links": [
+    {
+      "source": "C",
+      "target": "Docker",
+      "value": 8
+    },
+    {
+      "source": "C",
+      "target": "Kubernetes",
+      "value": 8
+    },
+    {
+      "source": "C",
+      "target": "Phoenix",
+      "value": 8
+    },
+    {
+      "source": "C",
+      "target": "Python",
+      "value": 5
+    },
+    {
+      "source": ".NET",
+      "target": "ASP.NET",
+      "value": 4
+    },
+    {
+      "source": ".NET",
+      "target": "C#",
+      "value": 4
+    },
+    {
+      "source": ".NET",
+      "target": "Java",
+      "value": 4
+    },
+    {
+      "source": ".NET",
+      "target": "JavaScript",
+      "value": 4
+    },
+    {
+      "source": ".NET",
+      "target": "SQL",
+      "value": 4
+    },
+    {
+      "source": "ASP.NET",
+      "target": "C#",
+      "value": 4
+    },
+    {
+      "source": "ASP.NET",
+      "target": "Java",
+      "value": 4
+    },
+    {
+      "source": "ASP.NET",
+      "target": "JavaScript",
+      "value": 4
+    },
+    {
+      "source": "ASP.NET",
+      "target": "SQL",
+      "value": 4
+    },
+    {
+      "source": "Ada",
+      "target": "Assembly",
+      "value": 5
+    },
+    {
+      "source": "Ada",
+      "target": "C#",
+      "value": 5
+    },
+    {
+      "source": "Ada",
+      "target": "C++",
+      "value": 5
+    },
+    {
+      "source": "Ada",
+      "target": "Java",
+      "value": 5
+    },
+    {
+      "source": "Ada",
+      "target": "Oracle",
+      "value": 5
+    },
+    {
+      "source": "Ada",
+      "target": "React",
+      "value": 5
+    },
+    {
+      "source": "Ada",
+      "target": "SQL",
+      "value": 5
+    },
+    {
+      "source": "Ada",
+      "target": "Vue.js",
+      "value": 5
+    },
+    {
+      "source": "Angular",
+      "target": "C#",
+      "value": 5
+    },
+    {
+      "source": "Angular",
+      "target": "MongoDB",
+      "value": 5
+    },
+    {
+      "source": "Angular",
+      "target": "MySQL",
+      "value": 5
+    },
+    {
+      "source": "Angular",
+      "target": "Python",
+      "value": 5
+    },
+    {
+      "source": "Angular",
+      "target": "React",
+      "value": 5
+    },
+    {
+      "source": "Angular",
+      "target": "SQL",
+      "value": 5
+    },
+    {
+      "source": "Ant",
+      "target": "C++",
+      "value": 2
+    },
+    {
+      "source": "Ant",
+      "target": "Go",
+      "value": 2
+    },
+    {
+      "source": "Ant",
+      "target": "Java",
+      "value": 2
+    },
+    {
+      "source": "Ant",
+      "target": "Python",
+      "value": 2
+    },
+    {
+      "source": "Assembly",
+      "target": "C#",
+      "value": 5
+    },
+    {
+      "source": "Assembly",
+      "target": "C++",
+      "value": 5
+    },
+    {
+      "source": "Assembly",
+      "target": "Java",
+      "value": 5
+    },
+    {
+      "source": "Assembly",
+      "target": "Oracle",
+      "value": 5
+    },
+    {
+      "source": "Assembly",
+      "target": "React",
+      "value": 5
+    },
+    {
+      "source": "Assembly",
+      "target": "SQL",
+      "value": 5
+    },
+    {
+      "source": "Assembly",
+      "target": "Vue.js",
+      "value": 5
+    },
+    {
+      "source": "C#",
+      "target": "C++",
+      "value": 10
+    },
+    {
+      "source": "C#",
+      "target": "Docker",
+      "value": 5
+    },
+    {
+      "source": "C#",
+      "target": "Go",
+      "value": 5
+    },
+    {
+      "source": "C#",
+      "target": "Java",
+      "value": 14
+    },
+    {
+      "source": "C#",
+      "target": "JavaScript",
+      "value": 4
+    },
+    {
+      "source": "C#",
+      "target": "Kubernetes",
+      "value": 5
+    },
+    {
+      "source": "C#",
+      "target": "MongoDB",
+      "value": 5
+    },
+    {
+      "source": "C#",
+      "target": "MySQL",
+      "value": 5
+    },
+    {
+      "source": "C#",
+      "target": "Oracle",
+      "value": 5
+    },
+    {
+      "source": "C#",
+      "target": "Python",
+      "value": 5
+    },
+    {
+      "source": "C#",
+      "target": "React",
+      "value": 10
+    },
+    {
+      "source": "C#",
+      "target": "SQL",
+      "value": 19
+    },
+    {
+      "source": "C#",
+      "target": "Vue.js",
+      "value": 5
+    },
+    {
+      "source": "C++",
+      "target": "Docker",
+      "value": 5
+    },
+    {
+      "source": "C++",
+      "target": "Go",
+      "value": 7
+    },
+    {
+      "source": "C++",
+      "target": "Java",
+      "value": 12
+    },
+    {
+      "source": "C++",
+      "target": "Kubernetes",
+      "value": 5
+    },
+    {
+      "source": "C++",
+      "target": "Oracle",
+      "value": 5
+    },
+    {
+      "source": "C++",
+      "target": "Python",
+      "value": 2
+    },
+    {
+      "source": "C++",
+      "target": "React",
+      "value": 5
+    },
+    {
+      "source": "C++",
+      "target": "SQL",
+      "value": 10
+    },
+    {
+      "source": "C++",
+      "target": "Vue.js",
+      "value": 5
+    },
+    {
+      "source": "Docker",
+      "target": "Go",
+      "value": 5
+    },
+    {
+      "source": "Docker",
+      "target": "Java",
+      "value": 5
+    },
+    {
+      "source": "Docker",
+      "target": "Kubernetes",
+      "value": 13
+    },
+    {
+      "source": "Docker",
+      "target": "Phoenix",
+      "value": 8
+    },
+    {
+      "source": "Docker",
+      "target": "SQL",
+      "value": 5
+    },
+    {
+      "source": "Go",
+      "target": "Google Cloud",
+      "value": 1
+    },
+    {
+      "source": "Go",
+      "target": "Hadoop",
+      "value": 1
+    },
+    {
+      "source": "Go",
+      "target": "Java",
+      "value": 12
+    },
+    {
+      "source": "Go",
+      "target": "Kubernetes",
+      "value": 6
+    },
+    {
+      "source": "Go",
+      "target": "OpenStack",
+      "value": 1
+    },
+    {
+      "source": "Go",
+      "target": "Python",
+      "value": 3
+    },
+    {
+      "source": "Go",
+      "target": "SQL",
+      "value": 10
+    },
+    {
+      "source": "Google Cloud",
+      "target": "Hadoop",
+      "value": 1
+    },
+    {
+      "source": "Google Cloud",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "Google Cloud",
+      "target": "OpenStack",
+      "value": 1
+    },
+    {
+      "source": "Google Cloud",
+      "target": "Python",
+      "value": 1
+    },
+    {
+      "source": "Hadoop",
+      "target": "Kubernetes",
+      "value": 1
+    },
+    {
+      "source": "Hadoop",
+      "target": "OpenStack",
+      "value": 1
+    },
+    {
+      "source": "Hadoop",
+      "target": "Python",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "JavaScript",
+      "value": 5
+    },
+    {
+      "source": "Java",
+      "target": "Kubernetes",
+      "value": 5
+    },
+    {
+      "source": "Java",
+      "target": "Oracle",
+      "value": 9
+    },
+    {
+      "source": "Java",
+      "target": "Python",
+      "value": 2
+    },
+    {
+      "source": "Java",
+      "target": "React",
+      "value": 5
+    },
+    {
+      "source": "Java",
+      "target": "SQL",
+      "value": 24
+    },
+    {
+      "source": "Java",
+      "target": "TypeScript",
+      "value": 1
+    },
+    {
+      "source": "Java",
+      "target": "Vue.js",
+      "value": 5
+    },
+    {
+      "source": "JavaScript",
+      "target": "SQL",
+      "value": 5
+    },
+    {
+      "source": "JavaScript",
+      "target": "TypeScript",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "OpenStack",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Phoenix",
+      "value": 8
+    },
+    {
+      "source": "Kubernetes",
+      "target": "Python",
+      "value": 1
+    },
+    {
+      "source": "Kubernetes",
+      "target": "SQL",
+      "value": 5
+    },
+    {
+      "source": "MongoDB",
+      "target": "MySQL",
+      "value": 5
+    },
+    {
+      "source": "MongoDB",
+      "target": "Python",
+      "value": 5
+    },
+    {
+      "source": "MongoDB",
+      "target": "React",
+      "value": 5
+    },
+    {
+      "source": "MongoDB",
+      "target": "SQL",
+      "value": 5
+    },
+    {
+      "source": "MySQL",
+      "target": "Python",
+      "value": 5
+    },
+    {
+      "source": "MySQL",
+      "target": "React",
+      "value": 5
+    },
+    {
+      "source": "MySQL",
+      "target": "SQL",
+      "value": 5
+    },
+    {
+      "source": "OpenStack",
+      "target": "Python",
+      "value": 1
+    },
+    {
+      "source": "Oracle",
+      "target": "React",
+      "value": 5
+    },
+    {
+      "source": "Oracle",
+      "target": "SQL",
+      "value": 9
+    },
+    {
+      "source": "Oracle",
+      "target": "Vue.js",
+      "value": 5
+    },
+    {
+      "source": "Python",
+      "target": "React",
+      "value": 5
+    },
+    {
+      "source": "Python",
+      "target": "SQL",
+      "value": 5
+    },
+    {
+      "source": "React",
+      "target": "SQL",
+      "value": 10
+    },
+    {
+      "source": "React",
+      "target": "Vue.js",
+      "value": 5
+    },
+    {
+      "source": "SQL",
+      "target": "TypeScript",
+      "value": 1
+    },
+    {
+      "source": "SQL",
+      "target": "Vue.js",
+      "value": 5
+    }
+  ]
+}
