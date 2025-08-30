@@ -1,25 +1,26 @@
-import { PricingTable } from "@clerk/nextjs";
-import { useAuth } from "@clerk/nextjs";
-import { auth } from '@clerk/nextjs/server'
+// CLERK!!!
+// import { PricingTable } from "@clerk/nextjs";
+// import { useAuth } from "@clerk/nextjs";
+// import { auth } from '@clerk/nextjs/server'
 
-// import { Button } from '@/components/ui/button';
+
 import { ArrowRight, CreditCard, Database, Section } from 'lucide-react';
 import QueryBar from "./queryBar";
-import { CenteredHero } from "./components/CenteredHero";
+
 import { Hero } from "./Hero";
-import { Banner } from "./components/Banner";
-import { Stats } from "fs";
+
 import ScanStats from "./dataVisualization/Stats";
-import NetworkGraph from "./dataVisualization/nodeGraph";
-import TreeMapChart from "./dataVisualization/treeMap";
+
 
 
 // switch to this landing page to this https://www.shadcntemplates.com/theme/ixartz-saas-boilerplate/
 
 export default async function Home() {
-  const { has } = await auth()
+  // CLERK!!!
+  // const { has } = await auth()
 
-  const hasSubscription = has({ plan: 'dev_skill_labs_' })
+  // CLERK!!!
+  // const hasSubscription = has({ plan: 'dev_skill_labs_' })
 
 //   const treemapData = [
 //   {
