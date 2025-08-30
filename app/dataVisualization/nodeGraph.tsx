@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 import dynamic from "next/dynamic";
 import { useEffect, useRef } from "react";
@@ -17,6 +18,7 @@ type networkGraphData = {
 
 function NetworkGraph({ nodes, links }: networkGraphData) {
   // const { nodes, links } = data;
+  
   const fgRef = useRef<any>(null);
 
   useEffect(() => {
