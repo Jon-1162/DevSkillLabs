@@ -13,7 +13,7 @@ export default function ScanStats() {
   return (
     <div className="mx-auto">
       <BarChartVis
-        title="How many eggs per hour made by software maintainers"
+        title="In how many jobs descriptions a given skill appears. Even if theres multiple instances only 1 is counted. This is to provide an unweighted value."
         data={barChartData}
         color="#22c55e"
       />

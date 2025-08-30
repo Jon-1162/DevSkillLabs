@@ -52,7 +52,8 @@ export default async function Home() {
       <QueryBar />
       
       <div className="flex justify-center">
-                      {hasSubscription ? (
+        <ScanStats/> 
+                      {/* {hasSubscription ? (
                         <ScanStats/>                        
                       ) : (
                         <div>
@@ -60,7 +61,7 @@ export default async function Home() {
                         <p>You have no subscription. Consider upgrading to a paid plan.</p>
                         <PricingTable />
                         </div>
-                      )}
+                      )} */}
       </div>
       {/* TODO force this to bottom */}
       <div>footer</div>

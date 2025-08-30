@@ -39,6 +39,7 @@ const TreeMapChart: React.FC<TreeMapChartProps> = ({ data }) => {
     const fillColor = color || defaultColors[(depth * 10 + index) % defaultColors.length];
     
     return (
+      
       <g>
         <rect
           x={x}
@@ -70,7 +71,10 @@ const TreeMapChart: React.FC<TreeMapChartProps> = ({ data }) => {
   };
 
   return (
+    <div>
+    <p>How many times a skilled appeared in total counting all instances of a given skill</p>
     <ResponsiveContainer width="100%" height={400}>
+      
       <Treemap
         data={data}
         dataKey="size"
@@ -81,6 +85,7 @@ const TreeMapChart: React.FC<TreeMapChartProps> = ({ data }) => {
         <Tooltip />
       </Treemap>
     </ResponsiveContainer>
+    </div>
   );
 };
 

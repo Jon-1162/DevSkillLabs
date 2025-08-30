@@ -14,55 +14,49 @@ export default function QueryBar() {
   return (
     <div className="flex justify-center">
     <div className="flex w-full max-w-4xl gap-2 p-4 bg-white rounded-xl shadow-md items-center">
-      {/* Search input */}
-      <div className="flex-1">
-        <Input
-          placeholder="Search..."
-          className="h-10"
-        />
-      </div>
-
-      {/* Location dropdown */}
-      <Select value={location} onValueChange={setLocation}>
-        <SelectTrigger className="w-[160px]">
-          <SelectValue placeholder="Location" />
-        </SelectTrigger>
-        <SelectContent>
-          <SelectItem value="global">
-            <div className="flex items-center gap-2">
-              <Globe size={16} />
-              <span>Global</span>
-            </div>
-          </SelectItem>
-          <SelectItem value="newyork">
-            <div className="flex items-center gap-2">
-              <MapPin size={16} />
-              <span>New York</span>
-            </div>
-          </SelectItem>
-        </SelectContent>
-      </Select>
-
-      {/* Category dropdown */}
-      <Select value={category} onValueChange={setCategory}>
-        <SelectTrigger className="w-[160px]">
-          <SelectValue placeholder="Category" />
+  {/* Category dropdown */}
+      <Select value={category} onValueChange={setCategory} >
+        <SelectTrigger className="flex-1">
+          <SelectValue placeholder="Software Engineer" />
         </SelectTrigger>
         <SelectContent>
           <SelectItem value="tech">
             <div className="flex items-center gap-2">
               <Briefcase size={16} />
-              <span>Tech</span>
+              <span>placeholder1</span>
             </div>
           </SelectItem>
           <SelectItem value="finance">
             <div className="flex items-center gap-2">
               <Briefcase size={16} />
-              <span>Finance</span>
+              <span>placeholder2</span>
             </div>
           </SelectItem>
         </SelectContent>
       </Select>
+
+      {/* Location dropdown */}
+      <Select value={location} onValueChange={setLocation}>
+        <SelectTrigger className="w-[160px]">
+          <SelectValue placeholder="Arizona" />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem value="global">
+            <div className="flex items-center gap-2">
+              <Globe size={16} />
+              <span>placeholder1 </span>
+            </div>
+          </SelectItem>
+          <SelectItem value="newyork">
+            <div className="flex items-center gap-2">
+              <MapPin size={16} />
+              <span>placeholder2</span>
+            </div>
+          </SelectItem>
+        </SelectContent>
+      </Select>
+
+    
 
       {/* Search button */}
       <Button className="h-10">

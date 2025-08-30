@@ -21,7 +21,8 @@ function NetworkGraph({ nodes, links }: networkGraphData) {
 
   useEffect(() => {
     if (fgRef.current) {
-      fgRef.current.d3Force("charge").strength(-200); // spacing
+      fgRef.current.d3Force("charge").strength(-1000);
+      fgRef.current.d3Force("link").distance(600);
       fgRef.current.d3VelocityDecay(0.2);
     }
   }, []);
@@ -29,7 +30,8 @@ function NetworkGraph({ nodes, links }: networkGraphData) {
   return (
     <Card className="w-1500px max-w-1100px mx-auto shadow-md border rounded-2xl">
       <CardHeader>
-        <CardTitle className="text-xl font-semibold">{"title"}</CardTitle>
+        <CardTitle className="text-xl font-semibold">{"-Node Graph Showing What Skills are the most related. The size of the nodes is their unweighted average and the edges are what skills occur alongside them in job descriptions. With thickness of edges showing how many times they co-occur. "}</CardTitle>
+        <CardTitle className="text-xl font-semibold">{"-Try zooming by scrolling and pulling on a node by dragging : )"}</CardTitle>
       </CardHeader>
       <CardContent className="h-[600px]">
         <div className=" border-2 border-gray-400 rounded-md overflow-hidden">
