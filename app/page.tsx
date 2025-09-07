@@ -22,23 +22,7 @@ export default async function Home() {
   // CLERK!!!
   // const hasSubscription = has({ plan: 'dev_skill_labs_' })
 
-//   const treemapData = [
-//   {
-//     name: 'Category A',
-//     children: [
-//       { name: 'Item A1', size: 100, color: '#ff6b6b' },
-//       { name: 'Item A2', size: 150, color: '#4ecdc4' },
-//     ],
-//   },
-//   {
-//     name: 'Category B',
-//     children: [
-//       { name: 'Item B1', size: 200, color: '#45b7d1' },
-//       { name: 'Item B2', size: 50, color: '#f9ca24' },
-//       { name: 'Item B3', size: 75, color: '#6c5ce7' },
-//     ],
-//   },
-// ];
+
   
   return (
  <main>

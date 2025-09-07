@@ -1,0 +1,1690 @@
+{
+  "skillCounts": [
+    {
+      "name": "Python",
+      "value": 86
+    },
+    {
+      "name": "SQL",
+      "value": 55
+    },
+    {
+      "name": "Go",
+      "value": 21
+    },
+    {
+      "name": "TensorFlow",
+      "value": 17
+    },
+    {
+      "name": "C++",
+      "value": 14
+    },
+    {
+      "name": "Pandas",
+      "value": 7
+    },
+    {
+      "name": "Make",
+      "value": 7
+    },
+    {
+      "name": "Google Cloud",
+      "value": 6
+    },
+    {
+      "name": "Databricks",
+      "value": 5
+    },
+    {
+      "name": "Java",
+      "value": 4
+    },
+    {
+      "name": "Snowflake",
+      "value": 4
+    },
+    {
+      "name": "BigQuery",
+      "value": 4
+    },
+    {
+      "name": "NumPy",
+      "value": 4
+    },
+    {
+      "name": "R",
+      "value": 4
+    },
+    {
+      "name": "Keras",
+      "value": 4
+    },
+    {
+      "name": "Scala",
+      "value": 3
+    },
+    {
+      "name": "CUDA",
+      "value": 3
+    },
+    {
+      "name": "Docker",
+      "value": 3
+    },
+    {
+      "name": "Notion",
+      "value": 3
+    },
+    {
+      "name": "MATLAB",
+      "value": 3
+    },
+    {
+      "name": "Hadoop",
+      "value": 3
+    },
+    {
+      "name": "Apache Spark",
+      "value": 3
+    },
+    {
+      "name": "React",
+      "value": 2
+    },
+    {
+      "name": "JavaScript",
+      "value": 2
+    },
+    {
+      "name": "JAX",
+      "value": 2
+    },
+    {
+      "name": "TypeScript",
+      "value": 2
+    },
+    {
+      "name": "Terraform",
+      "value": 2
+    },
+    {
+      "name": "Pip",
+      "value": 2
+    },
+    {
+      "name": "Rust",
+      "value": 2
+    },
+    {
+      "name": "Ada",
+      "value": 2
+    },
+    {
+      "name": "Jira",
+      "value": 1
+    },
+    {
+      "name": "Lucid",
+      "value": 1
+    },
+    {
+      "name": "Rider",
+      "value": 1
+    },
+    {
+      "name": "Perl",
+      "value": 1
+    },
+    {
+      "name": "Presto",
+      "value": 1
+    },
+    {
+      "name": "Kubernetes",
+      "value": 1
+    },
+    {
+      "name": "Spring Boot",
+      "value": 1
+    },
+    {
+      "name": "Monday.com",
+      "value": 1
+    },
+    {
+      "name": "Elasticsearch",
+      "value": 1
+    },
+    {
+      "name": "Ruby",
+      "value": 1
+    },
+    {
+      "name": "Scikit-Learn",
+      "value": 1
+    },
+    {
+      "name": "APT",
+      "value": 1
+    },
+    {
+      "name": "C",
+      "value": 1
+    },
+    {
+      "name": "MongoDB",
+      "value": 1
+    },
+    {
+      "name": "PostgreSQL",
+      "value": 1
+    },
+    {
+      "name": "OpenCL",
+      "value": 1
+    }
+  ],
+  "treemapData": [
+    {
+      "name": "Category A",
+      "children": [
+        {
+          "name": "Python",
+          "size": 109,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "SQL",
+          "size": 74,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "Go",
+          "size": 56,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Databricks",
+          "size": 41,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "Notion",
+          "size": 38,
+          "color": "#ee5253"
+        },
+        {
+          "name": "TensorFlow",
+          "size": 19,
+          "color": "#1dd1a1"
+        },
+        {
+          "name": "C++",
+          "size": 15,
+          "color": "#ee5253"
+        },
+        {
+          "name": "Make",
+          "size": 8,
+          "color": "#54a0ff"
+        },
+        {
+          "name": "Java",
+          "size": 7,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "Pandas",
+          "size": 7,
+          "color": "#54a0ff"
+        },
+        {
+          "name": "Snowflake",
+          "size": 5,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "Scala",
+          "size": 4,
+          "color": "#ee5253"
+        },
+        {
+          "name": "Docker",
+          "size": 4,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Kubernetes",
+          "size": 4,
+          "color": "#f9ca24"
+        },
+        {
+          "name": "MATLAB",
+          "size": 4,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "BigQuery",
+          "size": 4,
+          "color": "#ee5253"
+        },
+        {
+          "name": "NumPy",
+          "size": 4,
+          "color": "#54a0ff"
+        },
+        {
+          "name": "Keras",
+          "size": 4,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "React",
+          "size": 3,
+          "color": "#1dd1a1"
+        },
+        {
+          "name": "JavaScript",
+          "size": 3,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "CUDA",
+          "size": 3,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "Hadoop",
+          "size": 3,
+          "color": "#4ecdc4"
+        },
+        {
+          "name": "JAX",
+          "size": 2,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "TypeScript",
+          "size": 2,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "Terraform",
+          "size": 2,
+          "color": "#f9ca24"
+        },
+        {
+          "name": "Pip",
+          "size": 2,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "Rust",
+          "size": 2,
+          "color": "#ee5253"
+        },
+        {
+          "name": "Ada",
+          "size": 2,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "MongoDB",
+          "size": 2,
+          "color": "#4ecdc4"
+        },
+        {
+          "name": "Jira",
+          "size": 1,
+          "color": "#4ecdc4"
+        },
+        {
+          "name": "Lucid",
+          "size": 1,
+          "color": "#f9ca24"
+        },
+        {
+          "name": "Rider",
+          "size": 1,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "Perl",
+          "size": 1,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Presto",
+          "size": 1,
+          "color": "#f9ca24"
+        },
+        {
+          "name": "Monday.com",
+          "size": 1,
+          "color": "#1dd1a1"
+        },
+        {
+          "name": "Elasticsearch",
+          "size": 1,
+          "color": "#4ecdc4"
+        },
+        {
+          "name": "Ruby",
+          "size": 1,
+          "color": "#f9ca24"
+        },
+        {
+          "name": "Scikit-Learn",
+          "size": 1,
+          "color": "#ff9f43"
+        },
+        {
+          "name": "APT",
+          "size": 1,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "PostgreSQL",
+          "size": 1,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "OpenCL",
+          "size": 1,
+          "color": "#1dd1a1"
+        }
+      ]
+    }
+  ],
+  "networkGraphData": {
+    "nodes": [
+      {
+        "id": "Jira",
+        "volume": 1
+      },
+      {
+        "id": "Lucid",
+        "volume": 1
+      },
+      {
+        "id": "React",
+        "volume": 2
+      },
+      {
+        "id": "Rider",
+        "volume": 1
+      },
+      {
+        "id": "Go",
+        "volume": 21
+      },
+      {
+        "id": "JavaScript",
+        "volume": 2
+      },
+      {
+        "id": "JAX",
+        "volume": 2
+      },
+      {
+        "id": "SQL",
+        "volume": 55
+      },
+      {
+        "id": "Scala",
+        "volume": 3
+      },
+      {
+        "id": "CUDA",
+        "volume": 3
+      },
+      {
+        "id": "Docker",
+        "volume": 3
+      },
+      {
+        "id": "Perl",
+        "volume": 1
+      },
+      {
+        "id": "Java",
+        "volume": 4
+      },
+      {
+        "id": "Snowflake",
+        "volume": 4
+      },
+      {
+        "id": "Presto",
+        "volume": 1
+      },
+      {
+        "id": "TypeScript",
+        "volume": 2
+      },
+      {
+        "id": "Kubernetes",
+        "volume": 1
+      },
+      {
+        "id": "TensorFlow",
+        "volume": 17
+      },
+      {
+        "id": "Notion",
+        "volume": 3
+      },
+      {
+        "id": "Spring Boot",
+        "volume": 1
+      },
+      {
+        "id": "C++",
+        "volume": 14
+      },
+      {
+        "id": "MATLAB",
+        "volume": 3
+      },
+      {
+        "id": "Terraform",
+        "volume": 2
+      },
+      {
+        "id": "BigQuery",
+        "volume": 4
+      },
+      {
+        "id": "Monday.com",
+        "volume": 1
+      },
+      {
+        "id": "Python",
+        "volume": 86
+      },
+      {
+        "id": "Google Cloud",
+        "volume": 6
+      },
+      {
+        "id": "Hadoop",
+        "volume": 3
+      },
+      {
+        "id": "Pandas",
+        "volume": 7
+      },
+      {
+        "id": "Elasticsearch",
+        "volume": 1
+      },
+      {
+        "id": "NumPy",
+        "volume": 4
+      },
+      {
+        "id": "Ruby",
+        "volume": 1
+      },
+      {
+        "id": "Scikit-Learn",
+        "volume": 1
+      },
+      {
+        "id": "Pip",
+        "volume": 2
+      },
+      {
+        "id": "APT",
+        "volume": 1
+      },
+      {
+        "id": "Rust",
+        "volume": 2
+      },
+      {
+        "id": "C",
+        "volume": 1
+      },
+      {
+        "id": "R",
+        "volume": 4
+      },
+      {
+        "id": "Databricks",
+        "volume": 5
+      },
+      {
+        "id": "Ada",
+        "volume": 2
+      },
+      {
+        "id": "Apache Spark",
+        "volume": 3
+      },
+      {
+        "id": "Keras",
+        "volume": 4
+      },
+      {
+        "id": "MongoDB",
+        "volume": 1
+      },
+      {
+        "id": "PostgreSQL",
+        "volume": 1
+      },
+      {
+        "id": "OpenCL",
+        "volume": 1
+      },
+      {
+        "id": "Make",
+        "volume": 7
+      }
+    ],
+    "links": [
+      {
+        "source": "C",
+        "target": "Go",
+        "value": 1
+      },
+      {
+        "source": "C",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "C",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "R",
+        "target": "Go",
+        "value": 2
+      },
+      {
+        "source": "R",
+        "target": "Google Cloud",
+        "value": 2
+      },
+      {
+        "source": "R",
+        "target": "Keras",
+        "value": 1
+      },
+      {
+        "source": "R",
+        "target": "Make",
+        "value": 2
+      },
+      {
+        "source": "R",
+        "target": "Pandas",
+        "value": 1
+      },
+      {
+        "source": "R",
+        "target": "Python",
+        "value": 4
+      },
+      {
+        "source": "R",
+        "target": "SQL",
+        "value": 4
+      },
+      {
+        "source": "APT",
+        "target": "Databricks",
+        "value": 1
+      },
+      {
+        "source": "APT",
+        "target": "Jira",
+        "value": 1
+      },
+      {
+        "source": "APT",
+        "target": "Lucid",
+        "value": 1
+      },
+      {
+        "source": "APT",
+        "target": "Monday.com",
+        "value": 1
+      },
+      {
+        "source": "APT",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "APT",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "APT",
+        "target": "Snowflake",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "C++",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "Docker",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "Elasticsearch",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "Go",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "Hadoop",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "Keras",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "Kubernetes",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "Python",
+        "value": 2
+      },
+      {
+        "source": "Ada",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "SQL",
+        "value": 2
+      },
+      {
+        "source": "Ada",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "Apache Spark",
+        "target": "BigQuery",
+        "value": 1
+      },
+      {
+        "source": "Apache Spark",
+        "target": "Databricks",
+        "value": 3
+      },
+      {
+        "source": "Apache Spark",
+        "target": "Python",
+        "value": 3
+      },
+      {
+        "source": "Apache Spark",
+        "target": "SQL",
+        "value": 3
+      },
+      {
+        "source": "Apache Spark",
+        "target": "Scala",
+        "value": 1
+      },
+      {
+        "source": "Apache Spark",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "BigQuery",
+        "target": "Databricks",
+        "value": 2
+      },
+      {
+        "source": "BigQuery",
+        "target": "Go",
+        "value": 1
+      },
+      {
+        "source": "BigQuery",
+        "target": "Google Cloud",
+        "value": 1
+      },
+      {
+        "source": "BigQuery",
+        "target": "PostgreSQL",
+        "value": 1
+      },
+      {
+        "source": "BigQuery",
+        "target": "Python",
+        "value": 4
+      },
+      {
+        "source": "BigQuery",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "BigQuery",
+        "target": "SQL",
+        "value": 3
+      },
+      {
+        "source": "BigQuery",
+        "target": "Scala",
+        "value": 2
+      },
+      {
+        "source": "BigQuery",
+        "target": "Snowflake",
+        "value": 1
+      },
+      {
+        "source": "BigQuery",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "CUDA",
+        "value": 2
+      },
+      {
+        "source": "C++",
+        "target": "Docker",
+        "value": 2
+      },
+      {
+        "source": "C++",
+        "target": "Elasticsearch",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Go",
+        "value": 2
+      },
+      {
+        "source": "C++",
+        "target": "Hadoop",
+        "value": 2
+      },
+      {
+        "source": "C++",
+        "target": "JAX",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Keras",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Kubernetes",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "MATLAB",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "NumPy",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "OpenCL",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Python",
+        "value": 13
+      },
+      {
+        "source": "C++",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "SQL",
+        "value": 2
+      },
+      {
+        "source": "C++",
+        "target": "TensorFlow",
+        "value": 7
+      },
+      {
+        "source": "C++",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "CUDA",
+        "target": "MATLAB",
+        "value": 1
+      },
+      {
+        "source": "CUDA",
+        "target": "OpenCL",
+        "value": 1
+      },
+      {
+        "source": "CUDA",
+        "target": "Pip",
+        "value": 1
+      },
+      {
+        "source": "CUDA",
+        "target": "Python",
+        "value": 2
+      },
+      {
+        "source": "CUDA",
+        "target": "TensorFlow",
+        "value": 3
+      },
+      {
+        "source": "Databricks",
+        "target": "Jira",
+        "value": 1
+      },
+      {
+        "source": "Databricks",
+        "target": "Lucid",
+        "value": 1
+      },
+      {
+        "source": "Databricks",
+        "target": "Monday.com",
+        "value": 1
+      },
+      {
+        "source": "Databricks",
+        "target": "Python",
+        "value": 5
+      },
+      {
+        "source": "Databricks",
+        "target": "SQL",
+        "value": 4
+      },
+      {
+        "source": "Databricks",
+        "target": "Scala",
+        "value": 2
+      },
+      {
+        "source": "Databricks",
+        "target": "Snowflake",
+        "value": 2
+      },
+      {
+        "source": "Databricks",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "Docker",
+        "target": "Elasticsearch",
+        "value": 1
+      },
+      {
+        "source": "Docker",
+        "target": "Hadoop",
+        "value": 1
+      },
+      {
+        "source": "Docker",
+        "target": "Keras",
+        "value": 1
+      },
+      {
+        "source": "Docker",
+        "target": "Kubernetes",
+        "value": 1
+      },
+      {
+        "source": "Docker",
+        "target": "Python",
+        "value": 3
+      },
+      {
+        "source": "Docker",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "Docker",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Docker",
+        "target": "TensorFlow",
+        "value": 3
+      },
+      {
+        "source": "Docker",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "Elasticsearch",
+        "target": "Hadoop",
+        "value": 1
+      },
+      {
+        "source": "Elasticsearch",
+        "target": "Keras",
+        "value": 1
+      },
+      {
+        "source": "Elasticsearch",
+        "target": "Kubernetes",
+        "value": 1
+      },
+      {
+        "source": "Elasticsearch",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Elasticsearch",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "Elasticsearch",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Elasticsearch",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Elasticsearch",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Google Cloud",
+        "value": 6
+      },
+      {
+        "source": "Go",
+        "target": "Hadoop",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Keras",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Make",
+        "value": 2
+      },
+      {
+        "source": "Go",
+        "target": "Notion",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Pandas",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Pip",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "PostgreSQL",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Python",
+        "value": 18
+      },
+      {
+        "source": "Go",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "SQL",
+        "value": 13
+      },
+      {
+        "source": "Go",
+        "target": "TensorFlow",
+        "value": 3
+      },
+      {
+        "source": "Google Cloud",
+        "target": "Keras",
+        "value": 1
+      },
+      {
+        "source": "Google Cloud",
+        "target": "Make",
+        "value": 2
+      },
+      {
+        "source": "Google Cloud",
+        "target": "Pandas",
+        "value": 1
+      },
+      {
+        "source": "Google Cloud",
+        "target": "PostgreSQL",
+        "value": 1
+      },
+      {
+        "source": "Google Cloud",
+        "target": "Python",
+        "value": 6
+      },
+      {
+        "source": "Google Cloud",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "Google Cloud",
+        "target": "SQL",
+        "value": 5
+      },
+      {
+        "source": "Google Cloud",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Hadoop",
+        "target": "Keras",
+        "value": 1
+      },
+      {
+        "source": "Hadoop",
+        "target": "Kubernetes",
+        "value": 1
+      },
+      {
+        "source": "Hadoop",
+        "target": "Make",
+        "value": 1
+      },
+      {
+        "source": "Hadoop",
+        "target": "Python",
+        "value": 3
+      },
+      {
+        "source": "Hadoop",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "Hadoop",
+        "target": "SQL",
+        "value": 2
+      },
+      {
+        "source": "Hadoop",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Hadoop",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "JAX",
+        "target": "Python",
+        "value": 2
+      },
+      {
+        "source": "JAX",
+        "target": "TensorFlow",
+        "value": 2
+      },
+      {
+        "source": "Java",
+        "target": "JavaScript",
+        "value": 2
+      },
+      {
+        "source": "Java",
+        "target": "MongoDB",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "Perl",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "Python",
+        "value": 3
+      },
+      {
+        "source": "Java",
+        "target": "React",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "Ruby",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "SQL",
+        "value": 2
+      },
+      {
+        "source": "Java",
+        "target": "Scala",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "Spring Boot",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "TypeScript",
+        "value": 1
+      },
+      {
+        "source": "JavaScript",
+        "target": "MongoDB",
+        "value": 1
+      },
+      {
+        "source": "JavaScript",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "JavaScript",
+        "target": "React",
+        "value": 1
+      },
+      {
+        "source": "JavaScript",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "JavaScript",
+        "target": "Spring Boot",
+        "value": 1
+      },
+      {
+        "source": "JavaScript",
+        "target": "TypeScript",
+        "value": 1
+      },
+      {
+        "source": "Jira",
+        "target": "Lucid",
+        "value": 1
+      },
+      {
+        "source": "Jira",
+        "target": "Monday.com",
+        "value": 1
+      },
+      {
+        "source": "Jira",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Jira",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Jira",
+        "target": "Snowflake",
+        "value": 1
+      },
+      {
+        "source": "Keras",
+        "target": "Kubernetes",
+        "value": 1
+      },
+      {
+        "source": "Keras",
+        "target": "Pandas",
+        "value": 3
+      },
+      {
+        "source": "Keras",
+        "target": "Python",
+        "value": 4
+      },
+      {
+        "source": "Keras",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "Keras",
+        "target": "SQL",
+        "value": 3
+      },
+      {
+        "source": "Keras",
+        "target": "TensorFlow",
+        "value": 3
+      },
+      {
+        "source": "Keras",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "Kubernetes",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Kubernetes",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "Kubernetes",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Kubernetes",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Kubernetes",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "Lucid",
+        "target": "Monday.com",
+        "value": 1
+      },
+      {
+        "source": "Lucid",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Lucid",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Lucid",
+        "target": "Snowflake",
+        "value": 1
+      },
+      {
+        "source": "MATLAB",
+        "target": "Python",
+        "value": 3
+      },
+      {
+        "source": "MATLAB",
+        "target": "SQL",
+        "value": 2
+      },
+      {
+        "source": "MATLAB",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Make",
+        "target": "Python",
+        "value": 6
+      },
+      {
+        "source": "Make",
+        "target": "React",
+        "value": 1
+      },
+      {
+        "source": "Make",
+        "target": "SQL",
+        "value": 3
+      },
+      {
+        "source": "Make",
+        "target": "TypeScript",
+        "value": 1
+      },
+      {
+        "source": "Monday.com",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Monday.com",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Monday.com",
+        "target": "Snowflake",
+        "value": 1
+      },
+      {
+        "source": "MongoDB",
+        "target": "React",
+        "value": 1
+      },
+      {
+        "source": "MongoDB",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "MongoDB",
+        "target": "Spring Boot",
+        "value": 1
+      },
+      {
+        "source": "Notion",
+        "target": "Python",
+        "value": 3
+      },
+      {
+        "source": "Notion",
+        "target": "SQL",
+        "value": 2
+      },
+      {
+        "source": "NumPy",
+        "target": "Pandas",
+        "value": 3
+      },
+      {
+        "source": "NumPy",
+        "target": "Python",
+        "value": 4
+      },
+      {
+        "source": "NumPy",
+        "target": "SQL",
+        "value": 3
+      },
+      {
+        "source": "OpenCL",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "OpenCL",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Pandas",
+        "target": "Python",
+        "value": 6
+      },
+      {
+        "source": "Pandas",
+        "target": "SQL",
+        "value": 6
+      },
+      {
+        "source": "Pandas",
+        "target": "TensorFlow",
+        "value": 2
+      },
+      {
+        "source": "Perl",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Perl",
+        "target": "Ruby",
+        "value": 1
+      },
+      {
+        "source": "Perl",
+        "target": "Scala",
+        "value": 1
+      },
+      {
+        "source": "Pip",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Pip",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "PostgreSQL",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "PostgreSQL",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "PostgreSQL",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Presto",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Presto",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Python",
+        "target": "React",
+        "value": 1
+      },
+      {
+        "source": "Python",
+        "target": "Rider",
+        "value": 1
+      },
+      {
+        "source": "Python",
+        "target": "Ruby",
+        "value": 1
+      },
+      {
+        "source": "Python",
+        "target": "Rust",
+        "value": 2
+      },
+      {
+        "source": "Python",
+        "target": "SQL",
+        "value": 51
+      },
+      {
+        "source": "Python",
+        "target": "Scala",
+        "value": 3
+      },
+      {
+        "source": "Python",
+        "target": "Scikit-Learn",
+        "value": 1
+      },
+      {
+        "source": "Python",
+        "target": "Snowflake",
+        "value": 3
+      },
+      {
+        "source": "Python",
+        "target": "TensorFlow",
+        "value": 16
+      },
+      {
+        "source": "Python",
+        "target": "Terraform",
+        "value": 2
+      },
+      {
+        "source": "Python",
+        "target": "TypeScript",
+        "value": 2
+      },
+      {
+        "source": "React",
+        "target": "SQL",
+        "value": 2
+      },
+      {
+        "source": "React",
+        "target": "Spring Boot",
+        "value": 1
+      },
+      {
+        "source": "React",
+        "target": "TypeScript",
+        "value": 1
+      },
+      {
+        "source": "Rider",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Ruby",
+        "target": "Scala",
+        "value": 1
+      },
+      {
+        "source": "Rust",
+        "target": "SQL",
+        "value": 2
+      },
+      {
+        "source": "Rust",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Rust",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "SQL",
+        "target": "Scala",
+        "value": 1
+      },
+      {
+        "source": "SQL",
+        "target": "Snowflake",
+        "value": 3
+      },
+      {
+        "source": "SQL",
+        "target": "Spring Boot",
+        "value": 1
+      },
+      {
+        "source": "SQL",
+        "target": "TensorFlow",
+        "value": 4
+      },
+      {
+        "source": "SQL",
+        "target": "Terraform",
+        "value": 2
+      },
+      {
+        "source": "SQL",
+        "target": "TypeScript",
+        "value": 1
+      },
+      {
+        "source": "Scala",
+        "target": "Snowflake",
+        "value": 1
+      },
+      {
+        "source": "Scala",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "Scikit-Learn",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "TensorFlow",
+        "target": "Terraform",
+        "value": 1
+      }
+    ]
+  }
+}
