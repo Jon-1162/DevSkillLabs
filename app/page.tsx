@@ -30,7 +30,6 @@ export default async function Home() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Hero/>
-          <div>Hey Btw only California data is up rn.</div>
           <div>Re-select the date drop down when you fill out a query.</div>
      
         </div>

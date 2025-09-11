@@ -48,6 +48,9 @@ export default function ScanStats() {
     return <p className="text-gray-500">Loading charts…</p>;
   }
 
+  
+
+
   return (
     <div className="mx-auto">
       <BarChartVis
