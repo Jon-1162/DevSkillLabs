@@ -54,6 +54,11 @@ export default function RootLayout({
           <QueryProvider>
           {children}
           </QueryProvider>
+           {/* Feedback Widget */}
+        <script
+          src="https://www.boosttoad.com/api/widget/bundle?projectId=0702def8-5da8-43aa-b682-9eb0a00f447f"
+          async
+        />
         </body>
       </html>
     // </ClerkProvider>
