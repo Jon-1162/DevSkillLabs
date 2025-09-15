@@ -12,6 +12,8 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
 import { Banner } from './components/Banner'
 import { QueryProvider } from './context/QueryContext'
+import { Analytics } from '@vercel/analytics/next';
+
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -59,6 +61,8 @@ export default function RootLayout({
           src="https://www.boosttoad.com/api/widget/bundle?projectId=0702def8-5da8-43aa-b682-9eb0a00f447f"
           async
         />
+         <Analytics />
+
         </body>
       </html>
     // </ClerkProvider>

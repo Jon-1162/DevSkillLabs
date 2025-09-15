@@ -5,7 +5,7 @@
 
 
 import { ArrowRight, CreditCard, Database, Section } from 'lucide-react';
-import QueryBar from "./queryBar";
+import QueryBar from "./components/dataQueryBar";
 
 import { Hero } from "./Hero";
 
@@ -49,8 +49,8 @@ export default async function Home() {
                         </div>
                       )} */}
       </div>
-      {/* TODO force this to bottom */}
-      <div>footer</div>
+      
+      <div>TODO add footer</div>
     </main>
   );
 }

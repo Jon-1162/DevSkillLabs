@@ -12,7 +12,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
 import { Globe, MapPin, Briefcase } from "lucide-react";
-import { useQuery } from "./context/QueryContext";
+import { useQuery } from "../context/QueryContext";
 
 
 export default function QueryBar() {
