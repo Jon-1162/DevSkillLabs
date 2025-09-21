@@ -11,7 +11,7 @@ export default function Footer() {
                     <div className="lg:col-span-2">
                         <div className="mb-6 " >
                             <h3 className="text-2xl font-bold text-white">
-                                DevSkillLabs
+                                DevSkillSets
                             </h3>
                             <p className="text-gray-300 mt-3 max-w-md">
                                 The most data-driven resource to understand market demands for software engineering.
@@ -127,7 +127,7 @@ export default function Footer() {
                 <div className="mt-12 pt-8 border-t border-white/10">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <div className="text-gray-400 text-sm">
-                            © 2024 DevSkillLabs. All rights reserved.
+                            © 2024 DevSkillSets. All rights reserved.
                         </div>
                         <div className="flex space-x-6 mt-4 md:mt-0">
                             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">

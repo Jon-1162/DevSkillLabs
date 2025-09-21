@@ -27,7 +27,7 @@ export default function Header() {
       <div className="bg-primary w-[90%] mx-auto px-4 py-4 lg:py-8 flex justify-between items-center rounded-2xl">
         {/* Brand */}
         <Link href="/" className="text-2xl text-white font-bold transition-all duration-200">
-          DevSkillLabs
+          DevSkillSets
         </Link>
 
         {/* Desktop Navigation */}

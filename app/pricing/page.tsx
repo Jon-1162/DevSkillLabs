@@ -11,7 +11,7 @@ export default function PricingPage() {
             Choose Your Plan
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400">
-            Unlock the full power of DevSkillLabs analytics
+            Unlock the full power of DevSkillSets analytics
           </p>
         </div>
         

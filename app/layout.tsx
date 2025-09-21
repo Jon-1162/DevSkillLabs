@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'DevSkillLabs - Job Market Analytics',
+  title: 'DevSkillSets - Job Market Analytics',
   description: 'Data-driven insights for software engineering career decisions',
 }
 
