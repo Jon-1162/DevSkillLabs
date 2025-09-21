@@ -21,7 +21,7 @@ export default function Footer() {
 
                         {/* Social Links */}
                         <div className="flex space-x-4">
-                            <a
+                            {/* <a
                                 href="#"
                                 className="p-2 bg-white/10 rounded-lg hover:bg-white/20 transition-colors"
                                 aria-label="GitHub"
@@ -48,38 +48,38 @@ export default function Footer() {
                                 aria-label="Email"
                             >
                                 <Mail size={20} />
-                            </a>
+                            </a> */}
                         </div>
                     </div>
 
                     {/* Quick Links */}
                     <div>
-                        <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+                        {/* <h4 className="text-lg font-semibold mb-4">Quick Links</h4> */}
                         <ul className="space-y-3">
-                            <li>
+                            {/* <li>
                                 <a href="#" className="text-gray-300 hover:text-white transition-colors flex items-center">
                                     <ExternalLink size={14} className="mr-2" />
                                     About Us
                                 </a>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <a href="#" className="text-gray-300 hover:text-white transition-colors flex items-center">
                                     <ExternalLink size={14} className="mr-2" />
                                     Data Sources
                                 </a>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <a href="#" className="text-gray-300 hover:text-white transition-colors flex items-center">
                                     <ExternalLink size={14} className="mr-2" />
                                     Methodology
                                 </a>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <a href="#" className="text-gray-300 hover:text-white transition-colors flex items-center">
                                     <ExternalLink size={14} className="mr-2" />
                                     API Documentation
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
 
@@ -89,23 +89,23 @@ export default function Footer() {
                         <ul className="space-y-3">
                             <li className="flex items-center text-gray-300">
                                 <Mail size={16} className="mr-3 text-purple-400" />
-                                <span>hello@devskilllabs.com</span>
+                                <span>jobskillcount@gmail.com</span>
                             </li>
-                            <li className="flex items-center text-gray-300">
+                            {/* <li className="flex items-center text-gray-300">
                                 <MapPin size={16} className="mr-3 text-purple-400" />
                                 <span>San Francisco, CA</span>
-                            </li>
-                            <li className="flex items-center text-gray-300">
+                            </li> */}
+                            {/* <li className="flex items-center text-gray-300">
                                 <Phone size={16} className="mr-3 text-purple-400" />
                                 <span>+1 (555) 123-4567</span>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
 
                 {/* Newsletter Signup */}
                 <div className="mt-12 pt-8 border-t border-white/10">
-                    <div className="max-w-md mx-auto text-center">
+                    {/* <div className="max-w-md mx-auto text-center">
                         <h4 className="text-lg font-semibold mb-3">Stay Updated</h4>
                         <p className="text-gray-300 mb-4">
                             Get the latest job market insights delivered to your inbox.
@@ -120,12 +120,12 @@ export default function Footer() {
                                 Subscribe
                             </button>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* Bottom Bar */}
                 <div className="mt-12 pt-8 border-t border-white/10">
-                    <div className="flex flex-col md:flex-row justify-between items-center">
+                    {/* <div className="flex flex-col md:flex-row justify-between items-center">
                         <div className="text-gray-400 text-sm">
                             © 2024 DevSkillSets. All rights reserved.
                         </div>
@@ -140,7 +140,7 @@ export default function Footer() {
                                 Cookie Policy
                             </a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </footer>

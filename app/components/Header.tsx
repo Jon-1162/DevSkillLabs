@@ -46,18 +46,18 @@ export default function Header() {
             >
               Pricing
             </Link>
-            <Link 
+            {/* <Link 
               href="#about" 
               className="text-white hover:text-gray-300 transition-colors font-medium"
             >
               About
-            </Link>
-            <Link 
+            </Link> */}
+            {/* <Link 
               href="#contact" 
               className="text-white hover:text-gray-300 transition-colors font-medium"
             >
               Contact
-            </Link>
+            </Link> */}
           </nav>
 
           {/* Auth Buttons */}

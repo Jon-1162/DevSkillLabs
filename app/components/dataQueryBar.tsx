@@ -95,12 +95,7 @@ export default function QueryBar() {
                   <SelectValue placeholder="Select location" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="Arizona">
-                    <div className="flex items-center gap-2">
-                      <MapPin size={16} />
-                      <span>Arizona</span>
-                    </div>
-                  </SelectItem>
+
                   <SelectItem value="California">
                     <div className="flex items-center gap-2">
                       <MapPin size={16} />
@@ -193,13 +188,13 @@ export default function QueryBar() {
           </div>
         </div>
         <div className=" flex justify-center w-fit items-center">
-          <Button variant="default"
+          {/* <Button variant="default"
             className="h-12 px-10 bg-primary text-white w-[220px]  font-semibold hover:bg-primary/90"
             disabled={!category || !location || !timeFrame}
           >
             <Search size={18} className="mr-2" />
             Search
-          </Button>
+          </Button> */}
         </div>
         </div>
 

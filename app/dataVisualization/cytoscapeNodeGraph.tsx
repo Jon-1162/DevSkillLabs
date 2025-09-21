@@ -690,7 +690,7 @@ function CytoscapeNodeGraph({ nodes, links, title = "Skill Relationship Network"
               <div className="flex items-center gap-3">
                 <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
                 <span className="text-gray-600 dark:text-gray-400">
-                  {!isCytoscapeLoaded ? 'Loading visualization engine...' : 'Loading network...'}
+                  {!isCytoscapeLoaded ? "Loading visualization engine... \n If it doesn't load refresh the page" : "Loading network..."}
                 </span>
               </div>
             </div>
