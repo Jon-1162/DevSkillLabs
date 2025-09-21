@@ -13,9 +13,9 @@ type QueryContextType = {
 const QueryContext = createContext<QueryContextType | undefined>(undefined);
 
 export function QueryProvider({ children }: { children: React.ReactNode }) {
-  const [location, setLocation] = useState("");
-  const [category, setCategory] = useState("");
-  const [timeFrame, setTimeFrame] = useState("");
+  const [location, setLocation] = useState("California");
+  const [category, setCategory] = useState("Software_Engineer");
+  const [timeFrame, setTimeFrame] = useState("9-2025");
 
   return (
     <QueryContext.Provider

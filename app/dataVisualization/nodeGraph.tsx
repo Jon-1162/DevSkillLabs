@@ -2,92 +2,32 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useEffect, useRef, useState } from "react";
+import CytoscapeNodeGraph from "./cytoscapeNodeGraph";
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
-import NodeGraphQueryBar from "../components/nodeGraphQueryBar"
-
-import { nodeGraphFilter } from "@/lib/nodeGraphFilter";
-
-const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), {
+// Use the new Cytoscape-based component
+const NetworkGraph = dynamic(() => Promise.resolve(CytoscapeNodeGraph), {
   ssr: false,
+  loading: () => (
+    <div className=" max-w-4xl mx-auto border-0 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 rounded-lg">
+      <div className="h-[700px] flex items-center justify-center">
+        <div className="flex items-center gap-3">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
+          <span className="text-gray-600 dark:text-gray-400">Loading advanced network visualization...</span>
+        </div>
+      </div>
+    </div>
+  )
 });
 
-
-
-type networkGraphData = {
-  nodes: { id: string; volume: number }[]; links: { source: string; target: string; value: number }[];
+// Simple wrapper component that uses the new Cytoscape implementation
+interface NetworkGraphProps {
+  nodes: { id: string; volume: number }[];
+  links: { source: string; target: string; value: number }[];
+  title?: string;
 }
 
-function NetworkGraph({ nodes, links }: networkGraphData) {
-  const fgRef = useRef<any>(null);
-
-  const [selectedSkill, setSelectedSkill] = useState<string | null>(null);
-
-  const [graphData, setGraphData] = useState<networkGraphData>({
-    nodes,
-    links,
-  });
-
-  useEffect(() => {
-    if (fgRef.current) {
-      fgRef.current.d3Force("charge").strength(-1000);
-      fgRef.current.d3Force("link").distance(3000);
-      fgRef.current.d3VelocityDecay(0.2);
-    }
-  }, []);
-
-  useEffect(() => {
-  if (!selectedSkill || selectedSkill === "All") {
-    setGraphData({ nodes, links }); // reset to full graph
-  } else {
-    const filtered = nodeGraphFilter(selectedSkill, { nodes, links });
-    console.log("Filtered Data:")
-    console.log(filtered)
-    setGraphData(filtered);
-  }
-}, [selectedSkill, nodes, links]);
-
-  return (
-    <Card className="w-1500px max-w-1100px mx-auto shadow-md border rounded-2xl">
-      <CardHeader>
-        <NodeGraphQueryBar nodes={nodes} links={links} onSkillChange={setSelectedSkill}/>
-        <CardTitle className="text-xl font-semibold">{"-Node Graph Showing What Skills are the most related. The size of the nodes is their unweighted average and the edges are what skills occur alongside them in job descriptions. With thickness of edges showing how many times they co-occur. "}</CardTitle>
-        <CardTitle className="text-xl font-semibold">{"-Try zooming by scrolling and pulling on a node by dragging : )"}</CardTitle>
-      </CardHeader>
-      <CardContent className="h-[600px]">
-        <div className=" border-2 border-gray-400 rounded-md overflow-hidden">
-          <ForceGraph2D
-            ref={fgRef}
-            graphData={graphData}
-            nodeLabel={(node: any) => `${node.id} (${node.volume})`}
-            nodeAutoColorBy="id"
-            nodeCanvasObject={(node: any, ctx, globalScale) => {
-              const size = 5 + node.volume * 0.3; // dynamic scaling
-              ctx.beginPath();
-              ctx.arc(node.x!, node.y!, size, 0, 2 * Math.PI, false);
-              ctx.fillStyle = node.color;
-              ctx.fill();
-
-              // Label rendering
-              const fontSize = 12 / globalScale;
-              ctx.font = `${fontSize}px Sans-Serif`;
-              ctx.textAlign = "center";
-              ctx.textBaseline = "middle";
-              ctx.fillStyle = "white";
-              ctx.fillText(node.id, node.x!, node.y!);
-            }}
-            linkWidth={(link: any) => Math.sqrt(link.value)}
-            linkColor={() => "rgba(0,0,0,0.3)"}
-            width={1100} // ForceGraph explicit width
-            height={600} // ForceGraph explicit height
-          />
-        </div>
-      </CardContent>
-    </Card>
-  );
+function NetworkGraphWrapper({ nodes, links, title }: NetworkGraphProps) {
+  return <NetworkGraph nodes={nodes} links={links} title={title} />;
 }
 
-
-export default NetworkGraph
+export default NetworkGraphWrapper;

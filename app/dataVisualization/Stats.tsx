@@ -15,13 +15,19 @@ export default function ScanStats() {
   const [networkGraphData, setNetworkGraphData] = useState<any | null>(null);
   const [error, setError] = useState<string | null>(null);
 
+  // Debug logging
+  console.log('ScanStats - Current query values:', { location, category, timeFrame });
+
   useEffect(() => {
     if (!location || !category || !timeFrame) return;
 
     const loadData = async () => {
       try {
-        const data = await import(`../data/${category}${location}${timeFrame}.json`)
-        console.log(`../data/${category}${location}${timeFrame}.json`)
+        // Construct filename with proper spacing
+        const filename = `${category}${location}${timeFrame}.json`;
+        console.log(`Loading data from: ../data/${filename}`);
+        
+        const data = await import(`../data/${filename}`);
 
         setBarChartData(data.skillCounts);
         setTreeMapData(data.treemapData);
@@ -40,25 +46,50 @@ export default function ScanStats() {
   }, [location, category, timeFrame]);
 
   if (error) {
-    return <p className="text-red-500">{error}</p>;
+    return (
+      <div className="text-center py-12">
+        <p className="text-red-500 text-lg mb-4">{error}</p>
+        <p className="text-gray-600 dark:text-gray-400">
+          Please select a role, location, and time period to view analytics.
+        </p>
+      </div>
+    );
+  }
+
+  if (!location || !category || !timeFrame) {
+    return (
+      <div className="text-center py-12">
+        <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+          Select Your Criteria
+        </h3>
+        <p className="text-gray-600 dark:text-gray-400 text-lg">
+          Choose a job role, location, and time period above to view detailed analytics.
+        </p>
+      </div>
+    );
   }
 
   if (!barChartData || !treeMapData || !networkGraphData) {
-    
-    return <p className="text-gray-500">Loading charts…</p>;
+    return (
+      <div className="text-center py-12">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto mb-4"></div>
+        <p className="text-gray-600 dark:text-gray-400">Enter a job role, location, and time period to view analytics…</p>
+      </div>
+    );
   }
 
   
 
 
   return (
-    <div className="mx-auto">
+    <div className="w-full space-y-14">
       <BarChartVis
         title="In how many job descriptions a given skill appears. Unweighted count."
         data={barChartData}
         color="#22c55e"
+        maxItems={15}
       />
-      <div className="dont remove this"></div>
+      <div className="dont remove this space-y-14"></div>
       <TreeMapChart data={treeMapData} />
       <NetworkGraph nodes={networkGraphData.nodes} links={networkGraphData.links} />
     </div>
