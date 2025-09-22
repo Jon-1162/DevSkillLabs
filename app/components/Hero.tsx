@@ -2,7 +2,7 @@ import React from "react";
 import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
 export default function Hero() {
   return (
-    <section className="px-3  md:h-[50vh] lg:h-[60vh] relative top-0 flex justify-center items-center z-[-1]">
+    <section className="px-3  md:h-[50vh] lg:h-[60vh] relative top-0 flex justify-center items-center ">
       <BackgroundRippleEffect />
       <div className="mx-auto w-full md:w-[90%] lg:w-[80%] xl:w-[70%] text-center z-10 mt-8 ">
         <h1 className="lg:text-7xl md:text-5xl  text-3xl pt-20  lg:pt-20 font-bold leading-7 md:leading-11 lg:leading-16 lg:tracking-tight mb-5">

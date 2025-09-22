@@ -1,5 +1,5 @@
 import { type Metadata } from 'next'
-
+//CLERK!!!
 import { ClerkProvider } from '@clerk/nextjs'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
@@ -42,7 +42,6 @@ export default function RootLayout({
             src="https://www.boosttoad.com/api/widget/bundle?projectId=0702def8-5da8-43aa-b682-9eb0a00f447f"
             async
           />
-          {/* Vercel Analytics */}
           <Analytics />
           {/* Footer */}
           <Footer />

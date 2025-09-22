@@ -28,7 +28,7 @@ export default async function Home() {
 
 
   return (
-    <main className=" relative 2xl:max-w-[1440px] mx-auto z-[-1] ">
+    <main className=" relative 2xl:max-w-[1440px] mx-auto  ">
      <div className="absolute top-[340px] md:top-[550px] lg:top-[720px] xl:top-[650px] left-0 w-full  border border-gray-300  z-0"></div>
       {/* <div className="absolute top-[1250px] left-0 w-full h-[2px] border border-gray-400   z-10"></div>
       <div className="absolute top-[2100px]  left-0 w-full h-[2px] border border-gray-400  z-0"></div>  */}
