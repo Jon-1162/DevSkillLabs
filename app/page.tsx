@@ -5,6 +5,7 @@ import QueryBar from "./components/dataQueryBar";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import ScanStats from "./dataVisualization/Stats";
+import Header from "./components/Header";
 
 
 
@@ -28,7 +29,12 @@ export default async function Home() {
 
 
   return (
+    <div>
+    <Header />
     <main className=" relative 2xl:max-w-[1440px] mx-auto  ">
+      
+      
+      
      <div className="absolute top-[340px] md:top-[550px] lg:top-[720px] xl:top-[650px] left-0 w-full  border border-gray-300  z-0"></div>
       {/* <div className="absolute top-[1250px] left-0 w-full h-[2px] border border-gray-400   z-10"></div>
       <div className="absolute top-[2100px]  left-0 w-full h-[2px] border border-gray-400  z-0"></div>  */}
@@ -40,6 +46,7 @@ export default async function Home() {
         <div className="w-full">
           
         <div className="py-8">
+          
               <Hero />
             </div>
           {/* Query Bar Section */}
@@ -59,6 +66,7 @@ export default async function Home() {
       </div>
 
     </main>
+    </div>
   );
 }
 

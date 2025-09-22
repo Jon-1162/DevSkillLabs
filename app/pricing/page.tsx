@@ -1,10 +1,13 @@
 import { PricingTable } from '@clerk/nextjs'
+import Header from '../components/Header';
 
 export default function PricingPage() {
   const hasClerkKeys = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY && process.env.CLERK_SECRET_KEY;
   
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-16">
+    <div>
+        <Header pricingPage = {true}/>
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-40">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -53,6 +56,7 @@ export default function PricingPage() {
           )}
         </div>
       </div>
+    </div>
     </div>
   )
 }

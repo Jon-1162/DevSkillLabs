@@ -1,6 +1,5 @@
 "use client";
 
-// CLERK!!!
 import {
   SignInButton,
   SignUpButton,
@@ -12,18 +11,22 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 
-export default function Header() {
+interface HeaderProps {
+  pricingPage?: boolean
+}
+
+export default function Header({ pricingPage = false }: HeaderProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
   const [hasClerkKeys, setHasClerkKeys] = useState(false);
 
   useEffect(() => {
     setIsClient(true);
-    setHasClerkKeys(!!(process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY && process.env.CLERK_SECRET_KEY));
+    setHasClerkKeys(true);
   }, []);
-  
+
   return (
-    <div className="w-full py-6 fixed top-0 z-50">
+    <div className={`w-full py-6 fixed top-0 ${pricingPage ? "z-[0]" : "z-50"}`}>
       <div className="bg-primary w-[90%] mx-auto px-4 py-4 lg:py-8 flex justify-between items-center rounded-2xl">
         {/* Brand */}
         <Link href="/" className="text-2xl text-white font-bold transition-all duration-200">
@@ -46,18 +49,6 @@ export default function Header() {
             >
               Pricing
             </Link>
-            {/* <Link 
-              href="#about" 
-              className="text-white hover:text-gray-300 transition-colors font-medium"
-            >
-              About
-            </Link> */}
-            {/* <Link 
-              href="#contact" 
-              className="text-white hover:text-gray-300 transition-colors font-medium"
-            >
-              Contact
-            </Link> */}
           </nav>
 
           {/* Auth Buttons */}
