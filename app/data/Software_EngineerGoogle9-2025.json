@@ -1,0 +1,824 @@
+{
+  "skillCounts": [
+    {
+      "name": "Go",
+      "value": 109
+    },
+    {
+      "name": "C++",
+      "value": 55
+    },
+    {
+      "name": "Java",
+      "value": 41
+    },
+    {
+      "name": "Google Cloud",
+      "value": 35
+    },
+    {
+      "name": "Python",
+      "value": 34
+    },
+    {
+      "name": "JavaScript",
+      "value": 26
+    },
+    {
+      "name": "TypeScript",
+      "value": 23
+    },
+    {
+      "name": "SQL",
+      "value": 6
+    },
+    {
+      "name": "Ruby",
+      "value": 3
+    },
+    {
+      "name": "Kotlin",
+      "value": 3
+    },
+    {
+      "name": "Angular",
+      "value": 3
+    },
+    {
+      "name": "BigQuery",
+      "value": 2
+    },
+    {
+      "name": "Objective-C",
+      "value": 2
+    },
+    {
+      "name": "TensorFlow",
+      "value": 2
+    },
+    {
+      "name": "Assembly",
+      "value": 2
+    },
+    {
+      "name": "Presto",
+      "value": 1
+    },
+    {
+      "name": "Apache Spark",
+      "value": 1
+    },
+    {
+      "name": "Hadoop",
+      "value": 1
+    },
+    {
+      "name": "C",
+      "value": 1
+    },
+    {
+      "name": "Julia",
+      "value": 1
+    },
+    {
+      "name": "Electron",
+      "value": 1
+    },
+    {
+      "name": "Rust",
+      "value": 1
+    },
+    {
+      "name": "Kubernetes",
+      "value": 1
+    },
+    {
+      "name": "Zephyr",
+      "value": 1
+    }
+  ],
+  "treemapData": [
+    {
+      "name": "Category A",
+      "children": [
+        {
+          "name": "Go",
+          "size": 872,
+          "color": "#54a0ff"
+        },
+        {
+          "name": "Java",
+          "size": 64,
+          "color": "#f9ca24"
+        },
+        {
+          "name": "C++",
+          "size": 62,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Python",
+          "size": 34,
+          "color": "#4ecdc4"
+        },
+        {
+          "name": "JavaScript",
+          "size": 28,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "TypeScript",
+          "size": 23,
+          "color": "#ff9f43"
+        },
+        {
+          "name": "BigQuery",
+          "size": 10,
+          "color": "#ff9f43"
+        },
+        {
+          "name": "SQL",
+          "size": 9,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Kotlin",
+          "size": 4,
+          "color": "#f9ca24"
+        },
+        {
+          "name": "Ruby",
+          "size": 3,
+          "color": "#ff6b6b"
+        },
+        {
+          "name": "Angular",
+          "size": 3,
+          "color": "#ee5253"
+        },
+        {
+          "name": "Objective-C",
+          "size": 2,
+          "color": "#f9ca24"
+        },
+        {
+          "name": "TensorFlow",
+          "size": 2,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "Assembly",
+          "size": 2,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Presto",
+          "size": 1,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Hadoop",
+          "size": 1,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "Julia",
+          "size": 1,
+          "color": "#1dd1a1"
+        },
+        {
+          "name": "Electron",
+          "size": 1,
+          "color": "#ff6b6b"
+        },
+        {
+          "name": "Rust",
+          "size": 1,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "Kubernetes",
+          "size": 1,
+          "color": "#ee5253"
+        },
+        {
+          "name": "Zephyr",
+          "size": 1,
+          "color": "#ff9f43"
+        }
+      ]
+    }
+  ],
+  "networkGraphData": {
+    "nodes": [
+      {
+        "id": "Presto",
+        "volume": 1
+      },
+      {
+        "id": "BigQuery",
+        "volume": 2
+      },
+      {
+        "id": "Apache Spark",
+        "volume": 1
+      },
+      {
+        "id": "Ruby",
+        "volume": 3
+      },
+      {
+        "id": "Google Cloud",
+        "volume": 35
+      },
+      {
+        "id": "Hadoop",
+        "volume": 1
+      },
+      {
+        "id": "C",
+        "volume": 1
+      },
+      {
+        "id": "Julia",
+        "volume": 1
+      },
+      {
+        "id": "Objective-C",
+        "volume": 2
+      },
+      {
+        "id": "TensorFlow",
+        "volume": 2
+      },
+      {
+        "id": "Python",
+        "volume": 34
+      },
+      {
+        "id": "Java",
+        "volume": 41
+      },
+      {
+        "id": "C++",
+        "volume": 55
+      },
+      {
+        "id": "Electron",
+        "volume": 1
+      },
+      {
+        "id": "Kotlin",
+        "volume": 3
+      },
+      {
+        "id": "TypeScript",
+        "volume": 23
+      },
+      {
+        "id": "Rust",
+        "volume": 1
+      },
+      {
+        "id": "SQL",
+        "volume": 6
+      },
+      {
+        "id": "Go",
+        "volume": 109
+      },
+      {
+        "id": "JavaScript",
+        "volume": 26
+      },
+      {
+        "id": "Kubernetes",
+        "volume": 1
+      },
+      {
+        "id": "Zephyr",
+        "volume": 1
+      },
+      {
+        "id": "Angular",
+        "volume": 3
+      },
+      {
+        "id": "Assembly",
+        "volume": 2
+      }
+    ],
+    "links": [
+      {
+        "source": "C",
+        "target": "C++",
+        "value": 1
+      },
+      {
+        "source": "C",
+        "target": "Go",
+        "value": 1
+      },
+      {
+        "source": "C",
+        "target": "Google Cloud",
+        "value": 1
+      },
+      {
+        "source": "C",
+        "target": "Hadoop",
+        "value": 1
+      },
+      {
+        "source": "C",
+        "target": "Java",
+        "value": 1
+      },
+      {
+        "source": "C",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "C",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Angular",
+        "target": "C++",
+        "value": 1
+      },
+      {
+        "source": "Angular",
+        "target": "Go",
+        "value": 3
+      },
+      {
+        "source": "Angular",
+        "target": "Google Cloud",
+        "value": 1
+      },
+      {
+        "source": "Angular",
+        "target": "Java",
+        "value": 3
+      },
+      {
+        "source": "Angular",
+        "target": "JavaScript",
+        "value": 3
+      },
+      {
+        "source": "Angular",
+        "target": "Kotlin",
+        "value": 1
+      },
+      {
+        "source": "Angular",
+        "target": "Objective-C",
+        "value": 1
+      },
+      {
+        "source": "Angular",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Angular",
+        "target": "TypeScript",
+        "value": 3
+      },
+      {
+        "source": "Apache Spark",
+        "target": "BigQuery",
+        "value": 1
+      },
+      {
+        "source": "Apache Spark",
+        "target": "C++",
+        "value": 1
+      },
+      {
+        "source": "Apache Spark",
+        "target": "Go",
+        "value": 1
+      },
+      {
+        "source": "Apache Spark",
+        "target": "Google Cloud",
+        "value": 1
+      },
+      {
+        "source": "Apache Spark",
+        "target": "Java",
+        "value": 1
+      },
+      {
+        "source": "Apache Spark",
+        "target": "Presto",
+        "value": 1
+      },
+      {
+        "source": "Assembly",
+        "target": "C++",
+        "value": 2
+      },
+      {
+        "source": "Assembly",
+        "target": "Go",
+        "value": 2
+      },
+      {
+        "source": "BigQuery",
+        "target": "C++",
+        "value": 2
+      },
+      {
+        "source": "BigQuery",
+        "target": "Go",
+        "value": 2
+      },
+      {
+        "source": "BigQuery",
+        "target": "Google Cloud",
+        "value": 2
+      },
+      {
+        "source": "BigQuery",
+        "target": "Java",
+        "value": 2
+      },
+      {
+        "source": "BigQuery",
+        "target": "Presto",
+        "value": 1
+      },
+      {
+        "source": "BigQuery",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Electron",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Go",
+        "value": 55
+      },
+      {
+        "source": "C++",
+        "target": "Google Cloud",
+        "value": 18
+      },
+      {
+        "source": "C++",
+        "target": "Hadoop",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Java",
+        "value": 31
+      },
+      {
+        "source": "C++",
+        "target": "JavaScript",
+        "value": 19
+      },
+      {
+        "source": "C++",
+        "target": "Julia",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Kotlin",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Objective-C",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Presto",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Python",
+        "value": 33
+      },
+      {
+        "source": "C++",
+        "target": "Ruby",
+        "value": 3
+      },
+      {
+        "source": "C++",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "SQL",
+        "value": 5
+      },
+      {
+        "source": "C++",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "TypeScript",
+        "value": 18
+      },
+      {
+        "source": "C++",
+        "target": "Zephyr",
+        "value": 1
+      },
+      {
+        "source": "Electron",
+        "target": "Go",
+        "value": 1
+      },
+      {
+        "source": "Electron",
+        "target": "Zephyr",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Google Cloud",
+        "value": 35
+      },
+      {
+        "source": "Go",
+        "target": "Hadoop",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Java",
+        "value": 41
+      },
+      {
+        "source": "Go",
+        "target": "JavaScript",
+        "value": 26
+      },
+      {
+        "source": "Go",
+        "target": "Julia",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Kotlin",
+        "value": 3
+      },
+      {
+        "source": "Go",
+        "target": "Kubernetes",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Objective-C",
+        "value": 2
+      },
+      {
+        "source": "Go",
+        "target": "Presto",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Python",
+        "value": 34
+      },
+      {
+        "source": "Go",
+        "target": "Ruby",
+        "value": 3
+      },
+      {
+        "source": "Go",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "SQL",
+        "value": 6
+      },
+      {
+        "source": "Go",
+        "target": "TensorFlow",
+        "value": 2
+      },
+      {
+        "source": "Go",
+        "target": "TypeScript",
+        "value": 23
+      },
+      {
+        "source": "Go",
+        "target": "Zephyr",
+        "value": 1
+      },
+      {
+        "source": "Google Cloud",
+        "target": "Hadoop",
+        "value": 1
+      },
+      {
+        "source": "Google Cloud",
+        "target": "Java",
+        "value": 13
+      },
+      {
+        "source": "Google Cloud",
+        "target": "JavaScript",
+        "value": 6
+      },
+      {
+        "source": "Google Cloud",
+        "target": "Julia",
+        "value": 1
+      },
+      {
+        "source": "Google Cloud",
+        "target": "Kubernetes",
+        "value": 1
+      },
+      {
+        "source": "Google Cloud",
+        "target": "Presto",
+        "value": 1
+      },
+      {
+        "source": "Google Cloud",
+        "target": "Python",
+        "value": 13
+      },
+      {
+        "source": "Google Cloud",
+        "target": "Ruby",
+        "value": 3
+      },
+      {
+        "source": "Google Cloud",
+        "target": "SQL",
+        "value": 4
+      },
+      {
+        "source": "Google Cloud",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Google Cloud",
+        "target": "TypeScript",
+        "value": 5
+      },
+      {
+        "source": "Hadoop",
+        "target": "Java",
+        "value": 1
+      },
+      {
+        "source": "Hadoop",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Hadoop",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "JavaScript",
+        "value": 26
+      },
+      {
+        "source": "Java",
+        "target": "Kotlin",
+        "value": 3
+      },
+      {
+        "source": "Java",
+        "target": "Objective-C",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "Presto",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "Python",
+        "value": 28
+      },
+      {
+        "source": "Java",
+        "target": "Ruby",
+        "value": 3
+      },
+      {
+        "source": "Java",
+        "target": "SQL",
+        "value": 6
+      },
+      {
+        "source": "Java",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "TypeScript",
+        "value": 23
+      },
+      {
+        "source": "JavaScript",
+        "target": "Kotlin",
+        "value": 1
+      },
+      {
+        "source": "JavaScript",
+        "target": "Objective-C",
+        "value": 1
+      },
+      {
+        "source": "JavaScript",
+        "target": "Python",
+        "value": 20
+      },
+      {
+        "source": "JavaScript",
+        "target": "SQL",
+        "value": 2
+      },
+      {
+        "source": "JavaScript",
+        "target": "TypeScript",
+        "value": 23
+      },
+      {
+        "source": "Kotlin",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Kotlin",
+        "target": "TypeScript",
+        "value": 1
+      },
+      {
+        "source": "Objective-C",
+        "target": "TypeScript",
+        "value": 1
+      },
+      {
+        "source": "Python",
+        "target": "Ruby",
+        "value": 3
+      },
+      {
+        "source": "Python",
+        "target": "SQL",
+        "value": 5
+      },
+      {
+        "source": "Python",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Python",
+        "target": "TypeScript",
+        "value": 18
+      },
+      {
+        "source": "Ruby",
+        "target": "SQL",
+        "value": 3
+      },
+      {
+        "source": "SQL",
+        "target": "TypeScript",
+        "value": 1
+      }
+    ]
+  }
+}
