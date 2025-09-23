@@ -26,7 +26,7 @@ export default function ScanStats() {
         // Construct filename with proper spacing
 
         console.log("FANNg: "+ fanng)
-        var filename = `${category}${location}${timeFrame}.json`;
+        let filename = `${category}${location}${timeFrame}.json`;
         if (fanng != "All US Companies (default)"){
           console.log("FANNg change")
           filename = `Software_Engineer${fanng}${timeFrame}.json`;
