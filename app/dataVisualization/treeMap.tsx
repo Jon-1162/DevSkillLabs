@@ -26,7 +26,7 @@ interface TreeMapChartProps {
   title?: string;
 }
 
-const TreeMapChart: React.FC<TreeMapChartProps> = ({ data, title = "Skill Distribution by Category" }) => {
+const TreeMapChart: React.FC<TreeMapChartProps> = ({ data, title = "Weighted Skill Count" }) => {
   // Modern gradient color palette
   const gradientColors = [
     '#3b82f6', '#8b5cf6', '#06b6d4', '#10b981', '#f59e0b',
@@ -148,7 +148,10 @@ const TreeMapChart: React.FC<TreeMapChartProps> = ({ data, title = "Skill Distri
           {title}
         </CardTitle>
         <p className="text-sm text-gray-600 dark:text-gray-400 text-center mt-2">
-          Showing {totalSkills} skills across {data.length} categories • {totalInstances} total instances
+          Showing number of times a skill string occurred in total across all scans 
+        </p>
+        <p className="text-sm text-gray-600 dark:text-gray-400 text-center mt-2">
+          Showing {totalSkills} skills • {totalInstances} total instances
         </p>
       </CardHeader>
       <CardContent className="h-[500px] px-6">
