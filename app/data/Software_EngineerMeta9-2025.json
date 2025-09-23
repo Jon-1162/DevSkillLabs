@@ -1,0 +1,871 @@
+{
+  "skillCounts": [
+    {
+      "name": "C++",
+      "value": 79
+    },
+    {
+      "name": "Python",
+      "value": 63
+    },
+    {
+      "name": "Java",
+      "value": 58
+    },
+    {
+      "name": "Swift",
+      "value": 26
+    },
+    {
+      "name": "Kotlin",
+      "value": 21
+    },
+    {
+      "name": "TensorFlow",
+      "value": 17
+    },
+    {
+      "name": "JavaScript",
+      "value": 14
+    },
+    {
+      "name": "Objective-C",
+      "value": 12
+    },
+    {
+      "name": "PHP",
+      "value": 9
+    },
+    {
+      "name": "SQL",
+      "value": 6
+    },
+    {
+      "name": "Perl",
+      "value": 6
+    },
+    {
+      "name": "Make",
+      "value": 4
+    },
+    {
+      "name": "C#",
+      "value": 4
+    },
+    {
+      "name": "Rust",
+      "value": 4
+    },
+    {
+      "name": "Scala",
+      "value": 4
+    },
+    {
+      "name": "HTML/CSS",
+      "value": 3
+    },
+    {
+      "name": "MSVC",
+      "value": 3
+    },
+    {
+      "name": "C",
+      "value": 3
+    },
+    {
+      "name": "Ada",
+      "value": 2
+    },
+    {
+      "name": "MATLAB",
+      "value": 2
+    },
+    {
+      "name": "DirectX",
+      "value": 1
+    },
+    {
+      "name": "MySQL",
+      "value": 1
+    },
+    {
+      "name": "Kubernetes",
+      "value": 1
+    },
+    {
+      "name": "OpenGL",
+      "value": 1
+    },
+    {
+      "name": "React",
+      "value": 1
+    },
+    {
+      "name": "Terraform",
+      "value": 1
+    },
+    {
+      "name": "Render",
+      "value": 1
+    },
+    {
+      "name": "Go",
+      "value": 1
+    }
+  ],
+  "treemapData": [
+    {
+      "name": "Category A",
+      "children": [
+        {
+          "name": "Java",
+          "size": 102,
+          "color": "#4ecdc4"
+        },
+        {
+          "name": "C++",
+          "size": 82,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "Python",
+          "size": 69,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Swift",
+          "size": 26,
+          "color": "#54a0ff"
+        },
+        {
+          "name": "Kotlin",
+          "size": 21,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "TensorFlow",
+          "size": 17,
+          "color": "#54a0ff"
+        },
+        {
+          "name": "JavaScript",
+          "size": 14,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "Objective-C",
+          "size": 12,
+          "color": "#54a0ff"
+        },
+        {
+          "name": "PHP",
+          "size": 9,
+          "color": "#4ecdc4"
+        },
+        {
+          "name": "SQL",
+          "size": 8,
+          "color": "#ff9f43"
+        },
+        {
+          "name": "Perl",
+          "size": 6,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Make",
+          "size": 4,
+          "color": "#54a0ff"
+        },
+        {
+          "name": "C#",
+          "size": 4,
+          "color": "#ee5253"
+        },
+        {
+          "name": "Rust",
+          "size": 4,
+          "color": "#f9ca24"
+        },
+        {
+          "name": "Scala",
+          "size": 4,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "HTML/CSS",
+          "size": 3,
+          "color": "#f9ca24"
+        },
+        {
+          "name": "MSVC",
+          "size": 3,
+          "color": "#ff9f43"
+        },
+        {
+          "name": "MySQL",
+          "size": 2,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "Ada",
+          "size": 2,
+          "color": "#f9ca24"
+        },
+        {
+          "name": "MATLAB",
+          "size": 2,
+          "color": "#ff9f43"
+        },
+        {
+          "name": "DirectX",
+          "size": 1,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Kubernetes",
+          "size": 1,
+          "color": "#ff9f43"
+        },
+        {
+          "name": "OpenGL",
+          "size": 1,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "React",
+          "size": 1,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Terraform",
+          "size": 1,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Render",
+          "size": 1,
+          "color": "#4ecdc4"
+        },
+        {
+          "name": "Go",
+          "size": 1,
+          "color": "#5f27cd"
+        }
+      ]
+    }
+  ],
+  "networkGraphData": {
+    "nodes": [
+      {
+        "id": "DirectX",
+        "volume": 1
+      },
+      {
+        "id": "Swift",
+        "volume": 26
+      },
+      {
+        "id": "PHP",
+        "volume": 9
+      },
+      {
+        "id": "MySQL",
+        "volume": 1
+      },
+      {
+        "id": "Make",
+        "volume": 4
+      },
+      {
+        "id": "TensorFlow",
+        "volume": 17
+      },
+      {
+        "id": "JavaScript",
+        "volume": 14
+      },
+      {
+        "id": "Kubernetes",
+        "volume": 1
+      },
+      {
+        "id": "OpenGL",
+        "volume": 1
+      },
+      {
+        "id": "SQL",
+        "volume": 6
+      },
+      {
+        "id": "C#",
+        "volume": 4
+      },
+      {
+        "id": "Rust",
+        "volume": 4
+      },
+      {
+        "id": "HTML/CSS",
+        "volume": 3
+      },
+      {
+        "id": "Perl",
+        "volume": 6
+      },
+      {
+        "id": "React",
+        "volume": 1
+      },
+      {
+        "id": "MSVC",
+        "volume": 3
+      },
+      {
+        "id": "C",
+        "volume": 3
+      },
+      {
+        "id": "Ada",
+        "volume": 2
+      },
+      {
+        "id": "Objective-C",
+        "volume": 12
+      },
+      {
+        "id": "Terraform",
+        "volume": 1
+      },
+      {
+        "id": "Render",
+        "volume": 1
+      },
+      {
+        "id": "MATLAB",
+        "volume": 2
+      },
+      {
+        "id": "C++",
+        "volume": 79
+      },
+      {
+        "id": "Go",
+        "volume": 1
+      },
+      {
+        "id": "Java",
+        "volume": 58
+      },
+      {
+        "id": "Python",
+        "volume": 63
+      },
+      {
+        "id": "Scala",
+        "volume": 4
+      },
+      {
+        "id": "Kotlin",
+        "volume": 21
+      }
+    ],
+    "links": [
+      {
+        "source": "C",
+        "target": "C++",
+        "value": 3
+      },
+      {
+        "source": "C",
+        "target": "MATLAB",
+        "value": 1
+      },
+      {
+        "source": "C",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "C++",
+        "value": 2
+      },
+      {
+        "source": "Ada",
+        "target": "Java",
+        "value": 2
+      },
+      {
+        "source": "Ada",
+        "target": "Python",
+        "value": 2
+      },
+      {
+        "source": "C#",
+        "target": "C++",
+        "value": 4
+      },
+      {
+        "source": "C#",
+        "target": "Python",
+        "value": 4
+      },
+      {
+        "source": "C#",
+        "target": "SQL",
+        "value": 4
+      },
+      {
+        "source": "C#",
+        "target": "Scala",
+        "value": 4
+      },
+      {
+        "source": "C++",
+        "target": "DirectX",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Go",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Java",
+        "value": 46
+      },
+      {
+        "source": "C++",
+        "target": "JavaScript",
+        "value": 13
+      },
+      {
+        "source": "C++",
+        "target": "Kotlin",
+        "value": 18
+      },
+      {
+        "source": "C++",
+        "target": "Kubernetes",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "MATLAB",
+        "value": 2
+      },
+      {
+        "source": "C++",
+        "target": "MSVC",
+        "value": 3
+      },
+      {
+        "source": "C++",
+        "target": "Make",
+        "value": 3
+      },
+      {
+        "source": "C++",
+        "target": "MySQL",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Objective-C",
+        "value": 12
+      },
+      {
+        "source": "C++",
+        "target": "OpenGL",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "PHP",
+        "value": 7
+      },
+      {
+        "source": "C++",
+        "target": "Perl",
+        "value": 6
+      },
+      {
+        "source": "C++",
+        "target": "Python",
+        "value": 60
+      },
+      {
+        "source": "C++",
+        "target": "Render",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Rust",
+        "value": 4
+      },
+      {
+        "source": "C++",
+        "target": "SQL",
+        "value": 5
+      },
+      {
+        "source": "C++",
+        "target": "Scala",
+        "value": 4
+      },
+      {
+        "source": "C++",
+        "target": "Swift",
+        "value": 26
+      },
+      {
+        "source": "C++",
+        "target": "TensorFlow",
+        "value": 10
+      },
+      {
+        "source": "C++",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "DirectX",
+        "target": "OpenGL",
+        "value": 1
+      },
+      {
+        "source": "DirectX",
+        "target": "Render",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Java",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Kubernetes",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "MySQL",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "PHP",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "JavaScript",
+        "value": 14
+      },
+      {
+        "source": "Java",
+        "target": "Kotlin",
+        "value": 21
+      },
+      {
+        "source": "Java",
+        "target": "Kubernetes",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "Make",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "MySQL",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "Objective-C",
+        "value": 4
+      },
+      {
+        "source": "Java",
+        "target": "PHP",
+        "value": 8
+      },
+      {
+        "source": "Java",
+        "target": "Perl",
+        "value": 6
+      },
+      {
+        "source": "Java",
+        "target": "Python",
+        "value": 48
+      },
+      {
+        "source": "Java",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "Swift",
+        "value": 18
+      },
+      {
+        "source": "Java",
+        "target": "TensorFlow",
+        "value": 9
+      },
+      {
+        "source": "Java",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "JavaScript",
+        "target": "Objective-C",
+        "value": 4
+      },
+      {
+        "source": "JavaScript",
+        "target": "PHP",
+        "value": 7
+      },
+      {
+        "source": "JavaScript",
+        "target": "Perl",
+        "value": 6
+      },
+      {
+        "source": "JavaScript",
+        "target": "Python",
+        "value": 14
+      },
+      {
+        "source": "JavaScript",
+        "target": "TensorFlow",
+        "value": 9
+      },
+      {
+        "source": "Kotlin",
+        "target": "Python",
+        "value": 18
+      },
+      {
+        "source": "Kotlin",
+        "target": "Swift",
+        "value": 18
+      },
+      {
+        "source": "Kubernetes",
+        "target": "MySQL",
+        "value": 1
+      },
+      {
+        "source": "Kubernetes",
+        "target": "PHP",
+        "value": 1
+      },
+      {
+        "source": "Kubernetes",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Kubernetes",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "Kubernetes",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Kubernetes",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "MATLAB",
+        "target": "Python",
+        "value": 2
+      },
+      {
+        "source": "MSVC",
+        "target": "Python",
+        "value": 3
+      },
+      {
+        "source": "Make",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Make",
+        "target": "Rust",
+        "value": 3
+      },
+      {
+        "source": "MySQL",
+        "target": "PHP",
+        "value": 1
+      },
+      {
+        "source": "MySQL",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "MySQL",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "MySQL",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "MySQL",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "Objective-C",
+        "target": "Python",
+        "value": 4
+      },
+      {
+        "source": "Objective-C",
+        "target": "Swift",
+        "value": 8
+      },
+      {
+        "source": "OpenGL",
+        "target": "Render",
+        "value": 1
+      },
+      {
+        "source": "PHP",
+        "target": "Perl",
+        "value": 6
+      },
+      {
+        "source": "PHP",
+        "target": "Python",
+        "value": 9
+      },
+      {
+        "source": "PHP",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "PHP",
+        "target": "SQL",
+        "value": 2
+      },
+      {
+        "source": "PHP",
+        "target": "TensorFlow",
+        "value": 6
+      },
+      {
+        "source": "PHP",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "Perl",
+        "target": "Python",
+        "value": 6
+      },
+      {
+        "source": "Perl",
+        "target": "TensorFlow",
+        "value": 6
+      },
+      {
+        "source": "Python",
+        "target": "Rust",
+        "value": 1
+      },
+      {
+        "source": "Python",
+        "target": "SQL",
+        "value": 6
+      },
+      {
+        "source": "Python",
+        "target": "Scala",
+        "value": 4
+      },
+      {
+        "source": "Python",
+        "target": "Swift",
+        "value": 18
+      },
+      {
+        "source": "Python",
+        "target": "TensorFlow",
+        "value": 10
+      },
+      {
+        "source": "Python",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "Rust",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Rust",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "SQL",
+        "target": "Scala",
+        "value": 4
+      },
+      {
+        "source": "SQL",
+        "target": "Terraform",
+        "value": 1
+      }
+    ]
+  }
+}

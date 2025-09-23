@@ -22,7 +22,7 @@ export function QueryProvider({ children }: { children: React.ReactNode }) {
   const [location, _setLocation] = useState("California");
   const [category, _setCategory] = useState("Software_Engineer");
   const [timeFrame, setTimeFrame] = useState("9-2025");
-  const [fanng, setFanng] = useState("");
+  const [fanng, setFanng] = useState("All US Companies (default)");
   const router = useRouter();
 
   const setLocation = (lct: string) => {

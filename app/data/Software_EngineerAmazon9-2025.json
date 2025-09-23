@@ -1,0 +1,851 @@
+{
+  "skillCounts": [
+    {
+      "name": "Amazon Web Services (AWS)",
+      "value": 26
+    },
+    {
+      "name": "Java",
+      "value": 25
+    },
+    {
+      "name": "Electron",
+      "value": 18
+    },
+    {
+      "name": "C++",
+      "value": 18
+    },
+    {
+      "name": "Python",
+      "value": 14
+    },
+    {
+      "name": "C#",
+      "value": 12
+    },
+    {
+      "name": "SQL",
+      "value": 10
+    },
+    {
+      "name": "Perl",
+      "value": 6
+    },
+    {
+      "name": "React",
+      "value": 6
+    },
+    {
+      "name": "Go",
+      "value": 5
+    },
+    {
+      "name": "JavaScript",
+      "value": 5
+    },
+    {
+      "name": "Rust",
+      "value": 4
+    },
+    {
+      "name": "Scala",
+      "value": 4
+    },
+    {
+      "name": "Ada",
+      "value": 4
+    },
+    {
+      "name": "TypeScript",
+      "value": 4
+    },
+    {
+      "name": "PowerShell",
+      "value": 3
+    },
+    {
+      "name": "Pip",
+      "value": 3
+    },
+    {
+      "name": "Angular",
+      "value": 2
+    },
+    {
+      "name": "C",
+      "value": 1
+    },
+    {
+      "name": "Elasticsearch",
+      "value": 1
+    },
+    {
+      "name": "Databricks",
+      "value": 1
+    },
+    {
+      "name": "MATLAB",
+      "value": 1
+    },
+    {
+      "name": "Presto",
+      "value": 1
+    },
+    {
+      "name": "Ant",
+      "value": 1
+    },
+    {
+      "name": "Hadoop",
+      "value": 1
+    },
+    {
+      "name": "MySQL",
+      "value": 1
+    },
+    {
+      "name": "AngularJS",
+      "value": 1
+    },
+    {
+      "name": "Ruby",
+      "value": 1
+    }
+  ],
+  "treemapData": [
+    {
+      "name": "Category A",
+      "children": [
+        {
+          "name": "Java",
+          "size": 32,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "C++",
+          "size": 21,
+          "color": "#ff6b6b"
+        },
+        {
+          "name": "Electron",
+          "size": 18,
+          "color": "#ff9f43"
+        },
+        {
+          "name": "Python",
+          "size": 16,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "SQL",
+          "size": 14,
+          "color": "#ff6b6b"
+        },
+        {
+          "name": "C#",
+          "size": 12,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "JavaScript",
+          "size": 9,
+          "color": "#ff9f43"
+        },
+        {
+          "name": "Perl",
+          "size": 6,
+          "color": "#ff6b6b"
+        },
+        {
+          "name": "React",
+          "size": 6,
+          "color": "#ee5253"
+        },
+        {
+          "name": "Go",
+          "size": 5,
+          "color": "#4ecdc4"
+        },
+        {
+          "name": "Ada",
+          "size": 5,
+          "color": "#4ecdc4"
+        },
+        {
+          "name": "Rust",
+          "size": 4,
+          "color": "#54a0ff"
+        },
+        {
+          "name": "Scala",
+          "size": 4,
+          "color": "#ee5253"
+        },
+        {
+          "name": "TypeScript",
+          "size": 4,
+          "color": "#f9ca24"
+        },
+        {
+          "name": "PowerShell",
+          "size": 3,
+          "color": "#54a0ff"
+        },
+        {
+          "name": "Pip",
+          "size": 3,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "Angular",
+          "size": 2,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "MySQL",
+          "size": 2,
+          "color": "#1dd1a1"
+        },
+        {
+          "name": "Elasticsearch",
+          "size": 1,
+          "color": "#1dd1a1"
+        },
+        {
+          "name": "Databricks",
+          "size": 1,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "MATLAB",
+          "size": 1,
+          "color": "#ff9f43"
+        },
+        {
+          "name": "Presto",
+          "size": 1,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "Ant",
+          "size": 1,
+          "color": "#ee5253"
+        },
+        {
+          "name": "Hadoop",
+          "size": 1,
+          "color": "#ff6b6b"
+        },
+        {
+          "name": "AngularJS",
+          "size": 1,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "Ruby",
+          "size": 1,
+          "color": "#45b7d1"
+        }
+      ]
+    }
+  ],
+  "networkGraphData": {
+    "nodes": [
+      {
+        "id": "C",
+        "volume": 1
+      },
+      {
+        "id": "SQL",
+        "volume": 10
+      },
+      {
+        "id": "Rust",
+        "volume": 4
+      },
+      {
+        "id": "Electron",
+        "volume": 18
+      },
+      {
+        "id": "Scala",
+        "volume": 4
+      },
+      {
+        "id": "Elasticsearch",
+        "volume": 1
+      },
+      {
+        "id": "Go",
+        "volume": 5
+      },
+      {
+        "id": "PowerShell",
+        "volume": 3
+      },
+      {
+        "id": "Databricks",
+        "volume": 1
+      },
+      {
+        "id": "MATLAB",
+        "volume": 1
+      },
+      {
+        "id": "Perl",
+        "volume": 6
+      },
+      {
+        "id": "Presto",
+        "volume": 1
+      },
+      {
+        "id": "Angular",
+        "volume": 2
+      },
+      {
+        "id": "Ant",
+        "volume": 1
+      },
+      {
+        "id": "React",
+        "volume": 6
+      },
+      {
+        "id": "Hadoop",
+        "volume": 1
+      },
+      {
+        "id": "Python",
+        "volume": 14
+      },
+      {
+        "id": "MySQL",
+        "volume": 1
+      },
+      {
+        "id": "JavaScript",
+        "volume": 5
+      },
+      {
+        "id": "C++",
+        "volume": 18
+      },
+      {
+        "id": "Ada",
+        "volume": 4
+      },
+      {
+        "id": "TypeScript",
+        "volume": 4
+      },
+      {
+        "id": "C#",
+        "volume": 12
+      },
+      {
+        "id": "Java",
+        "volume": 25
+      },
+      {
+        "id": "AngularJS",
+        "volume": 1
+      },
+      {
+        "id": "Ruby",
+        "volume": 1
+      },
+      {
+        "id": "Amazon Web Services (AWS)",
+        "volume": 26
+      },
+      {
+        "id": "Pip",
+        "volume": 3
+      }
+    ],
+    "links": [
+      {
+        "source": "C",
+        "target": "Go",
+        "value": 1
+      },
+      {
+        "source": "C",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "Amazon Web Services (AWS)",
+        "value": 4
+      },
+      {
+        "source": "Ada",
+        "target": "Ant",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "C++",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "Databricks",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "Java",
+        "value": 1
+      },
+      {
+        "source": "Ada",
+        "target": "Pip",
+        "value": 3
+      },
+      {
+        "source": "Ada",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "Ant",
+        "value": 1
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "C#",
+        "value": 5
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "C++",
+        "value": 7
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "Databricks",
+        "value": 1
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "Go",
+        "value": 4
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "Java",
+        "value": 9
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "JavaScript",
+        "value": 3
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "MySQL",
+        "value": 1
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "Perl",
+        "value": 3
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "Pip",
+        "value": 3
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "Python",
+        "value": 4
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "React",
+        "value": 3
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "Rust",
+        "value": 2
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "SQL",
+        "value": 2
+      },
+      {
+        "source": "Amazon Web Services (AWS)",
+        "target": "TypeScript",
+        "value": 4
+      },
+      {
+        "source": "Angular",
+        "target": "AngularJS",
+        "value": 1
+      },
+      {
+        "source": "Angular",
+        "target": "C#",
+        "value": 1
+      },
+      {
+        "source": "Angular",
+        "target": "Java",
+        "value": 2
+      },
+      {
+        "source": "Angular",
+        "target": "JavaScript",
+        "value": 2
+      },
+      {
+        "source": "Angular",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Angular",
+        "target": "React",
+        "value": 2
+      },
+      {
+        "source": "AngularJS",
+        "target": "Java",
+        "value": 1
+      },
+      {
+        "source": "AngularJS",
+        "target": "JavaScript",
+        "value": 1
+      },
+      {
+        "source": "AngularJS",
+        "target": "React",
+        "value": 1
+      },
+      {
+        "source": "Ant",
+        "target": "C++",
+        "value": 1
+      },
+      {
+        "source": "Ant",
+        "target": "Databricks",
+        "value": 1
+      },
+      {
+        "source": "Ant",
+        "target": "Java",
+        "value": 1
+      },
+      {
+        "source": "Ant",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "C#",
+        "target": "C++",
+        "value": 11
+      },
+      {
+        "source": "C#",
+        "target": "Go",
+        "value": 2
+      },
+      {
+        "source": "C#",
+        "target": "Java",
+        "value": 12
+      },
+      {
+        "source": "C#",
+        "target": "JavaScript",
+        "value": 1
+      },
+      {
+        "source": "C#",
+        "target": "MATLAB",
+        "value": 1
+      },
+      {
+        "source": "C#",
+        "target": "Perl",
+        "value": 6
+      },
+      {
+        "source": "C#",
+        "target": "Python",
+        "value": 3
+      },
+      {
+        "source": "C#",
+        "target": "React",
+        "value": 3
+      },
+      {
+        "source": "C#",
+        "target": "Rust",
+        "value": 2
+      },
+      {
+        "source": "C++",
+        "target": "Databricks",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Go",
+        "value": 2
+      },
+      {
+        "source": "C++",
+        "target": "Java",
+        "value": 14
+      },
+      {
+        "source": "C++",
+        "target": "MATLAB",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "MySQL",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Perl",
+        "value": 6
+      },
+      {
+        "source": "C++",
+        "target": "PowerShell",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Python",
+        "value": 5
+      },
+      {
+        "source": "C++",
+        "target": "React",
+        "value": 3
+      },
+      {
+        "source": "C++",
+        "target": "Ruby",
+        "value": 1
+      },
+      {
+        "source": "C++",
+        "target": "Rust",
+        "value": 4
+      },
+      {
+        "source": "C++",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Databricks",
+        "target": "Java",
+        "value": 1
+      },
+      {
+        "source": "Databricks",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Elasticsearch",
+        "target": "Presto",
+        "value": 1
+      },
+      {
+        "source": "Go",
+        "target": "Java",
+        "value": 4
+      },
+      {
+        "source": "Go",
+        "target": "JavaScript",
+        "value": 2
+      },
+      {
+        "source": "Go",
+        "target": "Python",
+        "value": 3
+      },
+      {
+        "source": "Go",
+        "target": "React",
+        "value": 2
+      },
+      {
+        "source": "Go",
+        "target": "Rust",
+        "value": 2
+      },
+      {
+        "source": "Go",
+        "target": "TypeScript",
+        "value": 2
+      },
+      {
+        "source": "Hadoop",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Hadoop",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Hadoop",
+        "target": "Scala",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "JavaScript",
+        "value": 5
+      },
+      {
+        "source": "Java",
+        "target": "MATLAB",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "Perl",
+        "value": 6
+      },
+      {
+        "source": "Java",
+        "target": "PowerShell",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "Python",
+        "value": 9
+      },
+      {
+        "source": "Java",
+        "target": "React",
+        "value": 5
+      },
+      {
+        "source": "Java",
+        "target": "Ruby",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "Rust",
+        "value": 2
+      },
+      {
+        "source": "Java",
+        "target": "Scala",
+        "value": 3
+      },
+      {
+        "source": "Java",
+        "target": "TypeScript",
+        "value": 3
+      },
+      {
+        "source": "JavaScript",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "JavaScript",
+        "target": "React",
+        "value": 2
+      },
+      {
+        "source": "JavaScript",
+        "target": "TypeScript",
+        "value": 3
+      },
+      {
+        "source": "MySQL",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "PowerShell",
+        "target": "Python",
+        "value": 3
+      },
+      {
+        "source": "PowerShell",
+        "target": "React",
+        "value": 1
+      },
+      {
+        "source": "PowerShell",
+        "target": "Ruby",
+        "value": 1
+      },
+      {
+        "source": "Python",
+        "target": "React",
+        "value": 4
+      },
+      {
+        "source": "Python",
+        "target": "Ruby",
+        "value": 1
+      },
+      {
+        "source": "Python",
+        "target": "Rust",
+        "value": 2
+      },
+      {
+        "source": "Python",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Python",
+        "target": "Scala",
+        "value": 4
+      },
+      {
+        "source": "React",
+        "target": "Ruby",
+        "value": 1
+      },
+      {
+        "source": "React",
+        "target": "Rust",
+        "value": 2
+      },
+      {
+        "source": "React",
+        "target": "TypeScript",
+        "value": 1
+      },
+      {
+        "source": "SQL",
+        "target": "Scala",
+        "value": 1
+      }
+    ]
+  }
+}

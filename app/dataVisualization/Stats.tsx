@@ -16,7 +16,7 @@ export default function ScanStats() {
   const [error, setError] = useState<string | null>(null);
 
   // Debug logging
-  console.log('ScanStats - Current query values:', { location, category, timeFrame });
+  console.log('ScanStats - Current query values:', { location, category, timeFrame, fanng });
 
   useEffect(() => {
     if (!location || !category || !timeFrame) return;
@@ -25,10 +25,14 @@ export default function ScanStats() {
       try {
         // Construct filename with proper spacing
 
+        console.log("FANNg: "+ fanng)
         var filename = `${category}${location}${timeFrame}.json`;
-        if (fanng !== "All US Companies (default)"){
-          filename = `${fanng}${timeFrame}.json`;
+        if (fanng != "All US Companies (default)"){
+          console.log("FANNg change")
+          filename = `Software_Engineer${fanng}${timeFrame}.json`;
         } 
+        // Software_EngineerMeta9-2025
+        // Software_EngineerMeta9-2025.json
         
         console.log(`Loading data from: ../data/${filename}`);
         
@@ -48,7 +52,7 @@ export default function ScanStats() {
     };
 
     loadData();
-  }, [location, category, timeFrame]);
+  }, [location, category, timeFrame, fanng]);
 
   if (error) {
     return (
