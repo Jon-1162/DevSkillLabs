@@ -8,7 +8,7 @@ import TreeMapChart from "./treeMap";
 import NetworkGraph from "./nodeGraph";
 
 export default function ScanStats() {
-  const { location, category, timeFrame } = useQuery();
+  const { location, category, timeFrame, fanng } = useQuery();
 
   const [barChartData, setBarChartData] = useState<any | null>(null);
   const [treeMapData, setTreeMapData] = useState<any | null>(null);
@@ -24,7 +24,12 @@ export default function ScanStats() {
     const loadData = async () => {
       try {
         // Construct filename with proper spacing
-        const filename = `${category}${location}${timeFrame}.json`;
+
+        var filename = `${category}${location}${timeFrame}.json`;
+        if (fanng !== "All US Companies (default)"){
+          filename = `${fanng}${timeFrame}.json`;
+        } 
+        
         console.log(`Loading data from: ../data/${filename}`);
         
         const data = await import(`../data/${filename}`);
