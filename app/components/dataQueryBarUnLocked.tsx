@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 import { Search, Calendar, MapPin, Briefcase, LockKeyhole } from "lucide-react";
 import { useQuery } from "../context/QueryContext";
 
-export default function QueryBar() {
+export default function QueryBarUnLocked() {
   const {
     location,
     setLocation,
@@ -83,7 +83,7 @@ export default function QueryBar() {
                     </SelectItem>
                     <SelectItem value="Machine_Learning_Engineer">
                       <div className="flex items-center gap-2">
-                        <LockKeyhole size={16} />
+                        <Briefcase size={16} />
                         <span>Machine Learning Engineer</span>
                       </div>
                     </SelectItem>
@@ -131,7 +131,7 @@ export default function QueryBar() {
                     </SelectItem>
                     <SelectItem value="Virginia">
                       <div className="flex items-center gap-2">
-                        <LockKeyhole size={16} />
+                        <MapPin size={16} />
                         <span>Virginia</span>
                       </div>
                     </SelectItem>
@@ -187,31 +187,31 @@ export default function QueryBar() {
                     </SelectItem>
                     <SelectItem value="Meta">
                       <div className="flex items-center gap-2">
-                        <LockKeyhole size={16} />
+                        <Briefcase size={16} />
                         <span>Meta</span>
                       </div>
                     </SelectItem>
                     <SelectItem value="Amazon">
                       <div className="flex items-center gap-2">
-                        <LockKeyhole size={16} />
+                        <Briefcase size={16} />
                         <span>Amazon</span>
                       </div>
                     </SelectItem>
                     <SelectItem value="Netflix">
                       <div className="flex items-center gap-2">
-                        <LockKeyhole size={16} />
+                        <Briefcase size={16} />
                         <span>Netflix</span>
                       </div>
                     </SelectItem>
                     <SelectItem value="Nvidia">
                       <div className="flex items-center gap-2">
-                        <LockKeyhole size={16} />
+                        <Briefcase size={16} />
                         <span>Nvidia</span>
                       </div>
                     </SelectItem>
                     <SelectItem value="Google">
                       <div className="flex items-center gap-2">
-                        <LockKeyhole size={16} />
+                        <Briefcase size={16} />
                         <span>Google</span>
                       </div>
                     </SelectItem>

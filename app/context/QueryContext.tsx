@@ -13,8 +13,9 @@ type QueryContextType = {
   setFanng: (company: string)=> void;
 };
 
-const restrictedLocations = ["Virginia", "Texas"];
-const restrictedCategories = ["Machine_Learning_Engineer", "Data_Scientist"];
+const restrictedLocations = ["None"];
+const restrictedCategories = ["None"];
+const realFanngs = ["Meta", "Amazon", "Nvidia", "Netflix", "Google", "All US Companies (default)"];
 
 const QueryContext = createContext<QueryContextType | undefined>(undefined);
 
@@ -22,7 +23,7 @@ export function QueryProvider({ children }: { children: React.ReactNode }) {
   const [location, _setLocation] = useState("California");
   const [category, _setCategory] = useState("Software_Engineer");
   const [timeFrame, setTimeFrame] = useState("9-2025");
-  const [fanng, setFanng] = useState("All US Companies (default)");
+  const [fanng, _setFanng] = useState("All US Companies (default)");
   const router = useRouter();
 
   const setLocation = (lct: string) => {
@@ -39,6 +40,14 @@ export function QueryProvider({ children }: { children: React.ReactNode }) {
       return;
     }
     _setCategory(cat);
+  };
+
+  const setFanng = (fag: string) => {
+    if (!realFanngs.includes(fag)) {
+      router.push("/pricing");
+      return;
+    }
+    _setFanng(fag);
   };
 
   return (
