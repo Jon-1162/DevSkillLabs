@@ -296,7 +296,7 @@ function CytoscapeNodeGraph({ nodes, links, title = "Skill Relationship Network"
                   return Math.min(0.8, Math.max(0.3, 0.4 + (safeStrength * 0.4)));
                 },
                 'curve-style': 'bezier',
-                'target-arrow-shape': 'triangle',
+                'target-arrow-shape': 'none',
                 'target-arrow-color': (edge: any) => {
                   const weight = edge.data('weight') || 0;
                   if (weight > 15) return '#3b82f6';
