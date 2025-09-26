@@ -148,7 +148,7 @@ const TreeMapChart: React.FC<TreeMapChartProps> = ({ data, title = "Weighted Ski
           {title}
         </CardTitle>
         <p className="text-sm text-gray-600 dark:text-gray-400 text-center mt-2">
-          Showing number of times a skill string occurred in total across all scans 
+          Showing number of times a skill occurred  including repeats across relevant data
         </p>
         <p className="text-sm text-gray-600 dark:text-gray-400 text-center mt-2">
           Showing {totalSkills} skills • {totalInstances} total instances
