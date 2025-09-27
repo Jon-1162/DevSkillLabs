@@ -2,46 +2,54 @@
   "skillCounts": [
     {
       "name": "Python",
-      "value": 73
+      "value": 71
     },
     {
       "name": "SQL",
-      "value": 38
+      "value": 35
     },
     {
-      "name": "C++",
-      "value": 24
+      "name": "PyTorch",
+      "value": 32
     },
     {
       "name": "Java",
-      "value": 22
-    },
-    {
-      "name": "Go",
       "value": 21
     },
     {
+      "name": "C++",
+      "value": 21
+    },
+    {
+      "name": "AWS",
+      "value": 15
+    },
+    {
       "name": "TensorFlow",
-      "value": 16
+      "value": 15
+    },
+    {
+      "name": "Express",
+      "value": 12
+    },
+    {
+      "name": "Azure",
+      "value": 12
     },
     {
       "name": "Hadoop",
       "value": 6
     },
     {
-      "name": "Databricks",
+      "name": "MATLAB",
       "value": 6
     },
     {
-      "name": "Docker",
-      "value": 5
-    },
-    {
-      "name": "Ant",
-      "value": 5
-    },
-    {
       "name": "Kubernetes",
+      "value": 5
+    },
+    {
+      "name": "Docker",
       "value": 5
     },
     {
@@ -49,7 +57,11 @@
       "value": 5
     },
     {
-      "name": "Make",
+      "name": "Databricks",
+      "value": 5
+    },
+    {
+      "name": "Scikit-Learn",
       "value": 5
     },
     {
@@ -57,11 +69,7 @@
       "value": 4
     },
     {
-      "name": "Pip",
-      "value": 4
-    },
-    {
-      "name": "Scala",
+      "name": "mlflow",
       "value": 4
     },
     {
@@ -69,23 +77,15 @@
       "value": 4
     },
     {
+      "name": "Linear",
+      "value": 4
+    },
+    {
+      "name": "Scala",
+      "value": 3
+    },
+    {
       "name": "JAX",
-      "value": 3
-    },
-    {
-      "name": "R",
-      "value": 3
-    },
-    {
-      "name": "CUDA",
-      "value": 3
-    },
-    {
-      "name": "C",
-      "value": 3
-    },
-    {
-      "name": "C#",
       "value": 3
     },
     {
@@ -93,19 +93,31 @@
       "value": 3
     },
     {
-      "name": "Apache Spark",
+      "name": "Pandas",
       "value": 3
     },
     {
-      "name": "Pandas",
-      "value": 2
+      "name": "CUDA",
+      "value": 3
+    },
+    {
+      "name": "C#",
+      "value": 3
     },
     {
       "name": "Snowflake",
       "value": 2
     },
     {
-      "name": "Terraform",
+      "name": "MySQL",
+      "value": 1
+    },
+    {
+      "name": "Golang",
+      "value": 1
+    },
+    {
+      "name": "NumPy",
       "value": 1
     },
     {
@@ -117,7 +129,7 @@
       "value": 1
     },
     {
-      "name": "MySQL",
+      "name": "PHP",
       "value": 1
     },
     {
@@ -125,19 +137,11 @@
       "value": 1
     },
     {
-      "name": "PHP",
-      "value": 1
-    },
-    {
-      "name": "Linear",
-      "value": 1
-    },
-    {
-      "name": "Ruby on Rails",
-      "value": 1
-    },
-    {
       "name": "Rider",
+      "value": 1
+    },
+    {
+      "name": "Opencv",
       "value": 1
     },
     {
@@ -151,58 +155,78 @@
       "children": [
         {
           "name": "Python",
-          "size": 92,
-          "color": "#54a0ff"
-        },
-        {
-          "name": "SQL",
-          "size": 46,
+          "size": 88,
           "color": "#1dd1a1"
         },
         {
-          "name": "Go",
+          "name": "SQL",
+          "size": 41,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "PyTorch",
           "size": 37,
-          "color": "#5f27cd"
+          "color": "#ff6b6b"
+        },
+        {
+          "name": "AWS",
+          "size": 28,
+          "color": "#45b7d1"
         },
         {
           "name": "Java",
-          "size": 31,
-          "color": "#ff9f43"
+          "size": 25,
+          "color": "#6c5ce7"
         },
         {
           "name": "C++",
-          "size": 28,
-          "color": "#54a0ff"
+          "size": 25,
+          "color": "#45b7d1"
         },
         {
           "name": "TensorFlow",
           "size": 18,
-          "color": "#54a0ff"
+          "color": "#1dd1a1"
+        },
+        {
+          "name": "Azure",
+          "size": 14,
+          "color": "#1dd1a1"
+        },
+        {
+          "name": "Express",
+          "size": 12,
+          "color": "#4ecdc4"
         },
         {
           "name": "Snowflake",
-          "size": 11,
-          "color": "#54a0ff"
-        },
-        {
-          "name": "Make",
-          "size": 7,
-          "color": "#ff6b6b"
-        },
-        {
-          "name": "Databricks",
-          "size": 7,
-          "color": "#ff9f43"
+          "size": 10,
+          "color": "#4ecdc4"
         },
         {
           "name": "Hadoop",
           "size": 6,
-          "color": "#5f27cd"
+          "color": "#f9ca24"
+        },
+        {
+          "name": "MATLAB",
+          "size": 6,
+          "color": "#ee5253"
         },
         {
           "name": "JavaScript",
           "size": 6,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "Databricks",
+          "size": 6,
           "color": "#ff6b6b"
+        },
+        {
+          "name": "Kubernetes",
+          "size": 5,
+          "color": "#54a0ff"
         },
         {
           "name": "Docker",
@@ -210,34 +234,9 @@
           "color": "#ff6b6b"
         },
         {
-          "name": "Ant",
-          "size": 5,
-          "color": "#ee5253"
-        },
-        {
-          "name": "Pip",
-          "size": 5,
-          "color": "#4ecdc4"
-        },
-        {
-          "name": "Scala",
-          "size": 5,
-          "color": "#4ecdc4"
-        },
-        {
-          "name": "Kubernetes",
-          "size": 5,
-          "color": "#f9ca24"
-        },
-        {
-          "name": "Perl",
-          "size": 5,
-          "color": "#6c5ce7"
-        },
-        {
           "name": "CUDA",
           "size": 5,
-          "color": "#6c5ce7"
+          "color": "#ee5253"
         },
         {
           "name": "C#",
@@ -245,29 +244,69 @@
           "color": "#f9ca24"
         },
         {
-          "name": "JAX",
+          "name": "Perl",
+          "size": 5,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "Scikit-Learn",
+          "size": 5,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "Scala",
           "size": 4,
-          "color": "#54a0ff"
+          "color": "#6c5ce7"
         },
         {
           "name": "Presto",
           "size": 4,
-          "color": "#6c5ce7"
+          "color": "#ee5253"
         },
         {
           "name": "Ruby",
           "size": 4,
-          "color": "#5f27cd"
+          "color": "#ff9f43"
+        },
+        {
+          "name": "mlflow",
+          "size": 4,
+          "color": "#54a0ff"
+        },
+        {
+          "name": "Linear",
+          "size": 4,
+          "color": "#ff6b6b"
+        },
+        {
+          "name": "JAX",
+          "size": 3,
+          "color": "#6c5ce7"
         },
         {
           "name": "Pandas",
+          "size": 3,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Golang",
+          "size": 2,
+          "color": "#54a0ff"
+        },
+        {
+          "name": "Rider",
           "size": 2,
           "color": "#6c5ce7"
         },
         {
-          "name": "Terraform",
+          "name": "MySQL",
           "size": 1,
-          "color": "#4ecdc4"
+          "color": "#5f27cd"
+        },
+        {
+          "name": "NumPy",
+          "size": 1,
+          "color": "#ee5253"
         },
         {
           "name": "PostgreSQL",
@@ -277,37 +316,27 @@
         {
           "name": ".NET",
           "size": 1,
-          "color": "#ff6b6b"
-        },
-        {
-          "name": "MySQL",
-          "size": 1,
           "color": "#4ecdc4"
-        },
-        {
-          "name": "Phoenix",
-          "size": 1,
-          "color": "#54a0ff"
         },
         {
           "name": "PHP",
           "size": 1,
+          "color": "#ee5253"
+        },
+        {
+          "name": "Phoenix",
+          "size": 1,
           "color": "#4ecdc4"
         },
         {
-          "name": "Linear",
+          "name": "Opencv",
           "size": 1,
-          "color": "#6c5ce7"
-        },
-        {
-          "name": "Rider",
-          "size": 1,
-          "color": "#ff9f43"
+          "color": "#45b7d1"
         },
         {
           "name": "Cassandra",
           "size": 1,
-          "color": "#4ecdc4"
+          "color": "#6c5ce7"
         }
       ]
     }
@@ -315,103 +344,111 @@
   "networkGraphData": {
     "nodes": [
       {
-        "id": "JAX",
+        "id": "PyTorch",
+        "volume": 32
+      },
+      {
+        "id": "Scala",
         "volume": 3
       },
       {
-        "id": "Terraform",
-        "volume": 1
+        "id": "AWS",
+        "volume": 15
       },
       {
-        "id": "R",
-        "volume": 3
-      },
-      {
-        "id": "Docker",
-        "volume": 5
-      },
-      {
-        "id": "Hadoop",
-        "volume": 6
-      },
-      {
-        "id": "PostgreSQL",
-        "volume": 1
-      },
-      {
-        "id": ".NET",
-        "volume": 1
+        "id": "Java",
+        "volume": 21
       },
       {
         "id": "MySQL",
         "volume": 1
       },
       {
-        "id": "Go",
-        "volume": 21
-      },
-      {
-        "id": "Phoenix",
-        "volume": 1
-      },
-      {
-        "id": "Ant",
+        "id": "Kubernetes",
         "volume": 5
       },
       {
-        "id": "Pandas",
-        "volume": 2
+        "id": "C++",
+        "volume": 21
+      },
+      {
+        "id": "Python",
+        "volume": 71
+      },
+      {
+        "id": "Golang",
+        "volume": 1
+      },
+      {
+        "id": "NumPy",
+        "volume": 1
+      },
+      {
+        "id": "Hadoop",
+        "volume": 6
+      },
+      {
+        "id": "TensorFlow",
+        "volume": 15
       },
       {
         "id": "Presto",
         "volume": 4
       },
       {
+        "id": "JAX",
+        "volume": 3
+      },
+      {
+        "id": "MATLAB",
+        "volume": 6
+      },
+      {
+        "id": "Ruby",
+        "volume": 3
+      },
+      {
+        "id": "PostgreSQL",
+        "volume": 1
+      },
+      {
+        "id": "Docker",
+        "volume": 5
+      },
+      {
+        "id": ".NET",
+        "volume": 1
+      },
+      {
+        "id": "SQL",
+        "volume": 35
+      },
+      {
+        "id": "Pandas",
+        "volume": 3
+      },
+      {
         "id": "PHP",
         "volume": 1
       },
       {
-        "id": "Linear",
-        "volume": 1
+        "id": "CUDA",
+        "volume": 3
       },
       {
-        "id": "Ruby on Rails",
-        "volume": 1
-      },
-      {
-        "id": "C++",
-        "volume": 24
-      },
-      {
-        "id": "Pip",
+        "id": "mlflow",
         "volume": 4
       },
       {
-        "id": "TensorFlow",
-        "volume": 16
-      },
-      {
-        "id": "Scala",
-        "volume": 4
-      },
-      {
-        "id": "Rider",
-        "volume": 1
-      },
-      {
-        "id": "Python",
-        "volume": 73
-      },
-      {
-        "id": "Kubernetes",
-        "volume": 5
+        "id": "C#",
+        "volume": 3
       },
       {
         "id": "Snowflake",
         "volume": 2
       },
       {
-        "id": "Cassandra",
+        "id": "Phoenix",
         "volume": 1
       },
       {
@@ -419,91 +456,47 @@
         "volume": 5
       },
       {
-        "id": "Make",
-        "volume": 5
-      },
-      {
-        "id": "CUDA",
-        "volume": 3
-      },
-      {
-        "id": "C",
-        "volume": 3
+        "id": "Express",
+        "volume": 12
       },
       {
         "id": "JavaScript",
         "volume": 4
       },
       {
-        "id": "Java",
-        "volume": 22
-      },
-      {
         "id": "Databricks",
-        "volume": 6
+        "volume": 5
       },
       {
-        "id": "C#",
-        "volume": 3
+        "id": "Scikit-Learn",
+        "volume": 5
       },
       {
-        "id": "SQL",
-        "volume": 38
+        "id": "Rider",
+        "volume": 1
       },
       {
-        "id": "Ruby",
-        "volume": 3
+        "id": "Azure",
+        "volume": 12
       },
       {
-        "id": "Apache Spark",
-        "volume": 3
+        "id": "Linear",
+        "volume": 4
+      },
+      {
+        "id": "Opencv",
+        "volume": 1
+      },
+      {
+        "id": "Cassandra",
+        "volume": 1
       }
     ],
     "links": [
       {
-        "source": "C",
-        "target": "Ant",
+        "source": ".NET",
+        "target": "Azure",
         "value": 1
-      },
-      {
-        "source": "C",
-        "target": "C++",
-        "value": 1
-      },
-      {
-        "source": "C",
-        "target": "Hadoop",
-        "value": 1
-      },
-      {
-        "source": "C",
-        "target": "Java",
-        "value": 1
-      },
-      {
-        "source": "C",
-        "target": "Python",
-        "value": 2
-      },
-      {
-        "source": "C",
-        "target": "SQL",
-        "value": 1
-      },
-      {
-        "source": "C",
-        "target": "TensorFlow",
-        "value": 1
-      },
-      {
-        "source": "R",
-        "target": "Python",
-        "value": 3
-      },
-      {
-        "source": "R",
-        "target": "SQL",
-        "value": 2
       },
       {
         "source": ".NET",
@@ -512,11 +505,6 @@
       },
       {
         "source": ".NET",
-        "target": "Go",
-        "value": 1
-      },
-      {
-        "source": ".NET",
         "target": "Java",
         "value": 1
       },
@@ -531,133 +519,203 @@
         "value": 1
       },
       {
-        "source": "Ant",
-        "target": "Apache Spark",
-        "value": 1
+        "source": "AWS",
+        "target": "Azure",
+        "value": 7
       },
       {
-        "source": "Ant",
+        "source": "AWS",
+        "target": "C++",
+        "value": 2
+      },
+      {
+        "source": "AWS",
         "target": "Databricks",
         "value": 2
       },
       {
-        "source": "Ant",
-        "target": "Go",
-        "value": 2
-      },
-      {
-        "source": "Ant",
-        "target": "Phoenix",
-        "value": 1
-      },
-      {
-        "source": "Ant",
-        "target": "Pip",
-        "value": 1
-      },
-      {
-        "source": "Ant",
-        "target": "Python",
-        "value": 4
-      },
-      {
-        "source": "Ant",
-        "target": "Ruby",
-        "value": 1
-      },
-      {
-        "source": "Ant",
-        "target": "Ruby on Rails",
-        "value": 1
-      },
-      {
-        "source": "Ant",
-        "target": "SQL",
-        "value": 2
-      },
-      {
-        "source": "Ant",
-        "target": "Scala",
-        "value": 1
-      },
-      {
-        "source": "Ant",
-        "target": "Terraform",
-        "value": 1
-      },
-      {
-        "source": "Apache Spark",
-        "target": "Databricks",
-        "value": 1
-      },
-      {
-        "source": "Apache Spark",
+        "source": "AWS",
         "target": "Docker",
-        "value": 1
-      },
-      {
-        "source": "Apache Spark",
-        "target": "Go",
-        "value": 2
-      },
-      {
-        "source": "Apache Spark",
-        "target": "Kubernetes",
-        "value": 1
-      },
-      {
-        "source": "Apache Spark",
-        "target": "Phoenix",
-        "value": 1
-      },
-      {
-        "source": "Apache Spark",
-        "target": "Pip",
-        "value": 1
-      },
-      {
-        "source": "Apache Spark",
-        "target": "Python",
         "value": 3
       },
       {
-        "source": "Apache Spark",
+        "source": "AWS",
+        "target": "Golang",
+        "value": 1
+      },
+      {
+        "source": "AWS",
+        "target": "JAX",
+        "value": 2
+      },
+      {
+        "source": "AWS",
+        "target": "Java",
+        "value": 3
+      },
+      {
+        "source": "AWS",
+        "target": "JavaScript",
+        "value": 1
+      },
+      {
+        "source": "AWS",
+        "target": "Kubernetes",
+        "value": 3
+      },
+      {
+        "source": "AWS",
+        "target": "MATLAB",
+        "value": 1
+      },
+      {
+        "source": "AWS",
+        "target": "NumPy",
+        "value": 1
+      },
+      {
+        "source": "AWS",
+        "target": "Pandas",
+        "value": 2
+      },
+      {
+        "source": "AWS",
+        "target": "Phoenix",
+        "value": 1
+      },
+      {
+        "source": "AWS",
+        "target": "PyTorch",
+        "value": 3
+      },
+      {
+        "source": "AWS",
+        "target": "Python",
+        "value": 11
+      },
+      {
+        "source": "AWS",
         "target": "Ruby",
         "value": 1
       },
       {
-        "source": "Apache Spark",
-        "target": "Ruby on Rails",
-        "value": 1
-      },
-      {
-        "source": "Apache Spark",
+        "source": "AWS",
         "target": "SQL",
-        "value": 1
+        "value": 4
       },
       {
-        "source": "Apache Spark",
+        "source": "AWS",
         "target": "Scala",
-        "value": 1
+        "value": 2
       },
       {
-        "source": "Apache Spark",
+        "source": "AWS",
         "target": "TensorFlow",
         "value": 1
       },
       {
-        "source": "Apache Spark",
-        "target": "Terraform",
+        "source": "AWS",
+        "target": "mlflow",
+        "value": 2
+      },
+      {
+        "source": "Azure",
+        "target": "C#",
         "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "Databricks",
+        "value": 3
+      },
+      {
+        "source": "Azure",
+        "target": "Docker",
+        "value": 2
+      },
+      {
+        "source": "Azure",
+        "target": "Golang",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "JAX",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "Java",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "JavaScript",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "Kubernetes",
+        "value": 2
+      },
+      {
+        "source": "Azure",
+        "target": "NumPy",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "Pandas",
+        "value": 3
+      },
+      {
+        "source": "Azure",
+        "target": "Phoenix",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "PyTorch",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "Python",
+        "value": 11
+      },
+      {
+        "source": "Azure",
+        "target": "Ruby",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "SQL",
+        "value": 8
+      },
+      {
+        "source": "Azure",
+        "target": "Scala",
+        "value": 2
+      },
+      {
+        "source": "Azure",
+        "target": "Scikit-Learn",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "TensorFlow",
+        "value": 2
+      },
+      {
+        "source": "Azure",
+        "target": "mlflow",
+        "value": 2
       },
       {
         "source": "C#",
         "target": "C++",
-        "value": 1
-      },
-      {
-        "source": "C#",
-        "target": "Go",
         "value": 1
       },
       {
@@ -687,33 +745,18 @@
       },
       {
         "source": "C++",
-        "target": "Cassandra",
-        "value": 1
-      },
-      {
-        "source": "C++",
-        "target": "Docker",
-        "value": 1
-      },
-      {
-        "source": "C++",
-        "target": "Go",
-        "value": 4
-      },
-      {
-        "source": "C++",
-        "target": "Hadoop",
+        "target": "Express",
         "value": 1
       },
       {
         "source": "C++",
         "target": "JAX",
-        "value": 2
+        "value": 1
       },
       {
         "source": "C++",
         "target": "Java",
-        "value": 14
+        "value": 13
       },
       {
         "source": "C++",
@@ -722,12 +765,12 @@
       },
       {
         "source": "C++",
-        "target": "Kubernetes",
+        "target": "MATLAB",
         "value": 1
       },
       {
         "source": "C++",
-        "target": "MySQL",
+        "target": "Opencv",
         "value": 1
       },
       {
@@ -742,27 +785,27 @@
       },
       {
         "source": "C++",
-        "target": "PostgreSQL",
-        "value": 1
+        "target": "PyTorch",
+        "value": 11
       },
       {
         "source": "C++",
         "target": "Python",
-        "value": 20
-      },
-      {
-        "source": "C++",
-        "target": "SQL",
-        "value": 1
+        "value": 19
       },
       {
         "source": "C++",
         "target": "Snowflake",
-        "value": 2
+        "value": 1
       },
       {
         "source": "C++",
         "target": "TensorFlow",
+        "value": 2
+      },
+      {
+        "source": "CUDA",
+        "target": "PyTorch",
         "value": 3
       },
       {
@@ -802,7 +845,12 @@
       },
       {
         "source": "Databricks",
-        "target": "Go",
+        "target": "Golang",
+        "value": 1
+      },
+      {
+        "source": "Databricks",
+        "target": "Linear",
         "value": 2
       },
       {
@@ -817,13 +865,8 @@
       },
       {
         "source": "Databricks",
-        "target": "Pip",
-        "value": 1
-      },
-      {
-        "source": "Databricks",
         "target": "Python",
-        "value": 6
+        "value": 5
       },
       {
         "source": "Databricks",
@@ -832,13 +875,8 @@
       },
       {
         "source": "Databricks",
-        "target": "Ruby on Rails",
-        "value": 1
-      },
-      {
-        "source": "Databricks",
         "target": "SQL",
-        "value": 5
+        "value": 4
       },
       {
         "source": "Databricks",
@@ -847,13 +885,18 @@
       },
       {
         "source": "Databricks",
-        "target": "Terraform",
+        "target": "Scikit-Learn",
         "value": 1
       },
       {
-        "source": "Docker",
-        "target": "Go",
-        "value": 2
+        "source": "Databricks",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Databricks",
+        "target": "mlflow",
+        "value": 1
       },
       {
         "source": "Docker",
@@ -872,8 +915,18 @@
       },
       {
         "source": "Docker",
-        "target": "Make",
+        "target": "NumPy",
         "value": 1
+      },
+      {
+        "source": "Docker",
+        "target": "Pandas",
+        "value": 1
+      },
+      {
+        "source": "Docker",
+        "target": "PyTorch",
+        "value": 3
       },
       {
         "source": "Docker",
@@ -887,92 +940,62 @@
       },
       {
         "source": "Docker",
-        "target": "Scala",
-        "value": 1
-      },
-      {
-        "source": "Docker",
         "target": "TensorFlow",
         "value": 2
       },
       {
-        "source": "Go",
-        "target": "Hadoop",
-        "value": 2
+        "source": "Docker",
+        "target": "mlflow",
+        "value": 1
       },
       {
-        "source": "Go",
-        "target": "Java",
+        "source": "Express",
+        "target": "Hadoop",
+        "value": 3
+      },
+      {
+        "source": "Express",
+        "target": "PyTorch",
+        "value": 4
+      },
+      {
+        "source": "Express",
+        "target": "Python",
         "value": 5
       },
       {
-        "source": "Go",
-        "target": "JavaScript",
-        "value": 1
+        "source": "Express",
+        "target": "SQL",
+        "value": 5
       },
       {
-        "source": "Go",
-        "target": "Kubernetes",
-        "value": 1
+        "source": "Express",
+        "target": "Scikit-Learn",
+        "value": 2
       },
       {
-        "source": "Go",
-        "target": "Make",
-        "value": 1
+        "source": "Express",
+        "target": "TensorFlow",
+        "value": 3
       },
       {
-        "source": "Go",
-        "target": "Pandas",
-        "value": 1
-      },
-      {
-        "source": "Go",
+        "source": "Golang",
         "target": "Phoenix",
         "value": 1
       },
       {
-        "source": "Go",
-        "target": "Pip",
-        "value": 2
-      },
-      {
-        "source": "Go",
+        "source": "Golang",
         "target": "Python",
-        "value": 16
+        "value": 1
       },
       {
-        "source": "Go",
+        "source": "Golang",
         "target": "Ruby",
-        "value": 2
-      },
-      {
-        "source": "Go",
-        "target": "Ruby on Rails",
         "value": 1
       },
       {
-        "source": "Go",
-        "target": "SQL",
-        "value": 6
-      },
-      {
-        "source": "Go",
+        "source": "Golang",
         "target": "Scala",
-        "value": 3
-      },
-      {
-        "source": "Go",
-        "target": "Snowflake",
-        "value": 1
-      },
-      {
-        "source": "Go",
-        "target": "TensorFlow",
-        "value": 5
-      },
-      {
-        "source": "Go",
-        "target": "Terraform",
         "value": 1
       },
       {
@@ -992,13 +1015,23 @@
       },
       {
         "source": "Hadoop",
+        "target": "PyTorch",
+        "value": 3
+      },
+      {
+        "source": "Hadoop",
         "target": "Python",
-        "value": 4
+        "value": 3
       },
       {
         "source": "Hadoop",
         "target": "SQL",
-        "value": 5
+        "value": 4
+      },
+      {
+        "source": "Hadoop",
+        "target": "Scikit-Learn",
+        "value": 1
       },
       {
         "source": "Hadoop",
@@ -1008,12 +1041,17 @@
       {
         "source": "Hadoop",
         "target": "TensorFlow",
-        "value": 1
+        "value": 2
       },
       {
         "source": "JAX",
         "target": "Kubernetes",
         "value": 1
+      },
+      {
+        "source": "JAX",
+        "target": "PyTorch",
+        "value": 3
       },
       {
         "source": "JAX",
@@ -1022,23 +1060,28 @@
       },
       {
         "source": "JAX",
-        "target": "SQL",
-        "value": 1
-      },
-      {
-        "source": "JAX",
         "target": "TensorFlow",
-        "value": 2
+        "value": 1
       },
       {
         "source": "Java",
         "target": "JavaScript",
-        "value": 4
+        "value": 3
       },
       {
         "source": "Java",
         "target": "Kubernetes",
         "value": 2
+      },
+      {
+        "source": "Java",
+        "target": "Linear",
+        "value": 1
+      },
+      {
+        "source": "Java",
+        "target": "MATLAB",
+        "value": 1
       },
       {
         "source": "Java",
@@ -1067,8 +1110,13 @@
       },
       {
         "source": "Java",
+        "target": "PyTorch",
+        "value": 9
+      },
+      {
+        "source": "Java",
         "target": "Python",
-        "value": 19
+        "value": 18
       },
       {
         "source": "Java",
@@ -1083,7 +1131,7 @@
       {
         "source": "Java",
         "target": "Scala",
-        "value": 2
+        "value": 1
       },
       {
         "source": "Java",
@@ -1107,6 +1155,11 @@
       },
       {
         "source": "JavaScript",
+        "target": "PyTorch",
+        "value": 1
+      },
+      {
+        "source": "JavaScript",
         "target": "Python",
         "value": 3
       },
@@ -1127,6 +1180,21 @@
       },
       {
         "source": "Kubernetes",
+        "target": "NumPy",
+        "value": 1
+      },
+      {
+        "source": "Kubernetes",
+        "target": "Pandas",
+        "value": 1
+      },
+      {
+        "source": "Kubernetes",
+        "target": "PyTorch",
+        "value": 4
+      },
+      {
+        "source": "Kubernetes",
         "target": "Python",
         "value": 5
       },
@@ -1137,43 +1205,58 @@
       },
       {
         "source": "Kubernetes",
-        "target": "Scala",
-        "value": 1
+        "target": "TensorFlow",
+        "value": 2
       },
       {
         "source": "Kubernetes",
-        "target": "TensorFlow",
-        "value": 3
+        "target": "mlflow",
+        "value": 1
+      },
+      {
+        "source": "Linear",
+        "target": "Presto",
+        "value": 1
+      },
+      {
+        "source": "Linear",
+        "target": "PyTorch",
+        "value": 1
       },
       {
         "source": "Linear",
         "target": "Python",
+        "value": 3
+      },
+      {
+        "source": "Linear",
+        "target": "Ruby",
         "value": 1
       },
       {
         "source": "Linear",
         "target": "SQL",
-        "value": 1
-      },
-      {
-        "source": "Make",
-        "target": "Pip",
-        "value": 2
-      },
-      {
-        "source": "Make",
-        "target": "Python",
-        "value": 2
-      },
-      {
-        "source": "Make",
-        "target": "SQL",
-        "value": 1
-      },
-      {
-        "source": "Make",
-        "target": "TensorFlow",
         "value": 3
+      },
+      {
+        "source": "Linear",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "MATLAB",
+        "target": "Perl",
+        "value": 4
+      },
+      {
+        "source": "MATLAB",
+        "target": "Python",
+        "value": 6
+      },
+      {
+        "source": "MATLAB",
+        "target": "SQL",
+        "value": 5
       },
       {
         "source": "MySQL",
@@ -1191,8 +1274,43 @@
         "value": 1
       },
       {
+        "source": "NumPy",
+        "target": "Pandas",
+        "value": 1
+      },
+      {
+        "source": "NumPy",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "NumPy",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "NumPy",
+        "target": "mlflow",
+        "value": 1
+      },
+      {
+        "source": "Opencv",
+        "target": "PyTorch",
+        "value": 1
+      },
+      {
+        "source": "Opencv",
+        "target": "Python",
+        "value": 1
+      },
+      {
         "source": "PHP",
         "target": "Perl",
+        "value": 1
+      },
+      {
+        "source": "PHP",
+        "target": "PyTorch",
         "value": 1
       },
       {
@@ -1208,16 +1326,36 @@
       {
         "source": "Pandas",
         "target": "Python",
-        "value": 2
+        "value": 3
       },
       {
         "source": "Pandas",
         "target": "SQL",
-        "value": 2
+        "value": 3
       },
       {
         "source": "Pandas",
         "target": "Scala",
+        "value": 1
+      },
+      {
+        "source": "Pandas",
+        "target": "Scikit-Learn",
+        "value": 1
+      },
+      {
+        "source": "Pandas",
+        "target": "TensorFlow",
+        "value": 1
+      },
+      {
+        "source": "Pandas",
+        "target": "mlflow",
+        "value": 2
+      },
+      {
+        "source": "Perl",
+        "target": "PyTorch",
         "value": 1
       },
       {
@@ -1237,11 +1375,6 @@
       },
       {
         "source": "Phoenix",
-        "target": "Pip",
-        "value": 1
-      },
-      {
-        "source": "Phoenix",
         "target": "Python",
         "value": 1
       },
@@ -1252,47 +1385,7 @@
       },
       {
         "source": "Phoenix",
-        "target": "Ruby on Rails",
-        "value": 1
-      },
-      {
-        "source": "Phoenix",
         "target": "Scala",
-        "value": 1
-      },
-      {
-        "source": "Phoenix",
-        "target": "Terraform",
-        "value": 1
-      },
-      {
-        "source": "Pip",
-        "target": "Python",
-        "value": 2
-      },
-      {
-        "source": "Pip",
-        "target": "Ruby",
-        "value": 1
-      },
-      {
-        "source": "Pip",
-        "target": "Ruby on Rails",
-        "value": 1
-      },
-      {
-        "source": "Pip",
-        "target": "Scala",
-        "value": 1
-      },
-      {
-        "source": "Pip",
-        "target": "TensorFlow",
-        "value": 3
-      },
-      {
-        "source": "Pip",
-        "target": "Terraform",
         "value": 1
       },
       {
@@ -1307,6 +1400,11 @@
       },
       {
         "source": "Presto",
+        "target": "PyTorch",
+        "value": 1
+      },
+      {
+        "source": "Presto",
         "target": "Python",
         "value": 3
       },
@@ -1324,6 +1422,36 @@
         "source": "Presto",
         "target": "TensorFlow",
         "value": 1
+      },
+      {
+        "source": "PyTorch",
+        "target": "Python",
+        "value": 24
+      },
+      {
+        "source": "PyTorch",
+        "target": "Ruby",
+        "value": 1
+      },
+      {
+        "source": "PyTorch",
+        "target": "SQL",
+        "value": 3
+      },
+      {
+        "source": "PyTorch",
+        "target": "Scikit-Learn",
+        "value": 4
+      },
+      {
+        "source": "PyTorch",
+        "target": "TensorFlow",
+        "value": 14
+      },
+      {
+        "source": "PyTorch",
+        "target": "mlflow",
+        "value": 2
       },
       {
         "source": "Python",
@@ -1337,18 +1465,18 @@
       },
       {
         "source": "Python",
-        "target": "Ruby on Rails",
-        "value": 1
-      },
-      {
-        "source": "Python",
         "target": "SQL",
-        "value": 36
+        "value": 32
       },
       {
         "source": "Python",
         "target": "Scala",
-        "value": 3
+        "value": 2
+      },
+      {
+        "source": "Python",
+        "target": "Scikit-Learn",
+        "value": 4
       },
       {
         "source": "Python",
@@ -1358,22 +1486,12 @@
       {
         "source": "Python",
         "target": "TensorFlow",
-        "value": 11
+        "value": 12
       },
       {
         "source": "Python",
-        "target": "Terraform",
-        "value": 1
-      },
-      {
-        "source": "Rider",
-        "target": "SQL",
-        "value": 1
-      },
-      {
-        "source": "Ruby",
-        "target": "Ruby on Rails",
-        "value": 1
+        "target": "mlflow",
+        "value": 4
       },
       {
         "source": "Ruby",
@@ -1386,24 +1504,14 @@
         "value": 1
       },
       {
-        "source": "Ruby",
-        "target": "Terraform",
-        "value": 1
-      },
-      {
-        "source": "Ruby on Rails",
+        "source": "SQL",
         "target": "Scala",
-        "value": 1
-      },
-      {
-        "source": "Ruby on Rails",
-        "target": "Terraform",
         "value": 1
       },
       {
         "source": "SQL",
-        "target": "Scala",
-        "value": 1
+        "target": "Scikit-Learn",
+        "value": 2
       },
       {
         "source": "SQL",
@@ -1413,17 +1521,32 @@
       {
         "source": "SQL",
         "target": "TensorFlow",
-        "value": 3
+        "value": 2
+      },
+      {
+        "source": "SQL",
+        "target": "mlflow",
+        "value": 2
       },
       {
         "source": "Scala",
+        "target": "mlflow",
+        "value": 1
+      },
+      {
+        "source": "Scikit-Learn",
         "target": "TensorFlow",
+        "value": 5
+      },
+      {
+        "source": "Scikit-Learn",
+        "target": "mlflow",
         "value": 1
       },
       {
-        "source": "Scala",
-        "target": "Terraform",
-        "value": 1
+        "source": "TensorFlow",
+        "target": "mlflow",
+        "value": 2
       }
     ]
   }

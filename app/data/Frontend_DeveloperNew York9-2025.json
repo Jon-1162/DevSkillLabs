@@ -2,38 +2,30 @@
   "skillCounts": [
     {
       "name": "React",
-      "value": 89
+      "value": 85
     },
     {
-      "name": "Java",
+      "name": "TypeScript",
       "value": 70
     },
     {
       "name": "JavaScript",
-      "value": 62
-    },
-    {
-      "name": "TypeScript",
-      "value": 56
-    },
-    {
-      "name": "Go",
-      "value": 23
+      "value": 67
     },
     {
       "name": "Angular",
       "value": 19
     },
     {
-      "name": "SQL",
+      "name": "AWS",
       "value": 19
     },
     {
-      "name": "Next.js",
+      "name": "Python",
       "value": 18
     },
     {
-      "name": "Python",
+      "name": "Next.js",
       "value": 17
     },
     {
@@ -42,22 +34,30 @@
     },
     {
       "name": "Vite",
-      "value": 15
+      "value": 13
     },
     {
-      "name": "React Native",
-      "value": 9
+      "name": "SQL",
+      "value": 11
     },
     {
       "name": "Node.js",
-      "value": 8
+      "value": 10
     },
     {
-      "name": "C#",
-      "value": 7
+      "name": "Java",
+      "value": 9
     },
     {
       "name": "Express",
+      "value": 7
+    },
+    {
+      "name": "Azure",
+      "value": 7
+    },
+    {
+      "name": "C#",
       "value": 7
     },
     {
@@ -65,27 +65,11 @@
       "value": 6
     },
     {
-      "name": "Vercel",
-      "value": 5
-    },
-    {
-      "name": ".NET",
-      "value": 5
-    },
-    {
       "name": "PostgreSQL",
       "value": 5
     },
     {
-      "name": "Flask",
-      "value": 5
-    },
-    {
-      "name": "C++",
-      "value": 5
-    },
-    {
-      "name": "Vue.js",
+      "name": "Vercel",
       "value": 5
     },
     {
@@ -97,8 +81,12 @@
       "value": 5
     },
     {
-      "name": "Swift",
-      "value": 4
+      "name": "Flask",
+      "value": 5
+    },
+    {
+      "name": "C++",
+      "value": 5
     },
     {
       "name": "Kotlin",
@@ -109,31 +97,15 @@
       "value": 4
     },
     {
-      "name": "Google Cloud",
+      "name": "Vue.js",
       "value": 4
     },
     {
-      "name": "Make",
+      "name": ".NET",
       "value": 4
     },
     {
-      "name": "ASP.NET",
-      "value": 3
-    },
-    {
-      "name": "Ada",
-      "value": 3
-    },
-    {
-      "name": "PHP",
-      "value": 3
-    },
-    {
-      "name": "WordPress",
-      "value": 3
-    },
-    {
-      "name": "jQuery",
+      "name": "Kubernetes",
       "value": 3
     },
     {
@@ -141,11 +113,27 @@
       "value": 3
     },
     {
-      "name": "MySQL",
+      "name": "PHP",
       "value": 3
     },
     {
-      "name": "HTML/CSS",
+      "name": "Yarn",
+      "value": 3
+    },
+    {
+      "name": "Linear",
+      "value": 3
+    },
+    {
+      "name": "ASP.NET",
+      "value": 3
+    },
+    {
+      "name": "Jira",
+      "value": 3
+    },
+    {
+      "name": "MySQL",
       "value": 3
     },
     {
@@ -153,7 +141,7 @@
       "value": 3
     },
     {
-      "name": "Kubernetes",
+      "name": "WordPress",
       "value": 3
     },
     {
@@ -161,15 +149,7 @@
       "value": 2
     },
     {
-      "name": "AngularJS",
-      "value": 2
-    },
-    {
-      "name": "Linear",
-      "value": 2
-    },
-    {
-      "name": "Netlify",
+      "name": "Flutter",
       "value": 2
     },
     {
@@ -177,63 +157,31 @@
       "value": 2
     },
     {
-      "name": "Ruby on Rails",
+      "name": "jQuery",
       "value": 2
     },
     {
-      "name": "Notion",
+      "name": "AngularJS",
       "value": 2
     },
     {
-      "name": "Flutter",
+      "name": "Netlify",
       "value": 2
+    },
+    {
+      "name": "FastAPI",
+      "value": 1
+    },
+    {
+      "name": "Swift",
+      "value": 1
     },
     {
       "name": "BigQuery",
       "value": 1
     },
     {
-      "name": "Laravel",
-      "value": 1
-    },
-    {
-      "name": "Airtable",
-      "value": 1
-    },
-    {
-      "name": "Pip",
-      "value": 1
-    },
-    {
-      "name": "Rust",
-      "value": 1
-    },
-    {
-      "name": "Microsoft SQL Server",
-      "value": 1
-    },
-    {
-      "name": "Elasticsearch",
-      "value": 1
-    },
-    {
-      "name": "Ant",
-      "value": 1
-    },
-    {
-      "name": "Gradle",
-      "value": 1
-    },
-    {
-      "name": "OpenGL",
-      "value": 1
-    },
-    {
-      "name": "JAX",
-      "value": 1
-    },
-    {
-      "name": "FastAPI",
+      "name": "Micronaut",
       "value": 1
     },
     {
@@ -241,7 +189,39 @@
       "value": 1
     },
     {
-      "name": "Terraform",
+      "name": "Miro",
+      "value": 1
+    },
+    {
+      "name": "Composer",
+      "value": 1
+    },
+    {
+      "name": "Gradle",
+      "value": 1
+    },
+    {
+      "name": "Maven",
+      "value": 1
+    },
+    {
+      "name": "Laravel",
+      "value": 1
+    },
+    {
+      "name": "OpenGL",
+      "value": 1
+    },
+    {
+      "name": "Rust",
+      "value": 1
+    },
+    {
+      "name": "Airtable",
+      "value": 1
+    },
+    {
+      "name": "Render",
       "value": 1
     },
     {
@@ -249,7 +229,7 @@
       "value": 1
     },
     {
-      "name": "H2",
+      "name": "Terraform",
       "value": 1
     },
     {
@@ -257,23 +237,7 @@
       "value": 1
     },
     {
-      "name": "Amazon Web Services (AWS)",
-      "value": 1
-    },
-    {
-      "name": "Symfony",
-      "value": 1
-    },
-    {
-      "name": "Jira",
-      "value": 1
-    },
-    {
-      "name": "Asana",
-      "value": 1
-    },
-    {
-      "name": "Rider",
+      "name": "Elasticsearch",
       "value": 1
     },
     {
@@ -281,7 +245,7 @@
       "value": 1
     },
     {
-      "name": "Miro",
+      "name": "Asana",
       "value": 1
     }
   ],
@@ -291,91 +255,81 @@
       "children": [
         {
           "name": "React",
-          "size": 184,
-          "color": "#1dd1a1"
-        },
-        {
-          "name": "Java",
-          "size": 101,
-          "color": "#5f27cd"
+          "size": 163,
+          "color": "#ee5253"
         },
         {
           "name": "TypeScript",
-          "size": 86,
-          "color": "#4ecdc4"
+          "size": 98,
+          "color": "#45b7d1"
         },
         {
           "name": "JavaScript",
-          "size": 78,
-          "color": "#6c5ce7"
-        },
-        {
-          "name": "SQL",
-          "size": 34,
-          "color": "#54a0ff"
-        },
-        {
-          "name": "Go",
-          "size": 32,
+          "size": 89,
           "color": "#6c5ce7"
         },
         {
           "name": "Angular",
-          "size": 28,
+          "size": 27,
           "color": "#ff9f43"
+        },
+        {
+          "name": "AWS",
+          "size": 26,
+          "color": "#6c5ce7"
         },
         {
           "name": "Next.js",
-          "size": 25,
-          "color": "#ff9f43"
-        },
-        {
-          "name": "Vite",
-          "size": 21,
-          "color": "#54a0ff"
+          "size": 24,
+          "color": "#1dd1a1"
         },
         {
           "name": "Python",
-          "size": 20,
-          "color": "#4ecdc4"
+          "size": 21,
+          "color": "#f9ca24"
         },
         {
           "name": "Webpack",
           "size": 19,
+          "color": "#54a0ff"
+        },
+        {
+          "name": "SQL",
+          "size": 17,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "Vite",
+          "size": 15,
           "color": "#6c5ce7"
         },
         {
           "name": "PHP",
-          "size": 14,
+          "size": 13,
           "color": "#1dd1a1"
         },
         {
           "name": "Node.js",
+          "size": 12,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "Azure",
+          "size": 10,
+          "color": "#ff9f43"
+        },
+        {
+          "name": "Java",
           "size": 9,
-          "color": "#54a0ff"
-        },
-        {
-          "name": "Docker",
-          "size": 9,
-          "color": "#1dd1a1"
-        },
-        {
-          "name": "C#",
-          "size": 8,
-          "color": "#f9ca24"
-        },
-        {
-          "name": ".NET",
-          "size": 8,
           "color": "#ee5253"
         },
         {
-          "name": "WordPress",
+          "name": "Docker",
           "size": 8,
-          "color": "#6c5ce7"
+          "color": "#ff6b6b"
         },
         {
-          "name": "Vue.js",
+          "name": "WordPress",
           "size": 8,
           "color": "#f9ca24"
         },
@@ -385,24 +339,39 @@
           "color": "#5f27cd"
         },
         {
-          "name": "Vercel",
-          "size": 6,
-          "color": "#4ecdc4"
+          "name": "Vue.js",
+          "size": 7,
+          "color": "#1dd1a1"
+        },
+        {
+          "name": "C#",
+          "size": 7,
+          "color": "#54a0ff"
         },
         {
           "name": "PostgreSQL",
           "size": 6,
-          "color": "#45b7d1"
+          "color": "#f9ca24"
         },
         {
-          "name": "Flutter",
+          "name": "Vercel",
           "size": 6,
-          "color": "#45b7d1"
+          "color": "#54a0ff"
         },
         {
           "name": "npm",
           "size": 6,
-          "color": "#4ecdc4"
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Ruby",
+          "size": 5,
+          "color": "#ee5253"
+        },
+        {
+          "name": "Flutter",
+          "size": 5,
+          "color": "#5f27cd"
         },
         {
           "name": "ASP.NET",
@@ -412,132 +381,117 @@
         {
           "name": "Flask",
           "size": 5,
-          "color": "#ff6b6b"
+          "color": "#f9ca24"
         },
         {
           "name": "C++",
           "size": 5,
-          "color": "#ff9f43"
-        },
-        {
-          "name": "Ruby",
-          "size": 5,
           "color": "#1dd1a1"
-        },
-        {
-          "name": "Swift",
-          "size": 4,
-          "color": "#ff6b6b"
         },
         {
           "name": "Kotlin",
           "size": 4,
-          "color": "#ff6b6b"
+          "color": "#ee5253"
         },
         {
           "name": "Django",
           "size": 4,
-          "color": "#ff9f43"
+          "color": "#ff6b6b"
         },
         {
           "name": "MySQL",
           "size": 4,
-          "color": "#4ecdc4"
+          "color": "#5f27cd"
+        },
+        {
+          "name": ".NET",
+          "size": 4,
+          "color": "#ff6b6b"
         },
         {
           "name": "Kubernetes",
-          "size": 4,
-          "color": "#f9ca24"
-        },
-        {
-          "name": "Make",
-          "size": 4,
-          "color": "#6c5ce7"
-        },
-        {
-          "name": "MongoDB",
-          "size": 3,
-          "color": "#ee5253"
-        },
-        {
-          "name": "Ada",
-          "size": 3,
-          "color": "#ee5253"
-        },
-        {
-          "name": "Netlify",
-          "size": 3,
-          "color": "#4ecdc4"
-        },
-        {
-          "name": "jQuery",
           "size": 3,
           "color": "#6c5ce7"
         },
         {
           "name": "Firebase",
           "size": 3,
-          "color": "#45b7d1"
+          "color": "#4ecdc4"
         },
         {
-          "name": "HTML/CSS",
+          "name": "MongoDB",
+          "size": 3,
+          "color": "#4ecdc4"
+        },
+        {
+          "name": "Yarn",
+          "size": 3,
+          "color": "#1dd1a1"
+        },
+        {
+          "name": "Linear",
           "size": 3,
           "color": "#6c5ce7"
+        },
+        {
+          "name": "Jira",
+          "size": 3,
+          "color": "#ee5253"
+        },
+        {
+          "name": "Netlify",
+          "size": 3,
+          "color": "#ee5253"
         },
         {
           "name": "RabbitMQ",
           "size": 3,
-          "color": "#ff9f43"
-        },
-        {
-          "name": "AngularJS",
-          "size": 2,
-          "color": "#1dd1a1"
-        },
-        {
-          "name": "Laravel",
-          "size": 2,
           "color": "#45b7d1"
-        },
-        {
-          "name": "Gradle",
-          "size": 2,
-          "color": "#54a0ff"
-        },
-        {
-          "name": "Linear",
-          "size": 2,
-          "color": "#4ecdc4"
         },
         {
           "name": "FastAPI",
           "size": 2,
-          "color": "#45b7d1"
+          "color": "#1dd1a1"
         },
         {
           "name": "Elixir",
           "size": 2,
+          "color": "#4ecdc4"
+        },
+        {
+          "name": "jQuery",
+          "size": 2,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "AngularJS",
+          "size": 2,
           "color": "#ff9f43"
         },
         {
-          "name": "Notion",
+          "name": "Laravel",
           "size": 2,
-          "color": "#6c5ce7"
+          "color": "#4ecdc4"
         },
         {
           "name": "Terraform",
           "size": 2,
-          "color": "#1dd1a1"
+          "color": "#ff9f43"
         },
         {
           "name": "Remix",
           "size": 2,
-          "color": "#1dd1a1"
+          "color": "#6c5ce7"
         },
         {
           "name": "DuckDB",
           "size": 2,
-          "color": "#f9ca24"
+          "color": "#54a0ff"
+        },
+        {
+          "name": "Swift",
+          "size": 1,
+          "color": "#6c5ce7"
         },
         {
           "name": "BigQuery",
@@ -545,39 +499,9 @@
           "color": "#45b7d1"
         },
         {
-          "name": "Airtable",
+          "name": "Micronaut",
           "size": 1,
-          "color": "#f9ca24"
-        },
-        {
-          "name": "Pip",
-          "size": 1,
-          "color": "#6c5ce7"
-        },
-        {
-          "name": "Rust",
-          "size": 1,
-          "color": "#ff9f43"
-        },
-        {
-          "name": "Elasticsearch",
-          "size": 1,
-          "color": "#ee5253"
-        },
-        {
-          "name": "Ant",
-          "size": 1,
-          "color": "#45b7d1"
-        },
-        {
-          "name": "OpenGL",
-          "size": 1,
-          "color": "#ee5253"
-        },
-        {
-          "name": "JAX",
-          "size": 1,
-          "color": "#5f27cd"
+          "color": "#1dd1a1"
         },
         {
           "name": "Oracle",
@@ -585,39 +509,59 @@
           "color": "#45b7d1"
         },
         {
-          "name": "Objective-C",
-          "size": 1,
-          "color": "#4ecdc4"
-        },
-        {
-          "name": "H2",
-          "size": 1,
-          "color": "#54a0ff"
-        },
-        {
-          "name": "Symfony",
+          "name": "Miro",
           "size": 1,
           "color": "#5f27cd"
         },
         {
-          "name": "Jira",
+          "name": "Composer",
+          "size": 1,
+          "color": "#f9ca24"
+        },
+        {
+          "name": "Gradle",
+          "size": 1,
+          "color": "#ff6b6b"
+        },
+        {
+          "name": "Maven",
+          "size": 1,
+          "color": "#1dd1a1"
+        },
+        {
+          "name": "OpenGL",
+          "size": 1,
+          "color": "#6c5ce7"
+        },
+        {
+          "name": "Rust",
+          "size": 1,
+          "color": "#ff6b6b"
+        },
+        {
+          "name": "Airtable",
+          "size": 1,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "Render",
+          "size": 1,
+          "color": "#45b7d1"
+        },
+        {
+          "name": "Objective-C",
+          "size": 1,
+          "color": "#5f27cd"
+        },
+        {
+          "name": "Elasticsearch",
           "size": 1,
           "color": "#f9ca24"
         },
         {
           "name": "Asana",
           "size": 1,
-          "color": "#5f27cd"
-        },
-        {
-          "name": "Rider",
-          "size": 1,
-          "color": "#54a0ff"
-        },
-        {
-          "name": "Miro",
-          "size": 1,
-          "color": "#1dd1a1"
+          "color": "#6c5ce7"
         }
       ]
     }
@@ -625,71 +569,19 @@
   "networkGraphData": {
     "nodes": [
       {
-        "id": "BigQuery",
+        "id": "Next.js",
+        "volume": 17
+      },
+      {
+        "id": "FastAPI",
         "volume": 1
       },
       {
-        "id": "ASP.NET",
-        "volume": 3
-      },
-      {
-        "id": "MongoDB",
-        "volume": 2
-      },
-      {
-        "id": "C#",
-        "volume": 7
-      },
-      {
-        "id": "AngularJS",
-        "volume": 2
-      },
-      {
-        "id": "Vercel",
-        "volume": 5
-      },
-      {
-        "id": "Laravel",
-        "volume": 1
-      },
-      {
-        "id": "Airtable",
-        "volume": 1
-      },
-      {
-        "id": "Pip",
-        "volume": 1
-      },
-      {
-        "id": "Rust",
-        "volume": 1
-      },
-      {
-        "id": ".NET",
-        "volume": 5
+        "id": "TypeScript",
+        "volume": 70
       },
       {
         "id": "Swift",
-        "volume": 4
-      },
-      {
-        "id": "Microsoft SQL Server",
-        "volume": 1
-      },
-      {
-        "id": "Node.js",
-        "volume": 8
-      },
-      {
-        "id": "Elasticsearch",
-        "volume": 1
-      },
-      {
-        "id": "Kotlin",
-        "volume": 4
-      },
-      {
-        "id": "Ant",
         "volume": 1
       },
       {
@@ -697,207 +589,55 @@
         "volume": 19
       },
       {
-        "id": "Gradle",
-        "volume": 1
-      },
-      {
-        "id": "OpenGL",
-        "volume": 1
-      },
-      {
-        "id": "Docker",
-        "volume": 6
-      },
-      {
-        "id": "JAX",
-        "volume": 1
-      },
-      {
-        "id": "React Native",
-        "volume": 9
-      },
-      {
-        "id": "JavaScript",
-        "volume": 62
-      },
-      {
-        "id": "Django",
-        "volume": 4
-      },
-      {
-        "id": "Java",
-        "volume": 70
-      },
-      {
-        "id": "Ada",
+        "id": "Kubernetes",
         "volume": 3
-      },
-      {
-        "id": "Linear",
-        "volume": 2
-      },
-      {
-        "id": "PHP",
-        "volume": 3
-      },
-      {
-        "id": "PostgreSQL",
-        "volume": 5
-      },
-      {
-        "id": "WordPress",
-        "volume": 3
-      },
-      {
-        "id": "Flask",
-        "volume": 5
-      },
-      {
-        "id": "FastAPI",
-        "volume": 1
-      },
-      {
-        "id": "Python",
-        "volume": 17
-      },
-      {
-        "id": "Oracle",
-        "volume": 1
-      },
-      {
-        "id": "Netlify",
-        "volume": 2
-      },
-      {
-        "id": "Google Cloud",
-        "volume": 4
-      },
-      {
-        "id": "Elixir",
-        "volume": 2
-      },
-      {
-        "id": "Express",
-        "volume": 7
-      },
-      {
-        "id": "Ruby on Rails",
-        "volume": 2
-      },
-      {
-        "id": "Notion",
-        "volume": 2
-      },
-      {
-        "id": "TypeScript",
-        "volume": 56
-      },
-      {
-        "id": "Flutter",
-        "volume": 2
-      },
-      {
-        "id": "Webpack",
-        "volume": 17
-      },
-      {
-        "id": "Terraform",
-        "volume": 1
-      },
-      {
-        "id": "Objective-C",
-        "volume": 1
-      },
-      {
-        "id": "Go",
-        "volume": 23
-      },
-      {
-        "id": "C++",
-        "volume": 5
-      },
-      {
-        "id": "H2",
-        "volume": 1
-      },
-      {
-        "id": "jQuery",
-        "volume": 3
-      },
-      {
-        "id": "Remix",
-        "volume": 1
-      },
-      {
-        "id": "Amazon Web Services (AWS)",
-        "volume": 1
       },
       {
         "id": "Firebase",
         "volume": 3
       },
       {
-        "id": "Symfony",
-        "volume": 1
+        "id": "Java",
+        "volume": 9
       },
       {
-        "id": "Vue.js",
+        "id": "Webpack",
+        "volume": 17
+      },
+      {
+        "id": "MongoDB",
+        "volume": 2
+      },
+      {
+        "id": "PostgreSQL",
         "volume": 5
       },
       {
-        "id": "React",
-        "volume": 89
+        "id": "Kotlin",
+        "volume": 4
       },
       {
-        "id": "Vite",
-        "volume": 15
+        "id": "Django",
+        "volume": 4
       },
       {
-        "id": "Jira",
+        "id": "BigQuery",
         "volume": 1
       },
       {
-        "id": "SQL",
-        "volume": 19
-      },
-      {
-        "id": "MySQL",
-        "volume": 3
-      },
-      {
-        "id": "Ruby",
-        "volume": 5
-      },
-      {
-        "id": "npm",
-        "volume": 5
-      },
-      {
-        "id": "Asana",
+        "id": "Micronaut",
         "volume": 1
       },
       {
-        "id": "HTML/CSS",
-        "volume": 3
+        "id": "Express",
+        "volume": 7
       },
       {
-        "id": "RabbitMQ",
-        "volume": 3
-      },
-      {
-        "id": "Rider",
+        "id": "Oracle",
         "volume": 1
       },
       {
-        "id": "DuckDB",
-        "volume": 1
-      },
-      {
-        "id": "Next.js",
-        "volume": 18
-      },
-      {
-        "id": "Kubernetes",
+        "id": "PHP",
         "volume": 3
       },
       {
@@ -905,15 +645,188 @@
         "volume": 1
       },
       {
-        "id": "Make",
+        "id": "Vercel",
+        "volume": 5
+      },
+      {
+        "id": "Docker",
+        "volume": 6
+      },
+      {
+        "id": "Yarn",
+        "volume": 3
+      },
+      {
+        "id": "Ruby",
+        "volume": 5
+      },
+      {
+        "id": "AWS",
+        "volume": 19
+      },
+      {
+        "id": "Flutter",
+        "volume": 2
+      },
+      {
+        "id": "Node.js",
+        "volume": 10
+      },
+      {
+        "id": "Composer",
+        "volume": 1
+      },
+      {
+        "id": "Linear",
+        "volume": 3
+      },
+      {
+        "id": "ASP.NET",
+        "volume": 3
+      },
+      {
+        "id": "Azure",
+        "volume": 7
+      },
+      {
+        "id": "Elixir",
+        "volume": 2
+      },
+      {
+        "id": "Gradle",
+        "volume": 1
+      },
+      {
+        "id": "Vue.js",
         "volume": 4
+      },
+      {
+        "id": "jQuery",
+        "volume": 2
+      },
+      {
+        "id": "Jira",
+        "volume": 3
+      },
+      {
+        "id": "AngularJS",
+        "volume": 2
+      },
+      {
+        "id": "Maven",
+        "volume": 1
+      },
+      {
+        "id": "Laravel",
+        "volume": 1
+      },
+      {
+        "id": "OpenGL",
+        "volume": 1
+      },
+      {
+        "id": "MySQL",
+        "volume": 3
+      },
+      {
+        "id": "Netlify",
+        "volume": 2
+      },
+      {
+        "id": "RabbitMQ",
+        "volume": 3
+      },
+      {
+        "id": "npm",
+        "volume": 5
+      },
+      {
+        "id": "Rust",
+        "volume": 1
+      },
+      {
+        "id": "Flask",
+        "volume": 5
+      },
+      {
+        "id": "Python",
+        "volume": 18
+      },
+      {
+        "id": "Vite",
+        "volume": 13
+      },
+      {
+        "id": "Airtable",
+        "volume": 1
+      },
+      {
+        "id": "Render",
+        "volume": 1
+      },
+      {
+        "id": "JavaScript",
+        "volume": 67
+      },
+      {
+        "id": "Objective-C",
+        "volume": 1
+      },
+      {
+        "id": "React",
+        "volume": 85
+      },
+      {
+        "id": "Terraform",
+        "volume": 1
+      },
+      {
+        "id": "C++",
+        "volume": 5
+      },
+      {
+        "id": "Remix",
+        "volume": 1
+      },
+      {
+        "id": "SQL",
+        "volume": 11
+      },
+      {
+        "id": "C#",
+        "volume": 7
+      },
+      {
+        "id": ".NET",
+        "volume": 4
+      },
+      {
+        "id": "Elasticsearch",
+        "volume": 1
+      },
+      {
+        "id": "DuckDB",
+        "volume": 1
+      },
+      {
+        "id": "WordPress",
+        "volume": 3
+      },
+      {
+        "id": "Asana",
+        "volume": 1
       }
     ],
     "links": [
       {
         "source": ".NET",
         "target": "ASP.NET",
-        "value": 3
+        "value": 1
+      },
+      {
+        "source": ".NET",
+        "target": "AWS",
+        "value": 1
       },
       {
         "source": ".NET",
@@ -922,38 +835,23 @@
       },
       {
         "source": ".NET",
+        "target": "Azure",
+        "value": 1
+      },
+      {
+        "source": ".NET",
         "target": "C#",
-        "value": 3
-      },
-      {
-        "source": ".NET",
-        "target": "Elasticsearch",
-        "value": 1
-      },
-      {
-        "source": ".NET",
-        "target": "Go",
-        "value": 1
+        "value": 2
       },
       {
         "source": ".NET",
         "target": "Java",
-        "value": 4
+        "value": 1
       },
       {
         "source": ".NET",
         "target": "JavaScript",
         "value": 3
-      },
-      {
-        "source": ".NET",
-        "target": "Make",
-        "value": 1
-      },
-      {
-        "source": ".NET",
-        "target": "Next.js",
-        "value": 1
       },
       {
         "source": ".NET",
@@ -968,31 +866,31 @@
       {
         "source": ".NET",
         "target": "Python",
-        "value": 1
+        "value": 2
       },
       {
         "source": ".NET",
         "target": "React",
-        "value": 4
+        "value": 2
       },
       {
         "source": ".NET",
         "target": "SQL",
-        "value": 3
+        "value": 2
       },
       {
         "source": ".NET",
         "target": "TypeScript",
-        "value": 3
-      },
-      {
-        "source": ".NET",
-        "target": "jQuery",
-        "value": 1
+        "value": 2
       },
       {
         "source": "ASP.NET",
         "target": "Angular",
+        "value": 1
+      },
+      {
+        "source": "ASP.NET",
+        "target": "Azure",
         "value": 1
       },
       {
@@ -1004,11 +902,6 @@
         "source": "ASP.NET",
         "target": "Elasticsearch",
         "value": 1
-      },
-      {
-        "source": "ASP.NET",
-        "target": "Java",
-        "value": 2
       },
       {
         "source": "ASP.NET",
@@ -1033,7 +926,7 @@
       {
         "source": "ASP.NET",
         "target": "React",
-        "value": 3
+        "value": 1
       },
       {
         "source": "ASP.NET",
@@ -1046,99 +939,164 @@
         "value": 1
       },
       {
-        "source": "ASP.NET",
-        "target": "jQuery",
-        "value": 1
+        "source": "AWS",
+        "target": "Angular",
+        "value": 3
       },
       {
-        "source": "Ada",
-        "target": "Angular",
+        "source": "AWS",
+        "target": "AngularJS",
         "value": 2
       },
       {
-        "source": "Ada",
-        "target": "AngularJS",
+        "source": "AWS",
+        "target": "Asana",
         "value": 1
       },
       {
-        "source": "Ada",
+        "source": "AWS",
+        "target": "Azure",
+        "value": 6
+      },
+      {
+        "source": "AWS",
+        "target": "BigQuery",
+        "value": 1
+      },
+      {
+        "source": "AWS",
+        "target": "Docker",
+        "value": 3
+      },
+      {
+        "source": "AWS",
+        "target": "Elixir",
+        "value": 2
+      },
+      {
+        "source": "AWS",
+        "target": "Express",
+        "value": 3
+      },
+      {
+        "source": "AWS",
+        "target": "Firebase",
+        "value": 1
+      },
+      {
+        "source": "AWS",
+        "target": "Flask",
+        "value": 3
+      },
+      {
+        "source": "AWS",
         "target": "Java",
-        "value": 3
+        "value": 1
       },
       {
-        "source": "Ada",
+        "source": "AWS",
         "target": "JavaScript",
+        "value": 13
+      },
+      {
+        "source": "AWS",
+        "target": "Jira",
+        "value": 1
+      },
+      {
+        "source": "AWS",
+        "target": "Kubernetes",
+        "value": 1
+      },
+      {
+        "source": "AWS",
+        "target": "Linear",
+        "value": 1
+      },
+      {
+        "source": "AWS",
+        "target": "MongoDB",
+        "value": 1
+      },
+      {
+        "source": "AWS",
+        "target": "Netlify",
+        "value": 1
+      },
+      {
+        "source": "AWS",
+        "target": "Next.js",
         "value": 3
       },
       {
-        "source": "Ada",
-        "target": "Laravel",
-        "value": 1
+        "source": "AWS",
+        "target": "Node.js",
+        "value": 2
       },
       {
-        "source": "Ada",
-        "target": "Microsoft SQL Server",
-        "value": 1
-      },
-      {
-        "source": "Ada",
-        "target": "MySQL",
-        "value": 1
-      },
-      {
-        "source": "Ada",
+        "source": "AWS",
         "target": "Oracle",
         "value": 1
       },
       {
-        "source": "Ada",
-        "target": "PHP",
+        "source": "AWS",
+        "target": "PostgreSQL",
+        "value": 4
+      },
+      {
+        "source": "AWS",
+        "target": "Python",
+        "value": 5
+      },
+      {
+        "source": "AWS",
+        "target": "RabbitMQ",
+        "value": 3
+      },
+      {
+        "source": "AWS",
+        "target": "React",
+        "value": 14
+      },
+      {
+        "source": "AWS",
+        "target": "Render",
         "value": 1
       },
       {
-        "source": "Ada",
-        "target": "Python",
-        "value": 2
-      },
-      {
-        "source": "Ada",
+        "source": "AWS",
         "target": "Ruby",
         "value": 1
       },
       {
-        "source": "Ada",
-        "target": "Rust",
-        "value": 1
-      },
-      {
-        "source": "Ada",
+        "source": "AWS",
         "target": "SQL",
         "value": 3
       },
       {
-        "source": "Ada",
+        "source": "AWS",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "AWS",
         "target": "TypeScript",
+        "value": 11
+      },
+      {
+        "source": "AWS",
+        "target": "Vercel",
         "value": 1
       },
       {
-        "source": "Ada",
-        "target": "WordPress",
-        "value": 1
+        "source": "AWS",
+        "target": "Vite",
+        "value": 4
       },
       {
-        "source": "Ada",
-        "target": "jQuery",
-        "value": 1
-      },
-      {
-        "source": "Airtable",
-        "target": "Ant",
-        "value": 1
-      },
-      {
-        "source": "Airtable",
-        "target": "Go",
-        "value": 1
+        "source": "AWS",
+        "target": "Webpack",
+        "value": 4
       },
       {
         "source": "Airtable",
@@ -1147,11 +1105,6 @@
       },
       {
         "source": "Airtable",
-        "target": "Notion",
-        "value": 1
-      },
-      {
-        "source": "Airtable",
         "target": "React",
         "value": 1
       },
@@ -1161,39 +1114,24 @@
         "value": 1
       },
       {
-        "source": "Amazon Web Services (AWS)",
-        "target": "Angular",
-        "value": 1
-      },
-      {
-        "source": "Amazon Web Services (AWS)",
+        "source": "Angular",
         "target": "AngularJS",
-        "value": 1
-      },
-      {
-        "source": "Amazon Web Services (AWS)",
-        "target": "Java",
-        "value": 1
-      },
-      {
-        "source": "Amazon Web Services (AWS)",
-        "target": "JavaScript",
-        "value": 1
-      },
-      {
-        "source": "Amazon Web Services (AWS)",
-        "target": "React",
         "value": 1
       },
       {
         "source": "Angular",
-        "target": "AngularJS",
+        "target": "Azure",
         "value": 2
       },
       {
         "source": "Angular",
         "target": "C#",
         "value": 2
+      },
+      {
+        "source": "Angular",
+        "target": "Composer",
+        "value": 1
       },
       {
         "source": "Angular",
@@ -1227,28 +1165,18 @@
       },
       {
         "source": "Angular",
-        "target": "Go",
-        "value": 6
-      },
-      {
-        "source": "Angular",
-        "target": "Google Cloud",
-        "value": 1
-      },
-      {
-        "source": "Angular",
-        "target": "JAX",
-        "value": 1
-      },
-      {
-        "source": "Angular",
         "target": "Java",
-        "value": 18
+        "value": 4
       },
       {
         "source": "Angular",
         "target": "JavaScript",
-        "value": 15
+        "value": 16
+      },
+      {
+        "source": "Angular",
+        "target": "Jira",
+        "value": 2
       },
       {
         "source": "Angular",
@@ -1262,12 +1190,7 @@
       },
       {
         "source": "Angular",
-        "target": "Make",
-        "value": 1
-      },
-      {
-        "source": "Angular",
-        "target": "Microsoft SQL Server",
+        "target": "Linear",
         "value": 1
       },
       {
@@ -1298,7 +1221,7 @@
       {
         "source": "Angular",
         "target": "Python",
-        "value": 3
+        "value": 4
       },
       {
         "source": "Angular",
@@ -1307,28 +1230,18 @@
       },
       {
         "source": "Angular",
-        "target": "React Native",
-        "value": 2
-      },
-      {
-        "source": "Angular",
         "target": "Ruby",
         "value": 1
       },
       {
         "source": "Angular",
-        "target": "Ruby on Rails",
-        "value": 1
-      },
-      {
-        "source": "Angular",
         "target": "SQL",
-        "value": 5
+        "value": 4
       },
       {
         "source": "Angular",
         "target": "TypeScript",
-        "value": 7
+        "value": 9
       },
       {
         "source": "Angular",
@@ -1343,12 +1256,17 @@
       {
         "source": "Angular",
         "target": "Webpack",
-        "value": 3
+        "value": 4
       },
       {
         "source": "Angular",
         "target": "WordPress",
         "value": 2
+      },
+      {
+        "source": "Angular",
+        "target": "Yarn",
+        "value": 1
       },
       {
         "source": "Angular",
@@ -1362,18 +1280,8 @@
       },
       {
         "source": "AngularJS",
-        "target": "Java",
-        "value": 2
-      },
-      {
-        "source": "AngularJS",
         "target": "JavaScript",
         "value": 2
-      },
-      {
-        "source": "AngularJS",
-        "target": "Microsoft SQL Server",
-        "value": 1
       },
       {
         "source": "AngularJS",
@@ -1387,37 +1295,7 @@
       },
       {
         "source": "AngularJS",
-        "target": "React",
-        "value": 1
-      },
-      {
-        "source": "AngularJS",
         "target": "SQL",
-        "value": 1
-      },
-      {
-        "source": "Ant",
-        "target": "Go",
-        "value": 1
-      },
-      {
-        "source": "Ant",
-        "target": "Next.js",
-        "value": 1
-      },
-      {
-        "source": "Ant",
-        "target": "Notion",
-        "value": 1
-      },
-      {
-        "source": "Ant",
-        "target": "React",
-        "value": 1
-      },
-      {
-        "source": "Ant",
-        "target": "TypeScript",
         "value": 1
       },
       {
@@ -1432,21 +1310,6 @@
       },
       {
         "source": "Asana",
-        "target": "Go",
-        "value": 1
-      },
-      {
-        "source": "Asana",
-        "target": "HTML/CSS",
-        "value": 1
-      },
-      {
-        "source": "Asana",
-        "target": "Java",
-        "value": 1
-      },
-      {
-        "source": "Asana",
         "target": "JavaScript",
         "value": 1
       },
@@ -1456,23 +1319,73 @@
         "value": 1
       },
       {
+        "source": "Azure",
+        "target": "C#",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "Docker",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "Express",
+        "value": 2
+      },
+      {
+        "source": "Azure",
+        "target": "JavaScript",
+        "value": 2
+      },
+      {
+        "source": "Azure",
+        "target": "Kubernetes",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "MongoDB",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "Node.js",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "PostgreSQL",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "Python",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "React",
+        "value": 5
+      },
+      {
+        "source": "Azure",
+        "target": "SQL",
+        "value": 1
+      },
+      {
+        "source": "Azure",
+        "target": "TypeScript",
+        "value": 4
+      },
+      {
+        "source": "Azure",
+        "target": "Webpack",
+        "value": 1
+      },
+      {
         "source": "BigQuery",
         "target": "Firebase",
-        "value": 1
-      },
-      {
-        "source": "BigQuery",
-        "target": "Go",
-        "value": 1
-      },
-      {
-        "source": "BigQuery",
-        "target": "HTML/CSS",
-        "value": 1
-      },
-      {
-        "source": "BigQuery",
-        "target": "Java",
         "value": 1
       },
       {
@@ -1497,13 +1410,8 @@
       },
       {
         "source": "C#",
-        "target": "Go",
-        "value": 3
-      },
-      {
-        "source": "C#",
         "target": "Java",
-        "value": 6
+        "value": 3
       },
       {
         "source": "C#",
@@ -1533,7 +1441,7 @@
       {
         "source": "C#",
         "target": "React",
-        "value": 7
+        "value": 5
       },
       {
         "source": "C#",
@@ -1542,28 +1450,13 @@
       },
       {
         "source": "C#",
-        "target": "Swift",
-        "value": 3
-      },
-      {
-        "source": "C#",
         "target": "TypeScript",
         "value": 4
-      },
-      {
-        "source": "C#",
-        "target": "jQuery",
-        "value": 1
       },
       {
         "source": "C++",
         "target": "DuckDB",
         "value": 1
-      },
-      {
-        "source": "C++",
-        "target": "Go",
-        "value": 4
       },
       {
         "source": "C++",
@@ -1597,17 +1490,42 @@
       },
       {
         "source": "C++",
-        "target": "Swift",
-        "value": 3
-      },
-      {
-        "source": "C++",
         "target": "TypeScript",
         "value": 5
       },
       {
         "source": "C++",
         "target": "Webpack",
+        "value": 1
+      },
+      {
+        "source": "Composer",
+        "target": "JavaScript",
+        "value": 1
+      },
+      {
+        "source": "Composer",
+        "target": "Laravel",
+        "value": 1
+      },
+      {
+        "source": "Composer",
+        "target": "MySQL",
+        "value": 1
+      },
+      {
+        "source": "Composer",
+        "target": "PHP",
+        "value": 1
+      },
+      {
+        "source": "Composer",
+        "target": "WordPress",
+        "value": 1
+      },
+      {
+        "source": "Composer",
+        "target": "jQuery",
         "value": 1
       },
       {
@@ -1622,28 +1540,18 @@
       },
       {
         "source": "Django",
-        "target": "Go",
-        "value": 1
-      },
-      {
-        "source": "Django",
-        "target": "Google Cloud",
-        "value": 1
-      },
-      {
-        "source": "Django",
         "target": "Java",
-        "value": 3
+        "value": 1
       },
       {
         "source": "Django",
         "target": "JavaScript",
-        "value": 1
+        "value": 2
       },
       {
         "source": "Django",
         "target": "Python",
-        "value": 1
+        "value": 2
       },
       {
         "source": "Django",
@@ -1657,12 +1565,12 @@
       },
       {
         "source": "Django",
-        "target": "Ruby on Rails",
+        "target": "SQL",
         "value": 1
       },
       {
         "source": "Django",
-        "target": "SQL",
+        "target": "TypeScript",
         "value": 1
       },
       {
@@ -1672,23 +1580,8 @@
       },
       {
         "source": "Docker",
-        "target": "Go",
-        "value": 3
-      },
-      {
-        "source": "Docker",
-        "target": "Google Cloud",
-        "value": 2
-      },
-      {
-        "source": "Docker",
-        "target": "H2",
-        "value": 1
-      },
-      {
-        "source": "Docker",
         "target": "Java",
-        "value": 3
+        "value": 1
       },
       {
         "source": "Docker",
@@ -1697,12 +1590,17 @@
       },
       {
         "source": "Docker",
+        "target": "Jira",
+        "value": 1
+      },
+      {
+        "source": "Docker",
         "target": "Kubernetes",
         "value": 3
       },
       {
         "source": "Docker",
-        "target": "Make",
+        "target": "Linear",
         "value": 1
       },
       {
@@ -1713,12 +1611,7 @@
       {
         "source": "Docker",
         "target": "Node.js",
-        "value": 1
-      },
-      {
-        "source": "Docker",
-        "target": "Pip",
-        "value": 1
+        "value": 2
       },
       {
         "source": "Docker",
@@ -1738,31 +1631,21 @@
       {
         "source": "Docker",
         "target": "React",
-        "value": 5
-      },
-      {
-        "source": "Docker",
-        "target": "React Native",
-        "value": 1
-      },
-      {
-        "source": "Docker",
-        "target": "SQL",
-        "value": 2
-      },
-      {
-        "source": "Docker",
-        "target": "TypeScript",
         "value": 3
       },
       {
         "source": "Docker",
-        "target": "Webpack",
+        "target": "SQL",
         "value": 1
       },
       {
-        "source": "DuckDB",
-        "target": "Go",
+        "source": "Docker",
+        "target": "TypeScript",
+        "value": 4
+      },
+      {
+        "source": "Docker",
+        "target": "Webpack",
         "value": 1
       },
       {
@@ -1786,18 +1669,8 @@
         "value": 1
       },
       {
-        "source": "Elasticsearch",
-        "target": "React",
-        "value": 1
-      },
-      {
         "source": "Elixir",
         "target": "Flask",
-        "value": 2
-      },
-      {
-        "source": "Elixir",
-        "target": "Java",
         "value": 2
       },
       {
@@ -1823,11 +1696,6 @@
       {
         "source": "Elixir",
         "target": "React",
-        "value": 2
-      },
-      {
-        "source": "Elixir",
-        "target": "SQL",
         "value": 2
       },
       {
@@ -1847,11 +1715,6 @@
       },
       {
         "source": "Express",
-        "target": "Java",
-        "value": 5
-      },
-      {
-        "source": "Express",
         "target": "JavaScript",
         "value": 5
       },
@@ -1873,7 +1736,7 @@
       {
         "source": "Express",
         "target": "React",
-        "value": 5
+        "value": 7
       },
       {
         "source": "Express",
@@ -1882,13 +1745,8 @@
       },
       {
         "source": "Express",
-        "target": "Ruby on Rails",
-        "value": 1
-      },
-      {
-        "source": "Express",
         "target": "TypeScript",
-        "value": 5
+        "value": 4
       },
       {
         "source": "Express",
@@ -1937,22 +1795,12 @@
       },
       {
         "source": "Firebase",
-        "target": "Go",
-        "value": 2
-      },
-      {
-        "source": "Firebase",
-        "target": "HTML/CSS",
-        "value": 1
-      },
-      {
-        "source": "Firebase",
-        "target": "Java",
-        "value": 2
-      },
-      {
-        "source": "Firebase",
         "target": "JavaScript",
+        "value": 2
+      },
+      {
+        "source": "Firebase",
+        "target": "Jira",
         "value": 1
       },
       {
@@ -1961,19 +1809,14 @@
         "value": 3
       },
       {
-        "source": "Flask",
-        "target": "Go",
-        "value": 1
-      },
-      {
-        "source": "Flask",
-        "target": "Google Cloud",
+        "source": "Firebase",
+        "target": "TypeScript",
         "value": 1
       },
       {
         "source": "Flask",
         "target": "Java",
-        "value": 4
+        "value": 1
       },
       {
         "source": "Flask",
@@ -1993,7 +1836,7 @@
       {
         "source": "Flask",
         "target": "Python",
-        "value": 4
+        "value": 5
       },
       {
         "source": "Flask",
@@ -2013,12 +1856,12 @@
       {
         "source": "Flask",
         "target": "SQL",
-        "value": 3
+        "value": 1
       },
       {
         "source": "Flask",
         "target": "TypeScript",
-        "value": 2
+        "value": 4
       },
       {
         "source": "Flask",
@@ -2032,16 +1875,6 @@
       },
       {
         "source": "Flutter",
-        "target": "Go",
-        "value": 1
-      },
-      {
-        "source": "Flutter",
-        "target": "Java",
-        "value": 1
-      },
-      {
-        "source": "Flutter",
         "target": "JavaScript",
         "value": 1
       },
@@ -2052,203 +1885,18 @@
       },
       {
         "source": "Flutter",
-        "target": "Make",
-        "value": 1
-      },
-      {
-        "source": "Flutter",
-        "target": "React",
-        "value": 2
-      },
-      {
-        "source": "Flutter",
-        "target": "React Native",
-        "value": 1
-      },
-      {
-        "source": "Flutter",
-        "target": "TypeScript",
-        "value": 1
-      },
-      {
-        "source": "Go",
-        "target": "Google Cloud",
-        "value": 4
-      },
-      {
-        "source": "Go",
-        "target": "HTML/CSS",
-        "value": 1
-      },
-      {
-        "source": "Go",
-        "target": "JAX",
-        "value": 1
-      },
-      {
-        "source": "Go",
-        "target": "Java",
-        "value": 17
-      },
-      {
-        "source": "Go",
-        "target": "JavaScript",
-        "value": 15
-      },
-      {
-        "source": "Go",
-        "target": "Kotlin",
-        "value": 3
-      },
-      {
-        "source": "Go",
-        "target": "Kubernetes",
-        "value": 2
-      },
-      {
-        "source": "Go",
         "target": "Linear",
         "value": 1
       },
       {
-        "source": "Go",
-        "target": "Make",
-        "value": 2
-      },
-      {
-        "source": "Go",
-        "target": "MongoDB",
-        "value": 1
-      },
-      {
-        "source": "Go",
-        "target": "Netlify",
-        "value": 1
-      },
-      {
-        "source": "Go",
-        "target": "Next.js",
-        "value": 3
-      },
-      {
-        "source": "Go",
-        "target": "Node.js",
-        "value": 1
-      },
-      {
-        "source": "Go",
-        "target": "Notion",
-        "value": 2
-      },
-      {
-        "source": "Go",
-        "target": "PostgreSQL",
-        "value": 1
-      },
-      {
-        "source": "Go",
-        "target": "Python",
-        "value": 5
-      },
-      {
-        "source": "Go",
+        "source": "Flutter",
         "target": "React",
-        "value": 20
-      },
-      {
-        "source": "Go",
-        "target": "React Native",
-        "value": 1
-      },
-      {
-        "source": "Go",
-        "target": "SQL",
         "value": 2
       },
       {
-        "source": "Go",
-        "target": "Swift",
-        "value": 3
-      },
-      {
-        "source": "Go",
-        "target": "Terraform",
-        "value": 1
-      },
-      {
-        "source": "Go",
+        "source": "Flutter",
         "target": "TypeScript",
-        "value": 12
-      },
-      {
-        "source": "Go",
-        "target": "Vercel",
-        "value": 1
-      },
-      {
-        "source": "Go",
-        "target": "Vite",
-        "value": 3
-      },
-      {
-        "source": "Go",
-        "target": "Vue.js",
-        "value": 1
-      },
-      {
-        "source": "Go",
-        "target": "Webpack",
-        "value": 4
-      },
-      {
-        "source": "Google Cloud",
-        "target": "Java",
         "value": 2
-      },
-      {
-        "source": "Google Cloud",
-        "target": "JavaScript",
-        "value": 2
-      },
-      {
-        "source": "Google Cloud",
-        "target": "Kubernetes",
-        "value": 1
-      },
-      {
-        "source": "Google Cloud",
-        "target": "MongoDB",
-        "value": 1
-      },
-      {
-        "source": "Google Cloud",
-        "target": "PostgreSQL",
-        "value": 1
-      },
-      {
-        "source": "Google Cloud",
-        "target": "Python",
-        "value": 1
-      },
-      {
-        "source": "Google Cloud",
-        "target": "React",
-        "value": 4
-      },
-      {
-        "source": "Google Cloud",
-        "target": "SQL",
-        "value": 1
-      },
-      {
-        "source": "Google Cloud",
-        "target": "TypeScript",
-        "value": 1
-      },
-      {
-        "source": "Google Cloud",
-        "target": "Webpack",
-        "value": 1
       },
       {
         "source": "Gradle",
@@ -2281,264 +1929,64 @@
         "value": 1
       },
       {
-        "source": "H2",
-        "target": "Java",
-        "value": 1
-      },
-      {
-        "source": "H2",
-        "target": "JavaScript",
-        "value": 1
-      },
-      {
-        "source": "H2",
-        "target": "Pip",
-        "value": 1
-      },
-      {
-        "source": "H2",
-        "target": "Python",
-        "value": 1
-      },
-      {
-        "source": "H2",
-        "target": "RabbitMQ",
-        "value": 1
-      },
-      {
-        "source": "H2",
-        "target": "SQL",
-        "value": 1
-      },
-      {
-        "source": "HTML/CSS",
-        "target": "Java",
-        "value": 2
-      },
-      {
-        "source": "HTML/CSS",
-        "target": "JavaScript",
-        "value": 2
-      },
-      {
-        "source": "HTML/CSS",
-        "target": "React",
-        "value": 3
-      },
-      {
-        "source": "HTML/CSS",
-        "target": "TypeScript",
-        "value": 1
-      },
-      {
-        "source": "JAX",
-        "target": "Java",
-        "value": 1
-      },
-      {
-        "source": "JAX",
-        "target": "JavaScript",
-        "value": 1
-      },
-      {
         "source": "Java",
         "target": "JavaScript",
-        "value": 62
-      },
-      {
-        "source": "Java",
-        "target": "Jira",
-        "value": 1
-      },
-      {
-        "source": "Java",
-        "target": "Kotlin",
-        "value": 4
-      },
-      {
-        "source": "Java",
-        "target": "Kubernetes",
-        "value": 1
-      },
-      {
-        "source": "Java",
-        "target": "Laravel",
-        "value": 1
-      },
-      {
-        "source": "Java",
-        "target": "Linear",
-        "value": 1
-      },
-      {
-        "source": "Java",
-        "target": "Make",
-        "value": 3
-      },
-      {
-        "source": "Java",
-        "target": "Microsoft SQL Server",
-        "value": 1
-      },
-      {
-        "source": "Java",
-        "target": "MongoDB",
-        "value": 1
-      },
-      {
-        "source": "Java",
-        "target": "MySQL",
-        "value": 3
-      },
-      {
-        "source": "Java",
-        "target": "Netlify",
-        "value": 1
-      },
-      {
-        "source": "Java",
-        "target": "Next.js",
         "value": 7
       },
       {
         "source": "Java",
+        "target": "Kotlin",
+        "value": 3
+      },
+      {
+        "source": "Java",
         "target": "Node.js",
-        "value": 6
-      },
-      {
-        "source": "Java",
-        "target": "Notion",
-        "value": 1
-      },
-      {
-        "source": "Java",
-        "target": "OpenGL",
-        "value": 1
-      },
-      {
-        "source": "Java",
-        "target": "Oracle",
-        "value": 1
-      },
-      {
-        "source": "Java",
-        "target": "PHP",
-        "value": 3
-      },
-      {
-        "source": "Java",
-        "target": "Pip",
-        "value": 1
-      },
-      {
-        "source": "Java",
-        "target": "PostgreSQL",
-        "value": 3
+        "value": 2
       },
       {
         "source": "Java",
         "target": "Python",
-        "value": 14
+        "value": 7
       },
       {
         "source": "Java",
         "target": "RabbitMQ",
-        "value": 3
+        "value": 1
       },
       {
         "source": "Java",
         "target": "React",
-        "value": 56
-      },
-      {
-        "source": "Java",
-        "target": "React Native",
-        "value": 6
-      },
-      {
-        "source": "Java",
-        "target": "Ruby",
-        "value": 4
-      },
-      {
-        "source": "Java",
-        "target": "Ruby on Rails",
-        "value": 1
-      },
-      {
-        "source": "Java",
-        "target": "Rust",
-        "value": 1
+        "value": 5
       },
       {
         "source": "Java",
         "target": "SQL",
-        "value": 17
-      },
-      {
-        "source": "Java",
-        "target": "Swift",
-        "value": 3
-      },
-      {
-        "source": "Java",
-        "target": "Symfony",
-        "value": 1
-      },
-      {
-        "source": "Java",
-        "target": "Terraform",
-        "value": 1
+        "value": 2
       },
       {
         "source": "Java",
         "target": "TypeScript",
-        "value": 33
-      },
-      {
-        "source": "Java",
-        "target": "Vercel",
-        "value": 1
-      },
-      {
-        "source": "Java",
-        "target": "Vite",
-        "value": 13
+        "value": 6
       },
       {
         "source": "Java",
         "target": "Vue.js",
-        "value": 5
+        "value": 1
       },
       {
         "source": "Java",
         "target": "Webpack",
-        "value": 17
-      },
-      {
-        "source": "Java",
-        "target": "WordPress",
-        "value": 3
-      },
-      {
-        "source": "Java",
-        "target": "jQuery",
-        "value": 3
-      },
-      {
-        "source": "Java",
-        "target": "npm",
-        "value": 5
-      },
-      {
-        "source": "JavaScript",
-        "target": "Jira",
         "value": 1
       },
       {
         "source": "JavaScript",
-        "target": "Kotlin",
+        "target": "Jira",
         "value": 3
+      },
+      {
+        "source": "JavaScript",
+        "target": "Kotlin",
+        "value": 4
       },
       {
         "source": "JavaScript",
@@ -2553,16 +2001,11 @@
       {
         "source": "JavaScript",
         "target": "Linear",
-        "value": 1
+        "value": 2
       },
       {
         "source": "JavaScript",
-        "target": "Make",
-        "value": 3
-      },
-      {
-        "source": "JavaScript",
-        "target": "Microsoft SQL Server",
+        "target": "Micronaut",
         "value": 1
       },
       {
@@ -2588,12 +2031,7 @@
       {
         "source": "JavaScript",
         "target": "Node.js",
-        "value": 5
-      },
-      {
-        "source": "JavaScript",
-        "target": "Notion",
-        "value": 1
+        "value": 7
       },
       {
         "source": "JavaScript",
@@ -2609,11 +2047,6 @@
         "source": "JavaScript",
         "target": "PHP",
         "value": 3
-      },
-      {
-        "source": "JavaScript",
-        "target": "Pip",
-        "value": 1
       },
       {
         "source": "JavaScript",
@@ -2633,22 +2066,12 @@
       {
         "source": "JavaScript",
         "target": "React",
-        "value": 50
-      },
-      {
-        "source": "JavaScript",
-        "target": "React Native",
-        "value": 5
+        "value": 51
       },
       {
         "source": "JavaScript",
         "target": "Ruby",
-        "value": 3
-      },
-      {
-        "source": "JavaScript",
-        "target": "Ruby on Rails",
-        "value": 1
+        "value": 4
       },
       {
         "source": "JavaScript",
@@ -2658,17 +2081,7 @@
       {
         "source": "JavaScript",
         "target": "SQL",
-        "value": 16
-      },
-      {
-        "source": "JavaScript",
-        "target": "Swift",
-        "value": 3
-      },
-      {
-        "source": "JavaScript",
-        "target": "Symfony",
-        "value": 1
+        "value": 9
       },
       {
         "source": "JavaScript",
@@ -2678,7 +2091,7 @@
       {
         "source": "JavaScript",
         "target": "TypeScript",
-        "value": 32
+        "value": 39
       },
       {
         "source": "JavaScript",
@@ -2693,12 +2106,12 @@
       {
         "source": "JavaScript",
         "target": "Vue.js",
-        "value": 5
+        "value": 4
       },
       {
         "source": "JavaScript",
         "target": "Webpack",
-        "value": 17
+        "value": 16
       },
       {
         "source": "JavaScript",
@@ -2707,13 +2120,33 @@
       },
       {
         "source": "JavaScript",
-        "target": "jQuery",
+        "target": "Yarn",
         "value": 3
+      },
+      {
+        "source": "JavaScript",
+        "target": "jQuery",
+        "value": 2
       },
       {
         "source": "JavaScript",
         "target": "npm",
         "value": 5
+      },
+      {
+        "source": "Jira",
+        "target": "React",
+        "value": 2
+      },
+      {
+        "source": "Jira",
+        "target": "Webpack",
+        "value": 1
+      },
+      {
+        "source": "Kotlin",
+        "target": "Micronaut",
+        "value": 1
       },
       {
         "source": "Kotlin",
@@ -2727,27 +2160,17 @@
       },
       {
         "source": "Kotlin",
-        "target": "React Native",
-        "value": 1
-      },
-      {
-        "source": "Kotlin",
         "target": "Ruby",
         "value": 1
       },
       {
         "source": "Kotlin",
-        "target": "Swift",
-        "value": 3
-      },
-      {
-        "source": "Kotlin",
         "target": "TypeScript",
-        "value": 3
+        "value": 4
       },
       {
         "source": "Kubernetes",
-        "target": "Make",
+        "target": "Linear",
         "value": 1
       },
       {
@@ -2763,22 +2186,12 @@
       {
         "source": "Kubernetes",
         "target": "React",
-        "value": 3
-      },
-      {
-        "source": "Kubernetes",
-        "target": "React Native",
-        "value": 1
-      },
-      {
-        "source": "Kubernetes",
-        "target": "SQL",
-        "value": 1
+        "value": 2
       },
       {
         "source": "Kubernetes",
         "target": "TypeScript",
-        "value": 2
+        "value": 3
       },
       {
         "source": "Laravel",
@@ -2788,11 +2201,6 @@
       {
         "source": "Laravel",
         "target": "PHP",
-        "value": 1
-      },
-      {
-        "source": "Laravel",
-        "target": "SQL",
         "value": 1
       },
       {
@@ -2817,13 +2225,13 @@
       },
       {
         "source": "Linear",
-        "target": "Notion",
+        "target": "Node.js",
         "value": 1
       },
       {
         "source": "Linear",
         "target": "React",
-        "value": 2
+        "value": 3
       },
       {
         "source": "Linear",
@@ -2838,7 +2246,7 @@
       {
         "source": "Linear",
         "target": "TypeScript",
-        "value": 1
+        "value": 3
       },
       {
         "source": "Linear",
@@ -2851,53 +2259,38 @@
         "value": 1
       },
       {
-        "source": "Linear",
-        "target": "Vue.js",
+        "source": "Maven",
+        "target": "Next.js",
         "value": 1
       },
       {
-        "source": "Make",
-        "target": "PostgreSQL",
-        "value": 1
-      },
-      {
-        "source": "Make",
+        "source": "Maven",
         "target": "React",
-        "value": 4
-      },
-      {
-        "source": "Make",
-        "target": "React Native",
         "value": 1
       },
       {
-        "source": "Make",
-        "target": "SQL",
-        "value": 1
-      },
-      {
-        "source": "Make",
+        "source": "Maven",
         "target": "TypeScript",
-        "value": 3
-      },
-      {
-        "source": "Make",
-        "target": "Webpack",
         "value": 1
       },
       {
-        "source": "Microsoft SQL Server",
-        "target": "Oracle",
+        "source": "Maven",
+        "target": "Vercel",
         "value": 1
       },
       {
-        "source": "Microsoft SQL Server",
-        "target": "Python",
+        "source": "Micronaut",
+        "target": "React",
         "value": 1
       },
       {
-        "source": "Microsoft SQL Server",
-        "target": "SQL",
+        "source": "Micronaut",
+        "target": "Ruby",
+        "value": 1
+      },
+      {
+        "source": "Micronaut",
+        "target": "TypeScript",
         "value": 1
       },
       {
@@ -2937,21 +2330,6 @@
       },
       {
         "source": "MongoDB",
-        "target": "React",
-        "value": 1
-      },
-      {
-        "source": "MongoDB",
-        "target": "SQL",
-        "value": 2
-      },
-      {
-        "source": "MongoDB",
-        "target": "Symfony",
-        "value": 1
-      },
-      {
-        "source": "MongoDB",
         "target": "TypeScript",
         "value": 1
       },
@@ -2959,16 +2337,6 @@
         "source": "MySQL",
         "target": "PHP",
         "value": 3
-      },
-      {
-        "source": "MySQL",
-        "target": "SQL",
-        "value": 3
-      },
-      {
-        "source": "MySQL",
-        "target": "Symfony",
-        "value": 1
       },
       {
         "source": "MySQL",
@@ -3008,11 +2376,6 @@
       {
         "source": "Next.js",
         "target": "Node.js",
-        "value": 1
-      },
-      {
-        "source": "Next.js",
-        "target": "Notion",
         "value": 2
       },
       {
@@ -3028,7 +2391,7 @@
       {
         "source": "Next.js",
         "target": "React",
-        "value": 17
+        "value": 15
       },
       {
         "source": "Next.js",
@@ -3063,17 +2426,22 @@
       {
         "source": "Next.js",
         "target": "Vite",
-        "value": 5
+        "value": 4
       },
       {
         "source": "Next.js",
         "target": "Vue.js",
-        "value": 3
+        "value": 2
       },
       {
         "source": "Next.js",
         "target": "Webpack",
         "value": 3
+      },
+      {
+        "source": "Next.js",
+        "target": "Yarn",
+        "value": 1
       },
       {
         "source": "Next.js",
@@ -3083,27 +2451,37 @@
       {
         "source": "Node.js",
         "target": "Python",
-        "value": 3
-      },
-      {
-        "source": "Node.js",
-        "target": "React",
-        "value": 7
-      },
-      {
-        "source": "Node.js",
-        "target": "SQL",
-        "value": 3
-      },
-      {
-        "source": "Node.js",
-        "target": "TypeScript",
         "value": 4
       },
       {
         "source": "Node.js",
-        "target": "Vite",
+        "target": "RabbitMQ",
         "value": 1
+      },
+      {
+        "source": "Node.js",
+        "target": "React",
+        "value": 6
+      },
+      {
+        "source": "Node.js",
+        "target": "SQL",
+        "value": 5
+      },
+      {
+        "source": "Node.js",
+        "target": "Terraform",
+        "value": 1
+      },
+      {
+        "source": "Node.js",
+        "target": "TypeScript",
+        "value": 5
+      },
+      {
+        "source": "Node.js",
+        "target": "Vite",
+        "value": 2
       },
       {
         "source": "Node.js",
@@ -3117,7 +2495,7 @@
       },
       {
         "source": "Node.js",
-        "target": "jQuery",
+        "target": "Yarn",
         "value": 1
       },
       {
@@ -3126,43 +2504,8 @@
         "value": 1
       },
       {
-        "source": "Notion",
-        "target": "React",
-        "value": 2
-      },
-      {
-        "source": "Notion",
-        "target": "SQL",
-        "value": 1
-      },
-      {
-        "source": "Notion",
-        "target": "Terraform",
-        "value": 1
-      },
-      {
-        "source": "Notion",
-        "target": "TypeScript",
-        "value": 1
-      },
-      {
-        "source": "Notion",
-        "target": "Vite",
-        "value": 1
-      },
-      {
-        "source": "Notion",
-        "target": "Vue.js",
-        "value": 1
-      },
-      {
         "source": "Objective-C",
         "target": "React",
-        "value": 1
-      },
-      {
-        "source": "Objective-C",
-        "target": "React Native",
         "value": 1
       },
       {
@@ -3177,6 +2520,11 @@
       },
       {
         "source": "OpenGL",
+        "target": "TypeScript",
+        "value": 1
+      },
+      {
+        "source": "OpenGL",
         "target": "Webpack",
         "value": 1
       },
@@ -3188,16 +2536,6 @@
       {
         "source": "Oracle",
         "target": "SQL",
-        "value": 1
-      },
-      {
-        "source": "PHP",
-        "target": "SQL",
-        "value": 3
-      },
-      {
-        "source": "PHP",
-        "target": "Symfony",
         "value": 1
       },
       {
@@ -3216,21 +2554,6 @@
         "value": 1
       },
       {
-        "source": "Pip",
-        "target": "Python",
-        "value": 1
-      },
-      {
-        "source": "Pip",
-        "target": "RabbitMQ",
-        "value": 1
-      },
-      {
-        "source": "Pip",
-        "target": "SQL",
-        "value": 1
-      },
-      {
         "source": "PostgreSQL",
         "target": "Python",
         "value": 3
@@ -3243,12 +2566,12 @@
       {
         "source": "PostgreSQL",
         "target": "React",
-        "value": 5
+        "value": 4
       },
       {
         "source": "PostgreSQL",
         "target": "SQL",
-        "value": 5
+        "value": 1
       },
       {
         "source": "PostgreSQL",
@@ -3268,7 +2591,7 @@
       {
         "source": "Python",
         "target": "React",
-        "value": 13
+        "value": 12
       },
       {
         "source": "Python",
@@ -3283,17 +2606,12 @@
       {
         "source": "Python",
         "target": "SQL",
-        "value": 8
-      },
-      {
-        "source": "Python",
-        "target": "Swift",
-        "value": 3
+        "value": 7
       },
       {
         "source": "Python",
         "target": "TypeScript",
-        "value": 11
+        "value": 13
       },
       {
         "source": "Python",
@@ -3312,7 +2630,7 @@
       },
       {
         "source": "Python",
-        "target": "jQuery",
+        "target": "Yarn",
         "value": 1
       },
       {
@@ -3328,7 +2646,7 @@
       {
         "source": "RabbitMQ",
         "target": "SQL",
-        "value": 3
+        "value": 1
       },
       {
         "source": "RabbitMQ",
@@ -3342,12 +2660,12 @@
       },
       {
         "source": "React",
-        "target": "React Native",
-        "value": 9
+        "target": "Remix",
+        "value": 1
       },
       {
         "source": "React",
-        "target": "Remix",
+        "target": "Render",
         "value": 1
       },
       {
@@ -3357,18 +2675,13 @@
       },
       {
         "source": "React",
-        "target": "Ruby on Rails",
-        "value": 2
-      },
-      {
-        "source": "React",
         "target": "SQL",
-        "value": 12
+        "value": 6
       },
       {
         "source": "React",
         "target": "Swift",
-        "value": 4
+        "value": 1
       },
       {
         "source": "React",
@@ -3378,7 +2691,7 @@
       {
         "source": "React",
         "target": "TypeScript",
-        "value": 50
+        "value": 63
       },
       {
         "source": "React",
@@ -3388,46 +2701,26 @@
       {
         "source": "React",
         "target": "Vite",
-        "value": 14
+        "value": 12
       },
       {
         "source": "React",
         "target": "Vue.js",
-        "value": 5
+        "value": 4
       },
       {
         "source": "React",
         "target": "Webpack",
-        "value": 16
+        "value": 15
       },
       {
         "source": "React",
-        "target": "jQuery",
-        "value": 1
+        "target": "Yarn",
+        "value": 3
       },
       {
         "source": "React",
         "target": "npm",
-        "value": 5
-      },
-      {
-        "source": "React Native",
-        "target": "Ruby",
-        "value": 2
-      },
-      {
-        "source": "React Native",
-        "target": "Ruby on Rails",
-        "value": 1
-      },
-      {
-        "source": "React Native",
-        "target": "Swift",
-        "value": 1
-      },
-      {
-        "source": "React Native",
-        "target": "TypeScript",
         "value": 5
       },
       {
@@ -3436,9 +2729,9 @@
         "value": 1
       },
       {
-        "source": "Ruby",
-        "target": "Ruby on Rails",
-        "value": 2
+        "source": "Render",
+        "target": "TypeScript",
+        "value": 1
       },
       {
         "source": "Ruby",
@@ -3453,7 +2746,7 @@
       {
         "source": "Ruby",
         "target": "TypeScript",
-        "value": 1
+        "value": 3
       },
       {
         "source": "Ruby",
@@ -3477,57 +2770,27 @@
       },
       {
         "source": "SQL",
-        "target": "Symfony",
-        "value": 1
-      },
-      {
-        "source": "SQL",
         "target": "Terraform",
         "value": 1
       },
       {
         "source": "SQL",
         "target": "TypeScript",
-        "value": 9
+        "value": 5
       },
       {
         "source": "SQL",
         "target": "Vite",
-        "value": 3
-      },
-      {
-        "source": "SQL",
-        "target": "Vue.js",
         "value": 1
       },
       {
-        "source": "SQL",
-        "target": "Webpack",
-        "value": 2
-      },
-      {
-        "source": "SQL",
-        "target": "WordPress",
-        "value": 2
-      },
-      {
-        "source": "SQL",
-        "target": "jQuery",
-        "value": 2
-      },
-      {
-        "source": "Swift",
+        "source": "Terraform",
         "target": "TypeScript",
-        "value": 3
-      },
-      {
-        "source": "Terraform",
-        "target": "Vite",
         "value": 1
       },
       {
         "source": "Terraform",
-        "target": "Vue.js",
+        "target": "Vite",
         "value": 1
       },
       {
@@ -3538,7 +2801,7 @@
       {
         "source": "TypeScript",
         "target": "Vite",
-        "value": 9
+        "value": 13
       },
       {
         "source": "TypeScript",
@@ -3548,27 +2811,32 @@
       {
         "source": "TypeScript",
         "target": "Webpack",
-        "value": 9
+        "value": 14
+      },
+      {
+        "source": "TypeScript",
+        "target": "Yarn",
+        "value": 3
       },
       {
         "source": "TypeScript",
         "target": "npm",
-        "value": 5
-      },
-      {
-        "source": "Vercel",
-        "target": "Vite",
-        "value": 1
+        "value": 3
       },
       {
         "source": "Vite",
         "target": "Vue.js",
-        "value": 4
+        "value": 3
       },
       {
         "source": "Vite",
         "target": "Webpack",
         "value": 8
+      },
+      {
+        "source": "Vite",
+        "target": "Yarn",
+        "value": 3
       },
       {
         "source": "Vite",
@@ -3579,6 +2847,11 @@
         "source": "Vue.js",
         "target": "Webpack",
         "value": 3
+      },
+      {
+        "source": "Vue.js",
+        "target": "Yarn",
+        "value": 2
       },
       {
         "source": "Vue.js",
@@ -3589,6 +2862,11 @@
         "source": "Webpack",
         "target": "WordPress",
         "value": 1
+      },
+      {
+        "source": "Webpack",
+        "target": "Yarn",
+        "value": 3
       },
       {
         "source": "Webpack",
@@ -3599,6 +2877,11 @@
         "source": "WordPress",
         "target": "jQuery",
         "value": 2
+      },
+      {
+        "source": "Yarn",
+        "target": "npm",
+        "value": 3
       }
     ]
   }
