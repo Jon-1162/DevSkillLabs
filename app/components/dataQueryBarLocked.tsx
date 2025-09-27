@@ -83,7 +83,7 @@ export default function QueryBarLocked() {
                     </SelectItem>
                     <SelectItem value="Machine_Learning_Engineer">
                       <div className="flex items-center gap-2">
-                        <LockKeyhole size={16} />
+                        <Briefcase size={16} />
                         <span>Machine Learning Engineer</span>
                       </div>
                     </SelectItem>
