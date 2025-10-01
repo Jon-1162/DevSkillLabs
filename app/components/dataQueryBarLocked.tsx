@@ -105,6 +105,12 @@ export default function QueryBarLocked() {
                     <SelectValue placeholder="Select location" />
                   </SelectTrigger>
                   <SelectContent>
+                    <SelectItem value="United States">
+                      <div className="flex items-center gap-2">
+                        <MapPin size={16} />
+                        <span>USA</span>
+                      </div>
+                    </SelectItem>
                     <SelectItem value="California">
                       <div className="flex items-center gap-2">
                         <MapPin size={16} />

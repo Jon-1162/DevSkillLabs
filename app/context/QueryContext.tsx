@@ -20,7 +20,7 @@ const realFanngs = ["Meta", "Amazon", "Nvidia", "Netflix", "Google", "All US Com
 const QueryContext = createContext<QueryContextType | undefined>(undefined);
 
 export function QueryProvider({ children }: { children: React.ReactNode }) {
-  const [location, _setLocation] = useState("California");
+  const [location, _setLocation] = useState("United States");
   const [category, _setCategory] = useState("Software_Engineer");
   const [timeFrame, setTimeFrame] = useState("9-2025");
   const [fanng, _setFanng] = useState("All US Companies (default)");
