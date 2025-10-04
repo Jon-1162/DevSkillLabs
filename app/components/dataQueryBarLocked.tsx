@@ -12,7 +12,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Search, Calendar, MapPin, Briefcase, LockKeyhole } from "lucide-react";
 import { useQuery } from "../context/QueryContext";
-
+// TODO add filter to node graph to only see frameworks/dbs/languages/ect
 export default function QueryBarLocked() {
   const {
     location,
