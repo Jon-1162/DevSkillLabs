@@ -175,6 +175,12 @@ export default function QueryBarUnLocked() {
                         <span>Georgia</span>
                       </div>
                     </SelectItem>
+                    <SelectItem value="North Carolina">
+                      <div className="flex items-center gap-2">
+                        <MapPin size={16} />
+                        <span>North Carolina</span>
+                      </div>
+                    </SelectItem>
                   </SelectContent>
                 </Select>
                 <label className=" text-xs mt-1 flex items-center justify-center gap-2 font-medium text-gray-500 dark:text-gray-300 mb-2">

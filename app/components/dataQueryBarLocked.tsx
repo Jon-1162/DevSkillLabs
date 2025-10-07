@@ -46,7 +46,11 @@ export default function QueryBarLocked() {
             <div className="flex flex-col md:flex-row justify-between items-center gap-4 w-full">
               {/* Role Selection */}
               <div className="">
-                <Select value={category} onValueChange={setCategory} disabled={fanngSelectBool}>
+                <Select
+                  value={category}
+                  onValueChange={setCategory}
+                  disabled={fanngSelectBool}
+                >
                   <SelectTrigger className="h-12 border-2 border-gray-200 dark:border-gray-600 hover:border-indigo-300 dark:hover:border-indigo-500 focus:border-indigo-500 transition-colors">
                     <SelectValue placeholder="Select job role" />
                   </SelectTrigger>
@@ -171,6 +175,12 @@ export default function QueryBarLocked() {
                         <span>Georgia</span>
                       </div>
                     </SelectItem>
+                    <SelectItem value="North Carolina">
+                      <div className="flex items-center gap-2">
+                        <MapPin size={16} />
+                        <span>North Carolina</span>
+                      </div>
+                    </SelectItem>
                   </SelectContent>
                 </Select>
                 <label className=" text-xs mt-1 flex items-center justify-center gap-2 font-medium text-gray-500 dark:text-gray-300 mb-2">
@@ -187,7 +197,7 @@ export default function QueryBarLocked() {
                   <SelectContent>
                     <SelectItem value="All US Companies (default)">
                       <div className="flex items-center gap-2">
-                        <Briefcase  size={16} />
+                        <Briefcase size={16} />
                         <span>All US Companies (default)</span>
                       </div>
                     </SelectItem>
