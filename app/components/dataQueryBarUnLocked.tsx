@@ -36,7 +36,7 @@ export default function QueryBarUnLocked() {
             Analyze Job Market Data
           </h2>
           <p className="text-gray-600 dark:text-gray-400 text-sm  md:text-base lg:text-xl">
-            Select your criteria to explore skill demand patterns
+            Want more options? Send me a suggestion with the chat icon 👀↘️
           </p>
         </div>
 

@@ -43,12 +43,12 @@ export default function Header({ pricingPage = false }: HeaderProps) {
             >
               Analytics
             </Link>
-            <Link 
+            {/* <Link 
               href="/pricing" 
               className="text-white hover:text-gray-300 transition-colors font-medium"
             >
               Pricing
-            </Link>
+            </Link> */}
           </nav>
 
           {/* Auth Buttons */}
@@ -80,12 +80,12 @@ export default function Header({ pricingPage = false }: HeaderProps) {
             </>
           ) : (
             <div className="flex items-center gap-4">
-              <Link 
+              {/* <Link 
                 href="/pricing" 
                 className="text-white hover:text-gray-300 transition-colors font-medium"
               >
                 Login
-              </Link>
+              </Link> */}
             </div>
           )}
         </div>
@@ -111,27 +111,27 @@ export default function Header({ pricingPage = false }: HeaderProps) {
             >
               Analytics
             </Link>
-            <Link 
+            {/* <Link 
               href="/pricing" 
               className="block text-white hover:text-gray-300 transition-colors font-medium py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Pricing
-            </Link>
-            <Link 
+            </Link> */}
+            {/* <Link 
               href="#about" 
               className="block text-white hover:text-gray-300 transition-colors font-medium py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               About
-            </Link>
-            <Link 
+            </Link> */}
+            {/* <Link 
               href="#contact" 
               className="block text-white hover:text-gray-300 transition-colors font-medium py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Contact
-            </Link>
+            </Link> */}
 
             {/* Mobile Auth Buttons */}
             {isClient && hasClerkKeys ? (
@@ -166,13 +166,13 @@ export default function Header({ pricingPage = false }: HeaderProps) {
               </div>
             ) : (
               <div className="pt-4 border-t border-white/20">
-                <Link 
+                {/* <Link 
                   href="/pricing" 
                   className="block text-white hover:text-gray-300 transition-colors font-medium py-2"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Login
-                </Link>
+                </Link> */}
               </div>
             )}
           </div>

@@ -11,14 +11,14 @@ export default function PricingPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Choose Your Plan
+            Not currently charging for anything : )
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-400">
+          {/* <p className="text-xl text-gray-600 dark:text-gray-400">
             Unlock the full power of DevSkillSets analytics
-          </p>
+          </p> */}
         </div>
         
-        <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
+        {/* <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
           {hasClerkKeys ? (
             <PricingTable />
           ) : (
@@ -54,7 +54,7 @@ export default function PricingPage() {
               </div>
             </div>
           )}
-        </div>
+        </div> */}
       </div>
     </div>
     </div>

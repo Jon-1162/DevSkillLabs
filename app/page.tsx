@@ -1,5 +1,8 @@
+"use client";
+
 // CLERK!!!
-import { PricingTable } from "@clerk/nextjs";
+import { useUser, PricingTable } from "@clerk/nextjs";
+
 import { auth } from '@clerk/nextjs/server'
 
 import Hero from "./components/Hero";
@@ -11,7 +14,7 @@ import QueryBarLocked from "./components/dataQueryBarLocked";
 
 // switch to this landing page to this https://www.shadcntemplates.com/theme/ixartz-saas-boilerplate/
 
-export default async function Home() {
+export default function Home() {
   // CLERK!!!
   const hasClerkKeys =
     process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY &&
@@ -19,15 +22,18 @@ export default async function Home() {
 
   let hasSubscription = false;
 
-  if (hasClerkKeys) {
-    try {
-      const { has } = await auth();
-      hasSubscription = has({ plan: "dev_skill_labs_" });
-    } catch (error) {
-      console.warn("Clerk auth error:", error);
-      hasSubscription = false;
-    }
-  }
+  // To reenable this code the function must be async OR just import this code as a util
+  // if (hasClerkKeys) {
+  //   try {
+  //     const { has } = await auth();
+  //     hasSubscription = has({ plan: "dev_skill_labs_" });
+  //   } catch (error) {
+  //     console.warn("Clerk auth error:", error);
+  //     hasSubscription = false;
+  //   }
+  // }
+
+  const { isLoaded, isSignedIn, user } = useUser();
 
   return (
     <div>
@@ -42,9 +48,9 @@ export default async function Home() {
           </div>
 
           {/* Query Bar Section */}
-          <section className="space-y-10 w-[95%] md:w-[85%] mx-auto border-gray-300 border-r border-l z-30">
+          <section id="query-section" className="space-y-10 w-[95%] md:w-[85%] mx-auto border-gray-300 border-r border-l z-30">
             <div className="py-8">
-              {hasSubscription ? <QueryBarUnLocked /> : <QueryBarLocked />}
+              {isSignedIn ? <QueryBarUnLocked /> : <QueryBarLocked />}
             </div>
             <div className="pt-8 pb-20 xl:pb-36">
               <ScanStats />

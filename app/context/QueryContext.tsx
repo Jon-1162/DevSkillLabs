@@ -1,6 +1,8 @@
 "use client";
+
 import React, { createContext, useContext, useState } from "react";
 import { useRouter } from "next/navigation";
+import { useClerk } from "@clerk/nextjs";
 
 type QueryContextType = {
   location: string;
@@ -10,7 +12,7 @@ type QueryContextType = {
   timeFrame: string;
   setTimeFrame: (time: string) => void;
   fanng: string;
-  setFanng: (company: string)=> void;
+  setFanng: (company: string) => void;
 };
 
 const restrictedLocations = ["None"];
@@ -24,11 +26,17 @@ export function QueryProvider({ children }: { children: React.ReactNode }) {
   const [category, _setCategory] = useState("Software_Engineer");
   const [timeFrame, setTimeFrame] = useState("9-2025");
   const [fanng, _setFanng] = useState("All US Companies (default)");
+
   const router = useRouter();
+  const { openSignIn } = useClerk();
+
+  const requireSignIn = () => {
+    openSignIn({ afterSignInUrl: "/" });
+  };
 
   const setLocation = (lct: string) => {
     if (restrictedLocations.includes(lct)) {
-      router.push("/pricing");
+      requireSignIn();
       return;
     }
     _setLocation(lct);
@@ -36,7 +44,7 @@ export function QueryProvider({ children }: { children: React.ReactNode }) {
 
   const setCategory = (cat: string) => {
     if (restrictedCategories.includes(cat)) {
-      router.push("/pricing");
+      requireSignIn();
       return;
     }
     _setCategory(cat);
@@ -44,7 +52,7 @@ export function QueryProvider({ children }: { children: React.ReactNode }) {
 
   const setFanng = (fag: string) => {
     if (!realFanngs.includes(fag)) {
-      router.push("/pricing");
+      requireSignIn();
       return;
     }
     _setFanng(fag);
@@ -52,7 +60,16 @@ export function QueryProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <QueryContext.Provider
-      value={{ location, setLocation, category, setCategory, timeFrame, setTimeFrame, fanng, setFanng }}
+      value={{
+        location,
+        setLocation,
+        category,
+        setCategory,
+        timeFrame,
+        setTimeFrame,
+        fanng,
+        setFanng,
+      }}
     >
       {children}
     </QueryContext.Provider>
