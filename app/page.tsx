@@ -20,7 +20,7 @@ export default function Home() {
     process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY &&
     process.env.CLERK_SECRET_KEY;
 
-  let hasSubscription = false;
+  // let hasSubscription = false;
 
   // To reenable this code the function must be async OR just import this code as a util
   // if (hasClerkKeys) {
