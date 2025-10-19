@@ -1,8 +1,9 @@
 "use client";
 
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useClerk } from "@clerk/nextjs";
+import { getJobData } from "../services/getJobData";
 
 type QueryContextType = {
   location: string;
@@ -13,6 +14,8 @@ type QueryContextType = {
   setTimeFrame: (time: string) => void;
   fanng: string;
   setFanng: (company: string) => void;
+  jobData: any;
+  setJobData: (jobData: any) => void;
 };
 
 const restrictedLocations = ["None"];
@@ -22,10 +25,12 @@ const realFanngs = ["Meta", "Amazon", "Nvidia", "Netflix", "Google", "All US Com
 const QueryContext = createContext<QueryContextType | undefined>(undefined);
 
 export function QueryProvider({ children }: { children: React.ReactNode }) {
-  const [location, _setLocation] = useState("United States");
+  const [location, _setLocation] = useState("United_States");
   const [category, _setCategory] = useState("Software_Engineer");
   const [timeFrame, setTimeFrame] = useState("9-2025");
   const [fanng, _setFanng] = useState("All US Companies (default)");
+  const [jobData, setJobData] = useState(import(`../data/Software_EngineerUnited_States9-2025.json`));
+
 
   const router = useRouter();
   const { openSignIn } = useClerk();
@@ -58,6 +63,21 @@ export function QueryProvider({ children }: { children: React.ReactNode }) {
     _setFanng(fag);
   };
 
+  const [variableA, setVariableA] = useState(0);
+  const [variableB, setVariableB] = useState(0);
+  const [derivedVariable, setDerivedVariable] = useState(0);
+
+    // This useEffect hook will run whenever data in the dependency arr get changed
+// useEffect(() => {
+//   const fetchData = async () => {
+    
+    
+//   };
+
+//   fetchData();
+// }, [location, category, timeFrame, fanng]);
+
+
   return (
     <QueryContext.Provider
       value={{
@@ -69,6 +89,8 @@ export function QueryProvider({ children }: { children: React.ReactNode }) {
         setTimeFrame,
         fanng,
         setFanng,
+        jobData,
+        setJobData,
       }}
     >
       {children}

@@ -1,7 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useState } from "react";
-import { Input } from "@/components/ui/input";
+import React, { useState } from "react";
 import {
   Select,
   SelectContent,
@@ -12,7 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Search, Calendar, MapPin, Briefcase, LockKeyhole } from "lucide-react";
 import { useQuery } from "../context/QueryContext";
-// TODO add filter to node graph to only see frameworks/dbs/languages/ect
+
 export default function QueryBarLocked() {
   const {
     location,
@@ -25,7 +24,19 @@ export default function QueryBarLocked() {
     setFanng,
   } = useQuery();
 
+  const [searchBarCategory, setSearchBarCategory] = useState("Software_Engineer");
+  const [searchBarLocation, setSearchBarLocation] = useState("United_States");
+  const [searchBarFanng, setSearchBarFanng] =  useState("All US Companies (default)");
+  const [searchBarTimeFrame, setSearchBarTimeFrame] = useState("9-2025");
+  
   const fanngSelectBool = fanng !== "All US Companies (default)";
+
+   const handleClickSearch = () => {
+        setCategory(searchBarCategory)
+        setLocation(searchBarLocation)
+        setFanng(searchBarFanng)
+        setTimeFrame(searchBarTimeFrame)
+      };
 
   return (
     <div className="flex justify-center px-4 lg:py-20 ">
@@ -50,8 +61,8 @@ export default function QueryBarLocked() {
               {/* Role Selection */}
               <div className="">
                 <Select
-                  value={category}
-                  onValueChange={setCategory}
+                  value={searchBarCategory}
+                  onValueChange={setSearchBarCategory}
                   disabled={fanngSelectBool}
                 >
                   <SelectTrigger className="h-12 border-2 border-gray-200 dark:border-gray-600 hover:border-indigo-300 dark:hover:border-indigo-500 focus:border-indigo-500 transition-colors">
@@ -104,15 +115,15 @@ export default function QueryBarLocked() {
               {/* Location Selection */}
               <div className="">
                 <Select
-                  value={location}
-                  onValueChange={setLocation}
+                  value={searchBarLocation}
+                  onValueChange={setSearchBarLocation}
                   disabled={fanngSelectBool}
                 >
                   <SelectTrigger className="h-12 border-2 border-gray-200 dark:border-gray-600 hover:border-indigo-300 dark:hover:border-indigo-500 focus:border-indigo-500 transition-colors">
                     <SelectValue placeholder="Select location" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="United States">
+                    <SelectItem value="United_States">
                       <div className="flex items-center gap-2">
                         <MapPin size={16} />
                         <span>USA</span>
@@ -130,7 +141,7 @@ export default function QueryBarLocked() {
                         <span>Texas</span>
                       </div>
                     </SelectItem>
-                    <SelectItem value="New York">
+                    <SelectItem value="New_York">
                       <div className="flex items-center gap-2">
                         <MapPin size={16} />
                         <span>New York</span>
@@ -178,7 +189,7 @@ export default function QueryBarLocked() {
                         <span>Georgia</span>
                       </div>
                     </SelectItem>
-                    <SelectItem value="North Carolina">
+                    <SelectItem value="North_Carolina">
                       <div className="flex items-center gap-2">
                         <MapPin size={16} />
                         <span>North Carolina</span>
@@ -193,7 +204,7 @@ export default function QueryBarLocked() {
 
               {/* FANNG Selection */}
               <div className="">
-                <Select value={fanng} onValueChange={setFanng}>
+                <Select value={searchBarFanng} onValueChange={setSearchBarFanng}>
                   <SelectTrigger className="h-12 border-2 border-gray-200 dark:border-gray-600 hover:border-indigo-300 dark:hover:border-indigo-500 focus:border-indigo-500 transition-colors">
                     <SelectValue placeholder="All US Companies (default)" />
                   </SelectTrigger>
@@ -246,7 +257,7 @@ export default function QueryBarLocked() {
 
               {/* Time Frame Selection */}
               <div className="">
-                <Select value={timeFrame} onValueChange={setTimeFrame}>
+                <Select value={searchBarTimeFrame} onValueChange={setSearchBarTimeFrame}>
                   <SelectTrigger className="h-12 border-2 border-gray-200 dark:border-gray-600 hover:border-indigo-300 dark:hover:border-indigo-500 focus:border-indigo-500 transition-colors">
                     <SelectValue placeholder="Select time period" />
                   </SelectTrigger>
@@ -268,13 +279,14 @@ export default function QueryBarLocked() {
             </div>
           </div>
           <div className=" flex justify-center w-fit items-center">
-            {/* <Button variant="default"
+            <Button variant="default"
             className="h-12 px-10 bg-primary text-white w-[220px]  font-semibold hover:bg-primary/90"
             disabled={!category || !location || !timeFrame}
+            onClick={handleClickSearch}
           >
             <Search size={18} className="mr-2" />
             Search
-          </Button> */}
+          </Button>
           </div>
         </div>
       </div>

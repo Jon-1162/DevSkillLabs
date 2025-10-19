@@ -1,0 +1,215 @@
+{
+  "skillCounts": [
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    },
+    {
+      "name": "Loading",
+      "value": 0
+    }
+  ],
+  "treemapData": [
+    {
+      "name": "",
+      "children": [
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        },
+        {
+          "name": "Loading",
+          "size": 1,
+          "color": "#18181b"
+        }
+      ]
+    }
+  ],
+  "networkGraphData": {
+    "nodes": [
+      {
+        "id": "Loading : )",
+        "volume": 1
+      }
+    ],
+    "links": [
+      
+    ]
+  }
+}

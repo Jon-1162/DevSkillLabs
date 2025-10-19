@@ -6,6 +6,7 @@ import { useQuery } from "../context/QueryContext";
 import { BarChartVis } from "./barChart";
 import TreeMapChart from "./treeMap";
 import NetworkGraph from "./nodeGraph";
+import { getJobData } from "../services/getJobData";
 
 export default function ScanStats() {
   const { location, category, timeFrame, fanng } = useQuery();
@@ -16,27 +17,42 @@ export default function ScanStats() {
   const [error, setError] = useState<string | null>(null);
 
   // Debug logging
-  console.log('ScanStats - Current query values:', { location, category, timeFrame, fanng });
+  console.log("ScanStats - Current query values:", {
+    location,
+    category,
+    timeFrame,
+    fanng,
+  });
+  // TODO load this data to scan stats elements while fetching real data
+  let loadingData: any = import( `../data/LoadingData.json`);
 
   useEffect(() => {
     if (!location || !category || !timeFrame) return;
 
     const loadData = async () => {
       try {
-        // Construct filename with proper spacing
+        setBarChartData(loadingData.skillCounts);
+        setTreeMapData(loadingData.treemapData);
+        setNetworkGraphData(loadingData.networkGraphData);
+        
 
-        console.log("FANNg: "+ fanng)
+
         let filename = `${category}${location}${timeFrame}.json`;
-        if (fanng != "All US Companies (default)"){
-          console.log("FANNg change")
-          filename = `Software_Engineer${fanng}${timeFrame}.json`;
-        } 
-        // Software_EngineerMeta9-2025
-        // Software_EngineerMeta9-2025.json
-        
         console.log(`Loading data from: ../data/${filename}`);
-        
-        const data = await import(`../data/${filename}`);
+
+        if (fanng !== "All US Companies (default)") {
+          console.log("FANNG change");
+          filename = `Software_Engineer${fanng}${timeFrame}.json`;
+        }
+
+        let data = await import(
+          `../data/Software_EngineerUnited_States9-2025.json`
+        );
+        if (filename != "Software_EngineerUnited_States9-2025.json") {
+          data = await getJobData(filename);
+        }
+
+        console.log("Setting job data ${category}${location}${timeFrame}.json");
 
         setBarChartData(data.skillCounts);
         setTreeMapData(data.treemapData);
@@ -72,7 +88,8 @@ export default function ScanStats() {
           Select Your Criteria
         </h3>
         <p className="text-gray-600 dark:text-gray-400 text-lg">
-          Choose a job role, location, and time period above to view detailed analytics.
+          Choose a job role, location, and time period above to view detailed
+          analytics.
         </p>
       </div>
     );
@@ -82,13 +99,12 @@ export default function ScanStats() {
     return (
       <div className="text-center py-12">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto mb-4"></div>
-        <p className="text-gray-600 dark:text-gray-400">Enter a job role, location, and time period to view analytics…</p>
+        <p className="text-gray-600 dark:text-gray-400">
+          Enter a job role, location, and time period to view analytics…
+        </p>
       </div>
     );
   }
-
-  
-
 
   return (
     <div className="w-full space-y-14">
@@ -100,12 +116,13 @@ export default function ScanStats() {
       />
       <div className="dont remove this space-y-14"></div>
       <TreeMapChart data={treeMapData} />
-      <NetworkGraph nodes={networkGraphData.nodes} links={networkGraphData.links} />
+      <NetworkGraph
+        nodes={networkGraphData.nodes}
+        links={networkGraphData.links}
+      />
     </div>
   );
 }
-
-
 
 // "use client";
 // import { BarChartVis } from "./barChart";
@@ -115,8 +132,6 @@ export default function ScanStats() {
 // import barChartData from "../data/skillSetOccurrenceAZ_SWE_Aug.json"
 // import treeMapData from "../data/allSkillInstancesCountAZ_SWE_Aug.json";
 // import networkGraphData from "../data/coOccurrenceAZ_SWE_Aug.json";
-
-
 
 // export default function ScanStats() {
 //   return (
