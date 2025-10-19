@@ -2,7 +2,7 @@ import axios from "axios";
 
 const BASE_URL = "https://d-ss-fast-api-server.vercel.app/api";
 
-export async function getJobData(filename: String) {
+export async function getJobData(filename: string) {
   try {
     const response = await axios.get(`${BASE_URL}/getJobData/${filename}`);
     console.log("getJobData")
