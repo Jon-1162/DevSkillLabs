@@ -4,6 +4,10 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useClerk } from "@clerk/nextjs";
 import { getJobData } from "../services/getJobData";
+import { DSSJobData } from "@/lib/DSSTypes";
+
+
+
 
 type QueryContextType = {
   location: string;
@@ -14,8 +18,8 @@ type QueryContextType = {
   setTimeFrame: (time: string) => void;
   fanng: string;
   setFanng: (company: string) => void;
-  jobData: any;
-  setJobData: (jobData: any) => void;
+  jobData: DSSJobData;
+  setJobData: (jobData: DSSJobData) => void;
 };
 
 const restrictedLocations = ["None"];

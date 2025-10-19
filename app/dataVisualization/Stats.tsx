@@ -23,8 +23,7 @@ export default function ScanStats() {
     timeFrame,
     fanng,
   });
-  // TODO load this data to scan stats elements while fetching real data
-  let loadingData: any = import( `../data/LoadingData.json`);
+  const loadingData: any = import( `../data/LoadingData.json`);
 
   useEffect(() => {
     if (!location || !category || !timeFrame) return;
