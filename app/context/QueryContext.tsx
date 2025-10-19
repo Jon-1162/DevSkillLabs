@@ -67,20 +67,6 @@ export function QueryProvider({ children }: { children: React.ReactNode }) {
     _setFanng(fag);
   };
 
-  const [variableA, setVariableA] = useState(0);
-  const [variableB, setVariableB] = useState(0);
-  const [derivedVariable, setDerivedVariable] = useState(0);
-
-    // This useEffect hook will run whenever data in the dependency arr get changed
-// useEffect(() => {
-//   const fetchData = async () => {
-    
-    
-//   };
-
-//   fetchData();
-// }, [location, category, timeFrame, fanng]);
-
 
   return (
     <QueryContext.Provider

@@ -16,24 +16,20 @@ export default function ScanStats() {
   const [networkGraphData, setNetworkGraphData] = useState<any | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  // Debug logging
+
   console.log("ScanStats - Current query values:", {
     location,
     category,
     timeFrame,
     fanng,
   });
-  const loadingData: any = import( `../data/LoadingData.json`);
+  
 
   useEffect(() => {
     if (!location || !category || !timeFrame) return;
 
     const loadData = async () => {
       try {
-        setBarChartData(loadingData.skillCounts);
-        setTreeMapData(loadingData.treemapData);
-        setNetworkGraphData(loadingData.networkGraphData);
-        
 
 
         let filename = `${category}${location}${timeFrame}.json`;
@@ -105,6 +101,17 @@ export default function ScanStats() {
     );
   }
 
+   if (!barChartData || !treeMapData || !networkGraphData) {
+    return (
+      <div className="text-center py-12">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto mb-4"></div>
+        <p className="text-gray-600 dark:text-gray-400">
+          Loading Analytics…
+        </p>
+      </div>
+    );
+  }
+
   return (
     <div className="w-full space-y-14">
       <BarChartVis
@@ -122,32 +129,3 @@ export default function ScanStats() {
     </div>
   );
 }
-
-// "use client";
-// import { BarChartVis } from "./barChart";
-// import NetworkGraph from "./nodeGraph";
-// import TreeMapChart from "./treeMap";
-
-// import barChartData from "../data/skillSetOccurrenceAZ_SWE_Aug.json"
-// import treeMapData from "../data/allSkillInstancesCountAZ_SWE_Aug.json";
-// import networkGraphData from "../data/coOccurrenceAZ_SWE_Aug.json";
-
-// export default function ScanStats() {
-//   return (
-//     <div className="mx-auto">
-//       <BarChartVis
-//         title="In how many jobs descriptions a given skill appears. Even if theres multiple instances only 1 is counted. This is to provide an unweighted value."
-//         data={barChartData}
-//         color="#22c55e"
-//       />
-//       {/* \/Keep this here otherwise component breaks */}
-//       <div className="dont remove this"></div>
-//       {/* /\Keep this here otherwise component breaks */}
-//       <TreeMapChart data={treeMapData} />
-//       <NetworkGraph
-//         nodes={networkGraphData.nodes}
-//         links={networkGraphData.links}
-//       />
-//     </div>
-//   );
-// }

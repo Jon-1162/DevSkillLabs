@@ -164,12 +164,17 @@ function CytoscapeNodeGraph({ nodes, links, title = "Skill Relationship Network"
     setGraphStats({ totalNodes, totalLinks, avgConnections: Math.round(avgConnections * 10) / 10 });
   }, [graphData]);
 
+  useEffect(() => {
+  setGraphData(enhancedGraphData);
+}, [enhancedGraphData]);
+
   // Initialize Cytoscape
   useEffect(() => {
     let isMounted = true;
     
     const initializeCytoscape = async () => {
-      if (!containerRef.current || graphData.nodes.length === 0 || !isMounted) return;
+      if (!containerRef.current || !isMounted) return;
+
 
       try {
         // Dynamically import Cytoscape
