@@ -9,8 +9,8 @@ export type QueryContextType = {
   setTimeFrame: (time: string) => void;
   fanng: string;
   setFanng: (company: string) => void;
-  jobData: any;
-  setJobData: (jobData: any) => void;
+  jobData: DSSJobData;
+  setJobData: (jobData: DSSJobData) => void;
 };
 
 
