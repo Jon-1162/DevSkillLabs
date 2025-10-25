@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Select,
   SelectContent,
@@ -11,8 +11,15 @@ import {
 import { Button } from "@/components/ui/button";
 import { Search, Calendar, MapPin, Briefcase, LockKeyhole } from "lucide-react";
 import { useQuery } from "../context/QueryContext";
+import { useClerk } from "@clerk/nextjs";
+
+
 
 export default function QueryBarLocked() {
+  const { openSignIn } = useClerk();
+  const requireSignIn = () => {
+    openSignIn({ afterSignInUrl: "/" });
+  };
   const {
     location,
     setLocation,
@@ -29,12 +36,17 @@ export default function QueryBarLocked() {
   const [searchBarFanng, setSearchBarFanng] =  useState("All US Companies (default)");
   const [searchBarTimeFrame, setSearchBarTimeFrame] = useState("9-2025");
   
-  const fanngSelectBool = fanng !== "All US Companies (default)";
+  const fanngSelectBool = searchBarFanng !== "All US Companies (default)";
+
+  if (fanngSelectBool){
+      requireSignIn();
+      setSearchBarFanng("All US Companies (default)")
+  }
 
    const handleClickSearch = () => {
         setCategory(searchBarCategory)
         setLocation(searchBarLocation)
-        setFanng(searchBarFanng)
+        setFanng("All US Companies (default)")
         setTimeFrame(searchBarTimeFrame)
       };
 
@@ -215,31 +227,31 @@ export default function QueryBarLocked() {
                         <span>All US Companies (default)</span>
                       </div>
                     </SelectItem>
-                    <SelectItem value="Locked">
+                    <SelectItem value="Meta">
                       <div className="flex items-center gap-2">
                         <LockKeyhole size={16} />
                         <span>Meta</span>
                       </div>
                     </SelectItem>
-                    <SelectItem value="Locked">
+                    <SelectItem value="Amazon">
                       <div className="flex items-center gap-2">
                         <LockKeyhole size={16} />
                         <span>Amazon</span>
                       </div>
                     </SelectItem>
-                    <SelectItem value="Locked">
+                    <SelectItem value="Netflix">
                       <div className="flex items-center gap-2">
                         <LockKeyhole size={16} />
                         <span>Netflix</span>
                       </div>
                     </SelectItem>
-                    <SelectItem value="Locked">
+                    <SelectItem value="Nvidia">
                       <div className="flex items-center gap-2">
                         <LockKeyhole size={16} />
                         <span>Nvidia</span>
                       </div>
                     </SelectItem>
-                    <SelectItem value="Locked">
+                    <SelectItem value="Google">
                       <div className="flex items-center gap-2">
                         <LockKeyhole size={16} />
                         <span>Google</span>
@@ -293,3 +305,271 @@ export default function QueryBarLocked() {
     </div>
   );
 }
+
+
+
+function requireSignIn() {
+  throw new Error("Function not implemented.");
+}
+// "use client";
+
+// import React, { useState } from "react";
+// import {
+//   Select,
+//   SelectContent,
+//   SelectItem,
+//   SelectTrigger,
+//   SelectValue,
+// } from "@/components/ui/select";
+// import { Button } from "@/components/ui/button";
+// import { Search, Calendar, MapPin, Briefcase, LockKeyhole } from "lucide-react";
+// import { useQuery } from "../context/QueryContext";
+
+// export default function QueryBarLocked() {
+//   const {
+//     location,
+//     setLocation,
+//     category,
+//     setCategory,
+//     timeFrame,
+//     setTimeFrame,
+//     fanng,
+//     setFanng,
+//   } = useQuery();
+
+//   const [searchBarCategory, setSearchBarCategory] = useState("Software_Engineer");
+//   const [searchBarLocation, setSearchBarLocation] = useState("United_States");
+//   const [searchBarFanng, setSearchBarFanng] =  useState("All US Companies (default)");
+//   const [searchBarTimeFrame, setSearchBarTimeFrame] = useState("9-2025");
+  
+//   const fanngSelectBool = fanng !== "All US Companies (default)";
+
+//    const handleClickSearch = () => {
+//         setCategory(searchBarCategory)
+//         setLocation(searchBarLocation)
+//         setFanng(searchBarFanng)
+//         setTimeFrame(searchBarTimeFrame)
+//       };
+
+//   return (
+//     <div className="flex justify-center px-4 lg:py-20 ">
+//       <div className="w-full ">
+//         {/* Header */}
+//         <div className="text-center  mb-6">
+//           <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-2">
+//             Analyze Job Market Data
+//           </h2>
+//           <p className="text-gray-600 dark:text-gray-400 text-sm  md:text-base lg:text-xl">
+//             Want more options? Send me a suggestion with the chat icon 👀↘️
+//           </p>
+//           <p className="text-gray-600 dark:text-gray-400 text-sm  md:text-base lg:text-xl bold">
+//             <b>Want to see company specific data? Make a free account.</b>
+//           </p>
+//         </div>
+
+//         {/* Query Form */}
+//         <div className="w-full flex flex-col gap-5 justify-center mt-14 items-center">
+//           <div className="bg-white/80 dark:bg-gray-900/80 lg:w-5/6  w-full  border border-gray-200 dark:border-gray-700 rounded-2xl shadow-sm p-6">
+//             <div className="flex flex-wrap justify-center items-start gap-4 w-full">
+//   {/* Job Role */}
+//   <div className="w-40">
+//     <Select
+//       value={searchBarCategory}
+//       onValueChange={setSearchBarCategory}
+//       disabled={fanngSelectBool}
+//     >
+//       <SelectTrigger className="h-10 border-2 hover:border-indigo-300">
+//         <SelectValue placeholder="Job Role" />
+//       </SelectTrigger>
+//       <SelectContent>
+//         <SelectItem value="Software_Engineer">Software Engineer</SelectItem>
+//         <SelectItem value="Data_Scientist">Data Scientist</SelectItem>
+//         <SelectItem value="Backend_Developer">Backend Developer</SelectItem>
+//         <SelectItem value="Frontend_Developer">Frontend Developer</SelectItem>
+//       </SelectContent>
+//     </Select>
+//     <label className="text-xs text-gray-500 block text-center mt-1">Job Role</label>
+//   </div>
+
+//   {/* Location */}
+//   <div className="w-40">
+//     <Select
+//                   value={searchBarLocation}
+//                   onValueChange={setSearchBarLocation}
+//                   disabled={fanngSelectBool}
+//                 >
+//                   <SelectTrigger className="h-12 border-2 border-gray-200 dark:border-gray-600 hover:border-indigo-300 dark:hover:border-indigo-500 focus:border-indigo-500 transition-colors">
+//                     <SelectValue placeholder="Select location" />
+//                   </SelectTrigger>
+//                   <SelectContent>
+//                     <SelectItem value="United_States">
+//                       <div className="flex items-center gap-2">
+//                         <MapPin size={16} />
+//                         <span>USA</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="California">
+//                       <div className="flex items-center gap-2">
+//                         <MapPin size={16} />
+//                         <span>California</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="Texas">
+//                       <div className="flex items-center gap-2">
+//                         <MapPin size={16} />
+//                         <span>Texas</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="New_York">
+//                       <div className="flex items-center gap-2">
+//                         <MapPin size={16} />
+//                         <span>New York</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="Florida">
+//                       <div className="flex items-center gap-2">
+//                         <MapPin size={16} />
+//                         <span>Florida</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="Virginia">
+//                       <div className="flex items-center gap-2">
+//                         <MapPin size={16} />
+//                         <span>Virginia</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="Washington">
+//                       <div className="flex items-center gap-2">
+//                         <MapPin size={16} />
+//                         <span>Washington</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="Illinois">
+//                       <div className="flex items-center gap-2">
+//                         <MapPin size={16} />
+//                         <span>Illinois</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="Massachusetts">
+//                       <div className="flex items-center gap-2">
+//                         <MapPin size={16} />
+//                         <span>Massachusetts</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="Pennsylvania">
+//                       <div className="flex items-center gap-2">
+//                         <MapPin size={16} />
+//                         <span>Pennsylvania</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="Georgia">
+//                       <div className="flex items-center gap-2">
+//                         <MapPin size={16} />
+//                         <span>Georgia</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="North_Carolina">
+//                       <div className="flex items-center gap-2">
+//                         <MapPin size={16} />
+//                         <span>North Carolina</span>
+//                       </div>
+//                     </SelectItem>
+//                   </SelectContent>
+//                 </Select>
+//     <label className="text-xs text-gray-500 block text-center mt-1">Location</label>
+//   </div>
+
+//   {/* Experience */}
+//   <div className="w-40">
+//     <Select>
+//       <SelectTrigger className="h-10 border-2 hover:border-indigo-300">
+//         <SelectValue placeholder="Experience" />
+//       </SelectTrigger>
+//       <SelectContent>
+//         <SelectItem value="Entry_Level">Entry Level</SelectItem>
+//         <SelectItem value="Mid_Level">Mid Level</SelectItem>
+//         <SelectItem value="Senior_Level">Senior Level</SelectItem>
+//       </SelectContent>
+//     </Select>
+//     <label className="text-xs text-gray-500 block text-center mt-1">Experience</label>
+//   </div>
+
+//   {/* FAANG / Company */}
+//   <div className="w-48">
+//  <Select value={searchBarFanng} onValueChange={setSearchBarFanng}>
+//                   <SelectTrigger className="h-12 border-2 border-gray-200 dark:border-gray-600 hover:border-indigo-300 dark:hover:border-indigo-500 focus:border-indigo-500 transition-colors">
+//                     <SelectValue placeholder="All US Companies (default)" />
+//                   </SelectTrigger>
+//                   <SelectContent>
+//                     <SelectItem value="All US Companies (default)">
+//                       <div className="flex items-center gap-2">
+//                         <Briefcase size={16} />
+//                         <span>All US Companies</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="Locked">
+//                       <div className="flex items-center gap-2">
+//                         <LockKeyhole size={16} />
+//                         <span>Meta</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="Locked">
+//                       <div className="flex items-center gap-2">
+//                         <LockKeyhole size={16} />
+//                         <span>Amazon</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="Locked">
+//                       <div className="flex items-center gap-2">
+//                         <LockKeyhole size={16} />
+//                         <span>Netflix</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="Locked">
+//                       <div className="flex items-center gap-2">
+//                         <LockKeyhole size={16} />
+//                         <span>Nvidia</span>
+//                       </div>
+//                     </SelectItem>
+//                     <SelectItem value="Locked">
+//                       <div className="flex items-center gap-2">
+//                         <LockKeyhole size={16} />
+//                         <span>Google</span>
+//                       </div>
+//                     </SelectItem>
+//                   </SelectContent>
+//                 </Select>
+//     <label className="text-xs text-gray-500 block text-center mt-1">FAANG Company</label>
+//   </div>
+
+//   {/* Time Period */}
+//   <div className="w-40">
+//     <Select value={searchBarTimeFrame} onValueChange={setSearchBarTimeFrame}>
+//       <SelectTrigger className="h-10 border-2 hover:border-indigo-300">
+//         <SelectValue placeholder="Time Period" />
+//       </SelectTrigger>
+//       <SelectContent>
+//         <SelectItem value="9-2025">September 2025</SelectItem>
+//       </SelectContent>
+//     </Select>
+//     <label className="text-xs text-gray-500 block text-center mt-1">Time Period</label>
+//   </div>
+// </div>
+
+//           </div>
+//           <div className=" flex justify-center w-fit items-center">
+//             <Button variant="default"
+//             className="h-12 px-10 bg-primary text-white w-[220px]  font-semibold hover:bg-primary/90"
+//             disabled={!category || !location || !timeFrame}
+//             onClick={handleClickSearch}
+//           >
+//             <Search size={18} className="mr-2" />
+//             Search
+//           </Button>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
