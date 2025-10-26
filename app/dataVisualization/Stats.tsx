@@ -9,7 +9,7 @@ import NetworkGraph from "./nodeGraph";
 import { getJobData } from "../services/getJobData";
 
 export default function ScanStats() {
-  const { location, category, timeFrame, fanng } = useQuery();
+  const { location, experience, category, timeFrame, fanng } = useQuery();
 
   const [barChartData, setBarChartData] = useState<any | null>(null);
   const [treeMapData, setTreeMapData] = useState<any | null>(null);
@@ -19,6 +19,7 @@ export default function ScanStats() {
 
   console.log("ScanStats - Current query values:", {
     location,
+    experience,
     category,
     timeFrame,
     fanng,
@@ -29,21 +30,35 @@ export default function ScanStats() {
     if (!location || !category || !timeFrame) return;
 
     const loadData = async () => {
+
       try {
+        // console.log("DEBUG | in loadData top of try")
+        let filename = "Software_EngineerUnited_States9-2025.json"
 
 
-        let filename = `${category}${location}${timeFrame}.json`;
-        console.log(`Loading data from: ../data/${filename}`);
-
-        if (fanng !== "All US Companies (default)") {
-          console.log("FANNG change");
-          filename = `Software_Engineer${fanng}${timeFrame}.json`;
+        if (timeFrame == "9-2025") {
+          filename = `${category}${location}${timeFrame}.json`;
+          console.log(`Loading data from: 9-2025`);
+        } else {
+          console.log(`Loading data from 10-2025 and onwards`);
+          filename = `${category}${experience}${location}${timeFrame}.json`;
         }
 
+        if (fanng !== "All US Companies (default)") {
+          console.log("LoadingFANNG data");
+          filename = `Software_EngineerMid${fanng}${timeFrame}.json`;
+        }
+
+
+
+
+        console.log(`Filename before query is ${filename} `)
         let data = await import(
-          `../data/Software_EngineerUnited_States9-2025.json`
+          `../data/Software_EngineerMidUnited_States10-2025.json`
         );
-        if (filename != "Software_EngineerUnited_States9-2025.json") {
+
+        if (filename != "Software_EngineerMidUnited_States10-2025.json") {
+          console.log("DEBUG | attemptinggetJobData filename: " + filename)
           data = await getJobData(filename);
         }
 
@@ -63,7 +78,7 @@ export default function ScanStats() {
     };
 
     loadData();
-  }, [location, category, timeFrame, fanng]);
+  }, [location, category, timeFrame, experience, fanng]);
 
   if (error) {
     return (

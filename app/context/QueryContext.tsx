@@ -18,8 +18,11 @@ type QueryContextType = {
   setTimeFrame: (time: string) => void;
   fanng: string;
   setFanng: (company: string) => void;
+  experience: string;
+  setExperience: (exp: string)=> void;
   jobData: any;
   setJobData: (jobData: any) => void;
+  
 };
 
 const restrictedLocations = ["None"];
@@ -33,7 +36,8 @@ export function QueryProvider({ children }: { children: React.ReactNode }) {
   const [category, _setCategory] = useState("Software_Engineer");
   const [timeFrame, setTimeFrame] = useState("9-2025");
   const [fanng, _setFanng] = useState("All US Companies (default)");
-  const [jobData, setJobData] = useState(import(`../data/Software_EngineerUnited_States9-2025.json`));
+  const [experience, setExperience] = useState("Mid")
+  const [jobData, setJobData] = useState(import(`../data/Software_EngineerMidUnited_States10-2025.json`));
 
 
   const router = useRouter();
@@ -81,6 +85,8 @@ export function QueryProvider({ children }: { children: React.ReactNode }) {
         setFanng,
         jobData,
         setJobData,
+        experience,
+        setExperience,
       }}
     >
       {children}

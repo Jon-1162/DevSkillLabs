@@ -11,8 +11,15 @@ import {
 import { Button } from "@/components/ui/button";
 import { Search, Calendar, MapPin, Briefcase} from "lucide-react";
 import { useQuery } from "../context/QueryContext";
+import { useClerk } from "@clerk/nextjs";
 
 export default function QueryBarUnLocked() {
+  // TODO make this a util function call
+  const { openSignIn } = useClerk();
+  const requireSignIn = () => {
+    openSignIn({ afterSignInUrl: "/" });
+  };
+  
   const {
     location,
     setLocation,
@@ -22,17 +29,24 @@ export default function QueryBarUnLocked() {
     setTimeFrame,
     fanng,
     setFanng,
+    experience,
+    setExperience
   } = useQuery();
 
   const [searchBarCategory, setSearchBarCategory] = useState("Software_Engineer");
   const [searchBarLocation, setSearchBarLocation] = useState("United_States");
-  const [searchBarFanng, setSearchBarFanng] =  useState("All US Companies (default)");
-  const [searchBarTimeFrame, setSearchBarTimeFrame] = useState("9-2025");
+  const [searchBarFanng, setSearchBarFanng] = useState("All US Companies (default)");
+  const [searchBarTimeFrame, setSearchBarTimeFrame] = useState("10-2025");
+  const [searchBarExp, setSearchBarExp] = useState("Mid");
 
-  const fanngSelectBool = fanng !== "All US Companies (default)";
+
+  const fanngSelectBool = searchBarFanng !== "All US Companies (default)";
+  const oldDataCheck: Boolean = searchBarTimeFrame == "9-2025"
+
 
   const handleClickSearch = () => {
         setCategory(searchBarCategory)
+        setExperience(searchBarExp)
         setLocation(searchBarLocation)
         setFanng(searchBarFanng)
         setTimeFrame(searchBarTimeFrame)
@@ -56,7 +70,7 @@ export default function QueryBarUnLocked() {
           <div className="bg-white/80 dark:bg-gray-900/80 lg:w-5/6  w-full  border border-gray-200 dark:border-gray-700 rounded-2xl shadow-sm p-6">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4 w-full">
               {/* Role Selection */}
-              <div className="">
+              <div className="w-48 flex flex-col items-center">
                 <Select
                   value={searchBarCategory}
                   onValueChange={setSearchBarCategory}
@@ -108,9 +122,28 @@ export default function QueryBarUnLocked() {
                   Job Role
                 </label>
               </div>
-
+              {/* Experience */}
+              <div className="w-48 flex flex-col items-center">
+                <Select
+                  value={searchBarExp}
+                  onValueChange={setSearchBarExp}
+                  disabled={fanngSelectBool}
+                >
+                  <SelectTrigger className="h-10 border-2 hover:border-indigo-300">
+                    <SelectValue placeholder="Entry" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="Intern">Intern</SelectItem>
+                    <SelectItem value="Entry">Entry</SelectItem>
+                    <SelectItem value="Mid">Mid</SelectItem>
+                  </SelectContent>
+                </Select>
+                <label className=" text-xs mt-1 flex items-center justify-center gap-2 font-medium text-gray-500 dark:text-gray-300 mb-2">
+                  Experience
+                </label>
+              </div>
               {/* Location Selection */}
-              <div className="">
+             <div className="w-48 flex flex-col items-center">
                 <Select
                   value={searchBarLocation}
                   onValueChange={setSearchBarLocation}
@@ -198,10 +231,12 @@ export default function QueryBarUnLocked() {
                   Location
                 </label>
               </div>
-
               {/* FANNG Selection */}
-              <div className="">
-                <Select value={searchBarFanng} onValueChange={setSearchBarFanng}>
+              <div className="w-48 flex flex-col items-center">
+                <Select
+                  value={searchBarFanng}
+                  onValueChange={setSearchBarFanng}
+                >
                   <SelectTrigger className="h-12 border-2 border-gray-200 dark:border-gray-600 hover:border-indigo-300 dark:hover:border-indigo-500 focus:border-indigo-500 transition-colors">
                     <SelectValue placeholder="All US Companies (default)" />
                   </SelectTrigger>
@@ -244,17 +279,20 @@ export default function QueryBarUnLocked() {
                     </SelectItem>
                   </SelectContent>
                 </Select>
-                <label className="text-xs mt-1 flex items-center justify-center gap-2 font-medium text-gray-500 dark:text-gray-300">
-                  FAANG Company
-                </label>
-                <p className="text-[9px] text-gray-400 dark:text-gray-500 text-center">
-                  Default: includes all companies in the market, not just FANNG
-                </p>
+                <label className="relative group text-xs mt-1 flex items-center justify-center gap-2 font-medium text-gray-500 dark:text-gray-300 cursor-help">
+                  FAANG Companies*
+                  {/* Tooltip */}
+                  <span className="absolute bottom-full mb-2 hidden group-hover:flex w-max max-w-xs text-[10px] bg-gray-800 text-white dark:bg-gray-700 px-2 py-1 rounded-md shadow-lg">
+                    *default includes a general market sample for a given location, not just all FAANG companies
+                  </span>
+                  </label>
               </div>
-
               {/* Time Frame Selection */}
-              <div className="">
-                <Select value={searchBarTimeFrame} onValueChange={setSearchBarTimeFrame}>
+              <div className="w-48 flex flex-col items-center">
+                <Select
+                  value={searchBarTimeFrame}
+                  onValueChange={setSearchBarTimeFrame}
+                >
                   <SelectTrigger className="h-12 border-2 border-gray-200 dark:border-gray-600 hover:border-indigo-300 dark:hover:border-indigo-500 focus:border-indigo-500 transition-colors">
                     <SelectValue placeholder="Select time period" />
                   </SelectTrigger>
@@ -263,6 +301,12 @@ export default function QueryBarUnLocked() {
                       <div className="flex items-center gap-2">
                         <Calendar size={16} />
                         <span>September 2025</span>
+                      </div>
+                    </SelectItem>
+                    <SelectItem value="10-2025">
+                      <div className="flex items-center gap-2">
+                        <Calendar size={16} />
+                        <span>October 2025</span>
                       </div>
                     </SelectItem>
                   </SelectContent>
@@ -274,16 +318,22 @@ export default function QueryBarUnLocked() {
 
               {/* Search Button */}
             </div>
+            <p className="text-sm text-gray-500">
+              {oldDataCheck
+                ? "Hi 👋, data from Sep 2025 is older so only has 'Mid' experience data available."
+                : ""}
+            </p>
           </div>
           <div className=" flex justify-center w-fit items-center">
-            <Button variant="default"
-            className="h-12 px-10 bg-primary text-white w-[220px]  font-semibold hover:bg-primary/90"
-            disabled={!category || !location || !timeFrame}
-            onClick={handleClickSearch}
-          >
-            <Search size={18} className="mr-2" />
-            Search
-          </Button>
+            <Button
+              variant="default"
+              className="h-12 px-10 bg-primary text-white w-[220px]  font-semibold hover:bg-primary/90"
+              disabled={!category || !location || !timeFrame}
+              onClick={handleClickSearch}
+            >
+              <Search size={18} className="mr-2" />
+              Search
+            </Button>
           </div>
         </div>
       </div>
