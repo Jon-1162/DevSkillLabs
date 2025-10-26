@@ -165,6 +165,25 @@ export default function QueryBarLocked() {
                         <span>USA</span>
                       </div>
                     </SelectItem>
+                    <SelectItem value="India">
+                      <div className="flex items-center gap-2">
+                        <MapPin size={16} />
+                        <span>India</span>
+                      </div>
+                    </SelectItem>
+                      <SelectItem value="Canada">
+                      <div className="flex items-center gap-2">
+                        <MapPin size={16} />
+                        <span>Canada</span>
+                      </div>
+                    </SelectItem>
+                      <SelectItem value="United_Kingdom">
+                      <div className="flex items-center gap-2">
+                        <MapPin size={16} />
+                        <span>United Kingdom</span>
+                      </div>
+                    </SelectItem>                    
+                    
                     <SelectItem value="California">
                       <div className="flex items-center gap-2">
                         <MapPin size={16} />

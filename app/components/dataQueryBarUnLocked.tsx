@@ -143,7 +143,7 @@ export default function QueryBarUnLocked() {
                 </label>
               </div>
               {/* Location Selection */}
-             <div className="w-48 flex flex-col items-center">
+              <div className="w-48 flex flex-col items-center">
                 <Select
                   value={searchBarLocation}
                   onValueChange={setSearchBarLocation}
@@ -157,6 +157,24 @@ export default function QueryBarUnLocked() {
                       <div className="flex items-center gap-2">
                         <MapPin size={16} />
                         <span>USA</span>
+                      </div>
+                    </SelectItem>
+                    <SelectItem value="India">
+                      <div className="flex items-center gap-2">
+                        <MapPin size={16} />
+                        <span>India</span>
+                      </div>
+                    </SelectItem>
+                    <SelectItem value="Canada">
+                      <div className="flex items-center gap-2">
+                        <MapPin size={16} />
+                        <span>Canada</span>
+                      </div>
+                    </SelectItem>
+                    <SelectItem value="United_Kingdom">
+                      <div className="flex items-center gap-2">
+                        <MapPin size={16} />
+                        <span>United Kingdom</span>
                       </div>
                     </SelectItem>
                     <SelectItem value="California">
@@ -283,9 +301,10 @@ export default function QueryBarUnLocked() {
                   FAANG Companies*
                   {/* Tooltip */}
                   <span className="absolute bottom-full mb-2 hidden group-hover:flex w-max max-w-xs text-[10px] bg-gray-800 text-white dark:bg-gray-700 px-2 py-1 rounded-md shadow-lg">
-                    *default includes a general market sample for a given location, not just all FAANG companies
+                    *default includes a general market sample for a given
+                    location, not just all FAANG companies
                   </span>
-                  </label>
+                </label>
               </div>
               {/* Time Frame Selection */}
               <div className="w-48 flex flex-col items-center">
