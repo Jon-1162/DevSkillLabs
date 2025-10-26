@@ -41,7 +41,7 @@ export default function QueryBarUnLocked() {
 
 
   const fanngSelectBool = searchBarFanng !== "All US Companies (default)";
-  const oldDataCheck: Boolean = searchBarTimeFrame == "9-2025"
+  const oldDataCheck: boolean = searchBarTimeFrame == "9-2025"
 
 
   const handleClickSearch = () => {

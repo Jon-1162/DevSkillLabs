@@ -39,7 +39,7 @@ export default function QueryBarLocked() {
   const [searchBarExp, setSearchBarExp] = useState("Mid");
 
   const fanngSelectBool = searchBarFanng !== "All US Companies (default)";
-  const oldDataCheck: Boolean = searchBarTimeFrame == "9-2025"
+  const oldDataCheck: boolean = searchBarTimeFrame == "9-2025"
 
   if (fanngSelectBool) {
     requireSignIn();
