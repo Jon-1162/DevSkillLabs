@@ -87,6 +87,9 @@ export default function ScanStats() {
         <p className="text-gray-600 dark:text-gray-400">
           Please select a role, location, and time period to view analytics.
         </p>
+        <p className="text-gray-600 dark:text-gray-400">
+          Just so you know some location and experience settings dont have data going back to Sep 2025.
+        </p>
       </div>
     );
   }
