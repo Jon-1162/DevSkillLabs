@@ -19,7 +19,7 @@
     "cytoscape": "^3.33.1",
     "lucide-react": "^0.539.0",
     "motion": "^12.23.14",
-    "next": "15.4.6",
+    "next": "15.4.10",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-force-graph": "^1.48.0",
